@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>متجر الألعاب</title>
+
+<!-- ══ Telegram Mini App SDK ══ -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0d0f1a;
+    --surface:   #151826;
+    --card:      #1c1f33;
+    --border:    #252840;
+    --accent:    #6c63ff;
+    --accent2:   #a78bfa;
+    --green:     #22d3a0;
+    --orange:    #ff8a3d;
+    --text:      #e8eaf6;
+    --muted:     #8b8fa8;
+    --radius:    14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Cairo', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    animation: fadeInBody .4s ease;
+  }
+  @keyframes fadeInBody { from { opacity:0 } to { opacity:1 } }
+
+  header {
+    background: linear-gradient(135deg, #0d0f1a 0%, #1a1040 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; gap: 16px; height: 64px;
+  }
+  .logo {
+    font-size: 22px; font-weight: 900;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  .search-wrap { flex: 1; position: relative; }
+  .search-wrap input {
+    width: 100%; background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 16px 10px 40px; color: var(--text);
+    font-family: 'Cairo', sans-serif; font-size: 14px; outline: none;
+    transition: border-color .2s;
+  }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-icon {
+    position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); font-size: 16px;
+  }
+  .badge {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 14px; font-size: 13px; color: var(--muted); white-space: nowrap;
+  }
+  .badge span { color: var(--accent2); font-weight: 700; }
+
+  .hero {
+    background: linear-gradient(135deg, #0d0f1a 0%, #1a1040 50%, #0d1a2a 100%);
+    padding: 56px 24px 44px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(108,99,255,.18) 0%, transparent 70%);
+  }
+  .hero h1 {
+    font-size: clamp(26px, 5vw, 46px); font-weight: 900; line-height: 1.25;
+    position: relative; animation: slideDown .5s ease;
+  }
+  @keyframes slideDown { from { opacity:0; transform:translateY(-14px) } to { opacity:1; transform:translateY(0) } }
+  .hero h1 em {
+    font-style: normal;
+    background: linear-gradient(135deg, var(--accent), var(--green));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero p {
+    margin-top: 10px; color: var(--muted); font-size: 14px; position: relative;
+    animation: slideDown .5s ease .05s both;
+  }
+  .hero-stats { display: flex; justify-content: center; gap: 32px; margin-top: 28px; position: relative; }
+  .stat { text-align: center; animation: popIn .5s ease .15s both; }
+  .stat:nth-child(2) { animation-delay: .25s; }
+  @keyframes popIn { from { opacity:0; transform:scale(.7) } to { opacity:1; transform:scale(1) } }
+  .stat-num {
+    font-size: 28px; font-weight: 900;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .stat-label { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  .ticker-wrap {
+    background: linear-gradient(90deg, rgba(255,138,61,.12), rgba(108,99,255,.12));
+    border-bottom: 1px solid var(--border);
+    overflow: hidden; padding: 8px 0; white-space: nowrap; position: relative;
+  }
+  .ticker-track {
+    display: inline-flex; gap: 28px;
+    animation: ticker 22s linear infinite;
+    padding-right: 28px;
+  }
+  .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text); font-weight: 600; }
+  .ticker-item .rank {
+    background: linear-gradient(135deg, var(--orange), #ffb380);
+    color: #1a0f00; font-weight: 900; font-size: 11px; border-radius: 5px; padding: 1px 6px;
+  }
+
+  .filters {
+    max-width: 1200px; margin: 0 auto; padding: 20px 24px 0;
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .filter-btn {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 16px; font-family: 'Cairo', sans-serif; font-size: 13px; color: var(--muted);
+    cursor: pointer; transition: all .2s;
+  }
+  .filter-btn:hover, .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; transform: translateY(-1px); }
+  .filter-btn:active { transform: scale(.96); }
+
+  .grid-wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+  .section-title {
+    font-size: 15px; font-weight: 700; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .05em; margin-bottom: 16px;
+  }
+  .games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    overflow: hidden; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+    cursor: pointer; display: flex; flex-direction: column; position: relative;
+    animation: cardIn .4s ease both;
+  }
+  @keyframes cardIn { from { opacity:0; transform:translateY(10px) scale(.97) } to { opacity:1; transform:translateY(0) scale(1) } }
+  .card:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: 0 10px 32px rgba(108,99,255,.25); }
+  .card:active { transform: scale(.97); }
+
+  .card-img {
+    width: 100%; aspect-ratio: 16/9; object-fit: cover; background: var(--surface);
+    display: flex; align-items: center; justify-content: center; font-size: 40px;
+    position: relative; overflow: hidden;
+  }
+  .card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  .badge-new {
+    position: absolute; top: 8px; right: 8px;
+    background: linear-gradient(135deg, var(--green), #4ee8c2);
+    color: #002e22; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 20px;
+    display: flex; align-items: center; gap: 3px;
+    box-shadow: 0 2px 10px rgba(34,211,160,.5);
+    animation: pulseBadge 1.8s ease-in-out infinite; z-index: 2;
+  }
+  @keyframes pulseBadge { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+
+  .badge-rank {
+    position: absolute; top: 8px; left: 8px;
+    background: linear-gradient(135deg, var(--orange), #ffb380);
+    color: #1a0f00; font-size: 11px; font-weight: 900;
+    width: 22px; height: 22px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; z-index: 2;
+  }
+
+  .card-body { padding: 12px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+  .card-title {
+    font-size: 14px; font-weight: 700; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card-meta { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--muted); margin-top: auto; }
+  .dl-count { display: flex; align-items: center; gap: 3px; }
+  .card-btn {
+    display: block; margin: 0 12px 12px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; text-align: center; text-decoration: none; border-radius: 8px; padding: 9px;
+    font-family: 'Cairo', sans-serif; font-size: 13px; font-weight: 700;
+    transition: opacity .2s, transform .15s;
+  }
+  .card-btn:hover { opacity: .88; }
+  .card-btn:active { transform: scale(.95); }
+
+  .empty { grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--muted); animation: fadeInBody .4s ease; }
+  .empty-icon { font-size: 48px; margin-bottom: 16px; }
+  .empty h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+
+  .skeleton-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .skeleton-shine {
+    background: linear-gradient(100deg, var(--card) 30%, var(--border) 50%, var(--card) 70%);
+    background-size: 250% 100%; animation: shimmer 1.3s ease-in-out infinite;
+  }
+  .skeleton-img { aspect-ratio: 16/9; }
+  .skeleton-line { height: 11px; border-radius: 5px; margin: 12px; }
+  .skeleton-line.short { width: 60%; }
+  .skeleton-btn { height: 32px; border-radius: 8px; margin: 0 12px 12px; }
+  @keyframes shimmer { to { background-position: -250% 0; } }
+
+  footer { text-align: center; padding: 32px 24px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); margin-top: 32px; }
+  footer a { color: var(--accent2); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .hero-stats { gap: 20px; }
+    .games-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .card-img { aspect-ratio: 1/1; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">🎮 GameStore</div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+    </div>
+    <div class="badge">المنشورات: <span id="totalCount">...</span></div>
+  </div>
+</header>
+
+<div class="ticker-wrap" id="tickerWrap" style="display:none">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<div class="hero">
+  <h1>أفضل الألعاب المهكرة<br><em>في مكان واحد</em></h1>
+  <p>يتحدث تلقائياً مع البوت — كل منشور جديد يظهر هنا فوراً</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num" id="statGames">0</div>
+      <div class="stat-label">لعبة متاحة</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="statDownloads">0</div>
+      <div class="stat-label">تحميل إجمالي</div>
+    </div>
+  </div>
+</div>
+
+<div class="filters">
+  <button class="filter-btn active" data-filter="all">🎮 الكل</button>
+  <button class="filter-btn" data-filter="new">✨ الأحدث</button>
+  <button class="filter-btn" data-filter="top">🔥 الأكثر تحميلاً</button>
+</div>
+
+<div class="grid-wrap">
+  <div class="section-title" id="sectionTitle">جميع الألعاب</div>
+  <div class="games-grid" id="gamesGrid">
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+  </div>
+</div>
+
+<footer>
+  <p>يتحدث تلقائياً من البوت • <a href="#" id="botLink">فتح البوت</a></p>
+</footer>
+
+<script>
+const POSTS_JSON_URL = "posts.json";
+const BOT_USERNAME    = "kkn5bot";
+
+const tg = window.Telegram?.WebApp;
+if (tg) {
+  tg.ready();
+  tg.expand();
+  document.documentElement.style.colorScheme = "dark";
+}
+function haptic(style = "light") {
+  try { tg?.HapticFeedback?.impactOccurred(style); } catch (e) {}
+}
+
+let allPosts = [];
+let currentFilter = "all";
+let searchQuery   = "";
+
+async function loadPosts() {
+  try {
+    const res  = await fetch(POSTS_JSON_URL + "?t=" + Date.now());
+    const data = await res.json();
+    const posts = data.posts || {};
+
+    allPosts = Object.entries(posts).map(([key, p]) => ({
+      key,
+      title:      p.title      || "لعبة",
+      deep_link:  p.deep_link  || `https://t.me/${BOT_USERNAME}?start=${key}`,
+      downloads:  p.downloads  || 0,
+      created_at: p.created_at || "",
+      thumb:      p.thumb      || null,
+    }));
+
+    animateStats();
+    buildTicker();
+    render();
+  } catch (e) {
+    document.getElementById("gamesGrid").innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">⚠️</div>
+        <h3>تعذّر تحميل البيانات</h3>
+        <p>تأكد أن ملف posts.json موجود في نفس مجلد الموقع</p>
+      </div>`;
+  }
+}
+
+function animateCounter(el, target, duration = 900) {
+  const startTime = performance.now();
+  function tick(now) {
+    const progress = Math.min((now - startTime) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.round(target * eased);
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+function animateStats() {
+  const total   = allPosts.length;
+  const totalDl = allPosts.reduce((s, p) => s + p.downloads, 0);
+  animateCounter(document.getElementById("statGames"), total);
+  animateCounter(document.getElementById("statDownloads"), totalDl);
+  document.getElementById("totalCount").textContent = total;
+  document.getElementById("botLink").href = `https://t.me/${BOT_USERNAME}`;
+}
+
+function buildTicker() {
+  const top5 = [...allPosts].sort((a,b) => b.downloads - a.downloads).slice(0, 5);
+  const wrap  = document.getElementById("tickerWrap");
+  const track = document.getElementById("tickerTrack");
+  if (!top5.length) { wrap.style.display = "none"; return; }
+  const itemsHtml = top5.map((p, i) => `
+    <span class="ticker-item"><span class="rank">#${i+1}</span> 🔥 ${escHtml(p.title)} — ${p.downloads} تحميل</span>
+  `).join("");
+  track.innerHTML = itemsHtml + itemsHtml;
+  wrap.style.display = "block";
+}
+
+function getFiltered() {
+  let list = [...allPosts];
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    list = list.filter(p => p.title.toLowerCase().includes(q));
+  }
+  if (currentFilter === "new") list.sort((a, b) => b.created_at.localeCompare(a.created_at));
+  else if (currentFilter === "top") list.sort((a, b) => b.downloads - a.downloads);
+  else list.sort((a, b) => b.created_at.localeCompare(a.created_at));
+  return list;
+}
+
+function isNew(createdAt) {
+  if (!createdAt) return false;
+  try {
+    const created = new Date(createdAt.replace("T"," ") + "Z").getTime();
+    return (Date.now() - created) < 24 * 60 * 60 * 1000;
+  } catch { return false; }
+}
+
+function render() {
+  const grid = document.getElementById("gamesGrid");
+  const list = getFiltered();
+  const labels = { all: "جميع الألعاب", new: "الأحدث إضافةً", top: "الأكثر تحميلاً" };
+  document.getElementById("sectionTitle").textContent =
+    searchQuery ? `نتائج البحث عن "${searchQuery}"` : labels[currentFilter];
+
+  if (!list.length) {
+    grid.innerHTML = `<div class="empty"><div class="empty-icon">🔍</div><h3>لا توجد نتائج</h3><p>جرّب كلمة بحث مختلفة</p></div>`;
+    return;
+  }
+
+  const showRank = currentFilter === "top" && !searchQuery;
+
+  grid.innerHTML = list.map((p, i) => `
+    <div class="card" style="animation-delay:${Math.min(i * 0.04, 0.4)}s" data-link="${p.deep_link}">
+      <div class="card-img">
+        ${showRank ? `<span class="badge-rank">${i+1}</span>` : ""}
+        ${isNew(p.created_at) ? `<span class="badge-new">🆕 جديد</span>` : ""}
+        ${p.thumb ? `<img src="${p.thumb}" alt="${p.title}" loading="lazy">` : `🎮`}
+      </div>
+      <div class="card-body">
+        <div class="card-title">${escHtml(p.title)}</div>
+        <div class="card-meta">
+          <span class="dl-count">⬇️ ${p.downloads}</span>
+          <span>${formatDate(p.created_at)}</span>
+        </div>
+      </div>
+      <a class="card-btn" href="${p.deep_link}" target="_blank">تحميل عبر البوت</a>
+    </div>
+  `).join("");
+
+  grid.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (e.target.tagName !== "A") {
+        haptic("light");
+        window.open(card.dataset.link, "_blank");
+      }
+    });
+  });
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+function formatDate(ts) {
+  if (!ts) return "";
+  try {
+    const d = new Date(ts.replace("T"," ") + "Z");
+    return d.toLocaleDateString("ar-IQ", { day:"numeric", month:"short" });
+  } catch { return ""; }
+}
+
+document.getElementById("searchInput").addEventListener("input", e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    haptic("light");
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentFilter = btn.dataset.filter;
+    render();
+  });
+});
+
+loadPosts();
+setInterval(loadPosts, 5 * 60 * 1000);
+</script>
+</body>
+</html>
