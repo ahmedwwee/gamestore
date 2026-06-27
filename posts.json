@@ -17274,8 +17274,10 @@
       "deep_link": "https://t.me/kkn2bot?start=1685",
       "source_msg_id": 1684,
       "source_chat_id": -1002207879544,
-      "downloads": 0,
-      "download_history": [],
+      "downloads": 1,
+      "download_history": [
+        "2026-06-27T19:57:56"
+      ],
       "created_at": "2026-06-27T19:20:26"
     },
     "1687": {
@@ -17286,9 +17288,10 @@
       "deep_link": "https://t.me/kkn2bot?start=1687",
       "source_msg_id": 1686,
       "source_chat_id": -1002207879544,
-      "downloads": 1,
+      "downloads": 2,
       "download_history": [
-        "2026-06-27T19:40:27"
+        "2026-06-27T19:40:27",
+        "2026-06-27T19:58:01"
       ],
       "created_at": "2026-06-27T19:20:42"
     },
@@ -17300,9 +17303,10 @@
       "deep_link": "https://t.me/kkn2bot?start=1689",
       "source_msg_id": 1688,
       "source_chat_id": -1002207879544,
-      "downloads": 1,
+      "downloads": 2,
       "download_history": [
-        "2026-06-27T19:49:29"
+        "2026-06-27T19:49:29",
+        "2026-06-27T19:58:05"
       ],
       "created_at": "2026-06-27T19:20:57"
     }
