@@ -17274,9 +17274,10 @@
       "deep_link": "https://t.me/kkn2bot?start=1685",
       "source_msg_id": 1684,
       "source_chat_id": -1002207879544,
-      "downloads": 1,
+      "downloads": 2,
       "download_history": [
-        "2026-06-27T19:57:56"
+        "2026-06-27T19:57:56",
+        "2026-06-27T20:11:46"
       ],
       "created_at": "2026-06-27T19:20:26"
     },
@@ -17288,10 +17289,11 @@
       "deep_link": "https://t.me/kkn2bot?start=1687",
       "source_msg_id": 1686,
       "source_chat_id": -1002207879544,
-      "downloads": 2,
+      "downloads": 3,
       "download_history": [
         "2026-06-27T19:40:27",
-        "2026-06-27T19:58:01"
+        "2026-06-27T19:58:01",
+        "2026-06-27T20:11:53"
       ],
       "created_at": "2026-06-27T19:20:42"
     },
