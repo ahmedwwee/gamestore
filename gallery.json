@@ -661,7 +661,7 @@
       "chat_id": -1002207879544
     },
     "دراما بوكس معدل": {
-      "msg_id": 1191,
+      "msg_id": 1199,
       "chat_id": -1002207879544
     },
     "Takashi Ninja Warrior": {
@@ -695,7 +695,11 @@
     "🔥 The Last Game v1.7.2": {
       "msg_id": 1684,
       "chat_id": -1002207879544
+    },
+    "Sniper 3D Assassin": {
+      "msg_id": 1690,
+      "chat_id": -1002207879544
     }
   },
-  "updated_at": "2026-06-28 07:23"
+  "updated_at": "2026-06-28 07:34"
 }
