@@ -17480,6 +17480,18 @@
         "2026-06-28T15:33:34"
       ],
       "created_at": "2026-06-28T14:06:53"
+    },
+    "1697": {
+      "file_ids": [
+        1697
+      ],
+      "title": "🎮Dead Wasteland",
+      "deep_link": "https://t.me/kkn2bot?start=1697",
+      "source_msg_id": 1696,
+      "source_chat_id": -1002207879544,
+      "downloads": 0,
+      "download_history": [],
+      "created_at": "2026-06-28T17:14:05"
     }
   }
 }
