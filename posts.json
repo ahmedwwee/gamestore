@@ -17419,6 +17419,30 @@
         "2026-06-28T13:29:33"
       ],
       "created_at": "2026-06-28T04:29:33"
+    },
+    "1693": {
+      "file_ids": [
+        1693
+      ],
+      "title": "🔥 DEAD TARGET v4.176.0",
+      "deep_link": "https://t.me/kkn2bot?start=1693",
+      "source_msg_id": 1692,
+      "source_chat_id": -1002207879544,
+      "downloads": 0,
+      "download_history": [],
+      "created_at": "2026-06-28T14:06:48"
+    },
+    "1695": {
+      "file_ids": [
+        1695
+      ],
+      "title": "🔥 Blue Fire v0.64",
+      "deep_link": "https://t.me/kkn2bot?start=1695",
+      "source_msg_id": 1694,
+      "source_chat_id": -1002207879544,
+      "downloads": 0,
+      "download_history": [],
+      "created_at": "2026-06-28T14:06:53"
     }
   }
 }
