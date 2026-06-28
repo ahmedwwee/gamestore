@@ -17489,8 +17489,10 @@
       "deep_link": "https://t.me/kkn2bot?start=1697",
       "source_msg_id": 1696,
       "source_chat_id": -1002207879544,
-      "downloads": 0,
-      "download_history": [],
+      "downloads": 1,
+      "download_history": [
+        "2026-06-28T17:14:18"
+      ],
       "created_at": "2026-06-28T17:14:05"
     }
   }
