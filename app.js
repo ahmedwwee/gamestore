@@ -1,12 +1,10 @@
 // ══════════════════════════════════════════
 //  إعدادات
 // ══════════════════════════════════════════
-const POSTS_JSON_URL   = "posts.json";
-const GALLERY_JSON_URL = "gallery.json";
-const BOT_USERNAME     = "kkn5bot";
-const WORKER_URL        = "https://gamestore.ahmedx.workers.dev/";
+const GAMES_JSON_URL = "games.json";
+const BOT_USERNAME    = "kkn2bot";
+const WORKER_URL       = "https://gamestore.ahmedx.workers.dev/";
 
-// كلمة مرور الأدمن — غيّرها لكلمة من اختيارك
 const ADMIN_PASSWORD = "ahmed2026";
 
 // ══════════════════════════════════════════
@@ -19,7 +17,7 @@ function haptic(style = "light") {
 }
 
 // ══════════════════════════════════════════
-//  حالة التطبيق (محلية فقط، بدون أي خادم)
+//  حالة التطبيق (محلية فقط)
 // ══════════════════════════════════════════
 let allPosts      = [];
 let currentFilter = "all";
@@ -27,48 +25,32 @@ let searchQuery   = "";
 let viewMode      = localStorage.getItem("gs_view") || "grid";
 let isAdmin       = sessionStorage.getItem("gs_admin") === "1";
 
-let cart   = JSON.parse(localStorage.getItem("gs_cart")   || "[]");
-let pinned = JSON.parse(localStorage.getItem("gs_pinned") || "[]"); // [key,...]
-let hidden = JSON.parse(localStorage.getItem("gs_hidden") || "[]"); // [key,...]
-let renamed= JSON.parse(localStorage.getItem("gs_renamed")|| "{}"); // {key: newTitle}
+let cart    = JSON.parse(localStorage.getItem("gs_cart")    || "[]");
+let pinned  = JSON.parse(localStorage.getItem("gs_pinned")  || "[]");
+let hidden  = JSON.parse(localStorage.getItem("gs_hidden")  || "[]");
+let renamed = JSON.parse(localStorage.getItem("gs_renamed") || "{}");
 
 if (isAdmin) document.body.classList.add("admin-mode");
 
 // ══════════════════════════════════════════
-//  جلب البيانات: posts.json + gallery.json
+//  جلب البيانات: games.json فقط (مصدر واحد)
 // ══════════════════════════════════════════
 async function loadPosts() {
   try {
-    const [postsRes, galleryRes] = await Promise.all([
-      fetch(POSTS_JSON_URL + "?t=" + Date.now()),
-      fetch(GALLERY_JSON_URL + "?t=" + Date.now()).catch(() => null),
-    ]);
+    const res = await fetch(GAMES_JSON_URL + "?t=" + Date.now());
+    const data = await res.json();
+    const games = data.games || {};
 
-    const postsData = await postsRes.json();
-    const posts = postsData.posts || {};
-
-    let galleryMap = {};
-    if (galleryRes && galleryRes.ok) {
-      const galleryData = await galleryRes.json();
-      galleryMap = galleryData.gallery || {};
-    }
-
-    allPosts = Object.entries(posts).map(([key, p]) => {
-      const title = renamed[key] || p.title || "لعبة";
-
-      // مطابقة الصورة: أولاً عبر source_msg_id/source_chat_id (منشورات جديدة)
-      // ثانياً عبر مطابقة العنوان مع gallery.json (منشورات قديمة)
-      const galleryMatch = galleryMap[title] || galleryMap[p.title] || null;
-
+    allPosts = Object.entries(games).map(([title, g]) => {
+      const key = String(g.msg_id || title);
+      const displayTitle = renamed[key] || title;
       return {
         key,
-        title,
-        deep_link:      p.deep_link      || `https://t.me/${BOT_USERNAME}?start=${key}`,
-        downloads:      p.downloads      || 0,
-        created_at:     p.created_at     || "",
-        source_msg_id:  p.source_msg_id  || (galleryMatch ? galleryMatch.msg_id  : null),
-        source_chat_id: p.source_chat_id || (galleryMatch ? galleryMatch.chat_id : null),
-        thumb: null,
+        title:     displayTitle,
+        deep_link: g.deep_link || `https://t.me/${BOT_USERNAME}`,
+        views:     g.views || 0,
+        file_id:   g.file_id || null,
+        thumb:     null,
       };
     }).filter(p => !hidden.includes(p.key));
 
@@ -81,19 +63,19 @@ async function loadPosts() {
       <div class="empty">
         <div class="empty-icon">⚠️</div>
         <h3>تعذّر تحميل البيانات</h3>
-        <p>تأكد أن ملفات posts.json و gallery.json موجودة</p>
+        <p>تأكد أن ملف games.json موجود في نفس مجلد الموقع</p>
       </div>`;
   }
 }
 
 // ══════════════════════════════════════════
-//  جلب الصور من Worker تدريجياً
+//  جلب الصور من Worker تدريجياً (عبر file_id مباشرة)
 // ══════════════════════════════════════════
 async function loadThumbnails() {
-  const targets = allPosts.filter(p => p.source_msg_id && p.source_chat_id && !p.thumb);
+  const targets = allPosts.filter(p => p.file_id && !p.thumb);
   for (const post of targets) {
     try {
-      const res = await fetch(`${WORKER_URL}?chat_id=${post.source_chat_id}&msg_id=${post.source_msg_id}`);
+      const res = await fetch(`${WORKER_URL}?file_id=${encodeURIComponent(post.file_id)}`);
       const data = await res.json();
       if (data.url) {
         post.thumb = data.url;
@@ -135,31 +117,31 @@ function animateCounter(el, target, duration = 900) {
 }
 
 function animateStats() {
-  const total   = allPosts.length;
-  const totalDl = allPosts.reduce((s, p) => s + p.downloads, 0);
+  const total     = allPosts.length;
+  const totalView = allPosts.reduce((s, p) => s + p.views, 0);
   animateCounter(document.getElementById("statGames"), total);
-  animateCounter(document.getElementById("statDownloads"), totalDl);
+  animateCounter(document.getElementById("statDownloads"), totalView);
   document.getElementById("totalCount").textContent = total;
   document.getElementById("botLink").href = `https://t.me/${BOT_USERNAME}`;
 }
 
 // ══════════════════════════════════════════
-//  شريط الأكثر شعبية
+//  شريط الأكثر شعبية (بحسب المشاهدات)
 // ══════════════════════════════════════════
 function buildTicker() {
-  const top5 = [...allPosts].sort((a,b) => b.downloads - a.downloads).slice(0, 5);
+  const top5 = [...allPosts].sort((a,b) => b.views - a.views).slice(0, 5);
   const wrap  = document.getElementById("tickerWrap");
   const track = document.getElementById("tickerTrack");
   if (!top5.length) { wrap.style.display = "none"; return; }
   const itemsHtml = top5.map((p, i) => `
-    <span class="ticker-item"><span class="rank">#${i+1}</span> 🔥 ${escHtml(p.title)} — ${p.downloads} تحميل</span>
+    <span class="ticker-item"><span class="rank">#${i+1}</span> 🔥 ${escHtml(p.title)} — 👁 ${p.views}</span>
   `).join("");
   track.innerHTML = itemsHtml + itemsHtml;
   wrap.style.display = "block";
 }
 
 // ══════════════════════════════════════════
-//  فلترة + ترتيب (مع التثبيت دائماً بالأعلى)
+//  فلترة + ترتيب (التثبيت دائماً بالأعلى)
 // ══════════════════════════════════════════
 function getFiltered() {
   let list = [...allPosts];
@@ -169,11 +151,10 @@ function getFiltered() {
     list = list.filter(p => p.title.toLowerCase().includes(q));
   }
 
-  if (currentFilter === "new")      list.sort((a, b) => b.created_at.localeCompare(a.created_at));
-  else if (currentFilter === "top") list.sort((a, b) => b.downloads - a.downloads);
-  else                               list.sort((a, b) => b.created_at.localeCompare(a.created_at));
+  if (currentFilter === "top") list.sort((a, b) => b.views - a.views);
+  // "الأحدث" غير متاح بدقة بدون تاريخ نشر محفوظ؛ نعتمد ترتيب المسح كأقرب تقدير
+  else if (currentFilter === "new") list.sort((a, b) => b.key.localeCompare(a.key));
 
-  // المثبتة تطفو للأعلى دوماً (إلا أثناء البحث، لتبقى نتائج البحث منطقية)
   if (!searchQuery && pinned.length) {
     list.sort((a, b) => {
       const aPin = pinned.includes(a.key) ? 1 : 0;
@@ -185,17 +166,8 @@ function getFiltered() {
   return list;
 }
 
-function isNew(createdAt) {
-  if (!createdAt) return false;
-  try {
-    const created = new Date(createdAt.replace("T"," ") + "Z").getTime();
-    return (Date.now() - created) < 24 * 60 * 60 * 1000;
-  } catch { return false; }
-}
-
-// أعلى 3 تحميلاً على الإطلاق (لتأثير اللهب) — يُحسب من القائمة الكاملة دوماً
 function getTop3Keys() {
-  return [...allPosts].sort((a,b) => b.downloads - a.downloads).slice(0,3).map(p => p.key);
+  return [...allPosts].sort((a,b) => b.views - a.views).slice(0,3).map(p => p.key);
 }
 
 // ══════════════════════════════════════════
@@ -208,7 +180,7 @@ function render() {
 
   grid.className = "games-grid" + (viewMode === "list" ? " list-mode" : "");
 
-  const labels = { all: "جميع الألعاب", new: "الأحدث إضافةً", top: "الأكثر تحميلاً" };
+  const labels = { all: "جميع الألعاب", new: "الأحدث إضافةً", top: "الأكثر شعبية" };
   document.getElementById("sectionTitle").textContent =
     searchQuery ? `نتائج البحث عن "${searchQuery}"` : labels[currentFilter];
 
@@ -220,23 +192,21 @@ function render() {
   const showRank = currentFilter === "top" && !searchQuery;
 
   grid.innerHTML = list.map((p, i) => {
-    const isHot   = top3.includes(p.key);
-    const isPinned= pinned.includes(p.key);
-    const inCart  = cart.includes(p.key);
+    const isHot    = top3.includes(p.key);
+    const isPinned = pinned.includes(p.key);
+    const inCart   = cart.includes(p.key);
 
     return `
     <div class="card ${isHot ? 'is-hot' : ''}" data-key="${p.key}" style="animation-delay:${Math.min(i * 0.04, 0.4)}s">
       <div class="card-img">
         ${isPinned ? `<span class="badge-pin">📌 مثبت</span>` : (showRank ? `<span class="badge-rank">${i+1}</span>` : "")}
-        ${isNew(p.created_at) && !isPinned ? `<span class="badge-new">🆕 جديد</span>` : ""}
         ${isHot ? `<span class="hot-flame">🔥</span>` : ""}
         ${p.thumb ? `<img src="${p.thumb}" alt="${escHtml(p.title)}" loading="lazy">` : `🎮`}
       </div>
       <div class="card-body">
         <div class="card-title">${escHtml(p.title)}</div>
         <div class="card-meta">
-          <span class="dl-count">⬇️ ${p.downloads}</span>
-          <span>${formatDate(p.created_at)}</span>
+          <span class="dl-count">👁 ${p.views}</span>
         </div>
       </div>
       <div class="card-actions">
@@ -252,7 +222,6 @@ function render() {
     </div>`;
   }).join("");
 
-  // أحداث الكروت
   grid.querySelectorAll(".card").forEach(card => {
     card.addEventListener("click", (e) => {
       if (e.target.closest("a") || e.target.closest("button") || e.target.closest(".admin-chip")) return;
@@ -285,16 +254,9 @@ function render() {
 function escHtml(s) {
   return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
-function formatDate(ts) {
-  if (!ts) return "";
-  try {
-    const d = new Date(ts.replace("T"," ") + "Z");
-    return d.toLocaleDateString("ar-IQ", { day:"numeric", month:"short" });
-  } catch { return ""; }
-}
 
 // ══════════════════════════════════════════
-//  السلة (تحميل لاحقاً) — محلي بالكامل
+//  السلة
 // ══════════════════════════════════════════
 function saveCart() { localStorage.setItem("gs_cart", JSON.stringify(cart)); updateCartBadge(); }
 
@@ -324,9 +286,7 @@ function renderDrawer() {
     return `
       <div class="drawer-item">
         <img src="${p.thumb || ''}" alt="" onerror="this.style.display='none'">
-        <div class="drawer-item-info">
-          <div class="drawer-item-title">${escHtml(p.title)}</div>
-        </div>
+        <div class="drawer-item-info"><div class="drawer-item-title">${escHtml(p.title)}</div></div>
         <button class="drawer-item-remove" data-key="${key}">✕</button>
       </div>`;
   }).join("");
@@ -356,7 +316,7 @@ document.getElementById("openAllBtn").addEventListener("click", () => {
 });
 
 // ══════════════════════════════════════════
-//  وضع الأدمن: تثبيت / تعديل / إخفاء / حذف
+//  وضع الأدمن
 // ══════════════════════════════════════════
 function togglePin(key) {
   haptic("medium");
@@ -379,21 +339,19 @@ function renamePost(key) {
 }
 
 function hidePost(key) {
-  if (!confirm("إخفاء هذه اللعبة من العرض؟ يمكن إظهارها لاحقاً من إعدادات الأدمن.")) return;
+  if (!confirm("إخفاء هذه اللعبة من العرض؟")) return;
   hidden.push(key);
   localStorage.setItem("gs_hidden", JSON.stringify(hidden));
   allPosts = allPosts.filter(p => p.key !== key);
-  render();
-  animateStats();
+  render(); animateStats();
 }
 
 function deletePost(key) {
-  if (!confirm("حذف هذه اللعبة نهائياً من العرض؟ (لا يحذفها من البوت نفسه)")) return;
-  hidden.push(key); // نفس آلية الإخفاء، فقط تسمية مختلفة للمستخدم
+  if (!confirm("حذف هذه اللعبة نهائياً من العرض؟ (لا يحذفها من تيليجرام)")) return;
+  hidden.push(key);
   localStorage.setItem("gs_hidden", JSON.stringify(hidden));
   allPosts = allPosts.filter(p => p.key !== key);
-  render();
-  animateStats();
+  render(); animateStats();
 }
 
 // ══════════════════════════════════════════
@@ -435,7 +393,7 @@ document.getElementById("adminPassword").addEventListener("keydown", (e) => {
 });
 
 // ══════════════════════════════════════════
-//  بحث / فلاتر / عرض شبكة-قائمة / لون التمييز
+//  بحث / فلاتر / عرض / لون التمييز
 // ══════════════════════════════════════════
 document.getElementById("searchToggle").addEventListener("click", () => {
   const wrap = document.getElementById("searchWrap");
@@ -479,7 +437,6 @@ document.querySelectorAll(".accent-dot").forEach(dot => {
     localStorage.setItem("gs_accent", dot.dataset.accent);
   });
 });
-// استرجاع لون محفوظ
 const savedAccent = localStorage.getItem("gs_accent");
 if (savedAccent) {
   const [c1, c2] = savedAccent.split(",");
@@ -496,7 +453,6 @@ if (savedAccent) {
 loadPosts();
 setInterval(loadPosts, 5 * 60 * 1000);
 
-// تسجيل Service Worker لدعم PWA
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js").catch(() => {});
