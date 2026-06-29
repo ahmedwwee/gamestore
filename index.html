@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0d0f1a">
+<title>متجر الألعاب</title>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0d0f1a;
+    --surface:   #151826;
+    --card:      #1c1f33;
+    --border:    #252840;
+    --accent:    #6c63ff;
+    --accent2:   #a78bfa;
+    --green:     #22d3a0;
+    --orange:    #ff8a3d;
+    --red:       #ff4d4d;
+    --text:      #e8eaf6;
+    --muted:     #8b8fa8;
+    --radius:    14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Cairo', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    animation: fadeInBody .4s ease;
+    overflow-x: hidden;
+  }
+  @keyframes fadeInBody { from { opacity:0 } to { opacity:1 } }
+
+  /* ══ Animated starfield background ══ */
+  #starfield {
+    position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background: var(--bg);
+  }
+  #starfield::before, #starfield::after {
+    content: ''; position: absolute; inset: 0;
+    background-image:
+      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,.5), transparent),
+      radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,.4), transparent),
+      radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,.3), transparent),
+      radial-gradient(1px 1px at 90% 10%, rgba(255,255,255,.4), transparent),
+      radial-gradient(1px 1px at 10% 90%, rgba(255,255,255,.3), transparent),
+      radial-gradient(1px 1px at 60% 20%, rgba(255,255,255,.4), transparent);
+    background-size: 400px 400px;
+    animation: drift 90s linear infinite;
+  }
+  #starfield::after { background-size: 600px 600px; animation-duration: 140s; animation-direction: reverse; opacity: .6; }
+  @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-400px); } }
+
+  /* ══ Header ══ */
+  header {
+    background: linear-gradient(135deg, #0d0f1a 0%, #1a1040 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 0 16px;
+    position: sticky; top: 0; z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+  .header-inner {
+    max-width: 1200px; margin: 0 auto;
+    display: flex; align-items: center; gap: 10px; height: 60px;
+  }
+  .logo {
+    font-size: 20px; font-weight: 900;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  .icon-btn {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    width: 38px; height: 38px; display: flex; align-items: center; justify-content: center;
+    font-size: 17px; cursor: pointer; color: var(--text); position: relative;
+    transition: border-color .2s, transform .15s;
+  }
+  .icon-btn:active { transform: scale(.92); }
+  .icon-btn:hover { border-color: var(--accent); }
+  .cart-badge {
+    position: absolute; top: -5px; left: -5px;
+    background: var(--orange); color: #1a0f00; font-size: 10px; font-weight: 900;
+    width: 17px; height: 17px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  }
+  .search-wrap { flex: 1; position: relative; display: none; }
+  .search-wrap.open { display: block; animation: slideDown .25s ease; }
+  .search-wrap input {
+    width: 100%; background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 9px 14px 9px 38px; color: var(--text);
+    font-family: 'Cairo', sans-serif; font-size: 14px; outline: none;
+    transition: border-color .2s;
+  }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-icon-inner {
+    position: absolute; left: 11px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); font-size: 15px;
+  }
+  .badge {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 12px; font-size: 12px; color: var(--muted); white-space: nowrap;
+  }
+  .badge span { color: var(--accent2); font-weight: 700; }
+
+  /* ══ Hero ══ */
+  .hero {
+    background: linear-gradient(135deg, #0d0f1a 0%, #1a1040 50%, #0d1a2a 100%);
+    padding: 48px 20px 40px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(108,99,255,.18) 0%, transparent 70%);
+  }
+  .hero h1 {
+    font-size: clamp(24px, 5vw, 42px); font-weight: 900; line-height: 1.25;
+    position: relative; animation: slideDown .5s ease;
+  }
+  @keyframes slideDown { from { opacity:0; transform:translateY(-14px) } to { opacity:1; transform:translateY(0) } }
+  .hero h1 em {
+    font-style: normal;
+    background: linear-gradient(135deg, var(--accent), var(--green));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .hero p { margin-top: 10px; color: var(--muted); font-size: 14px; position: relative; }
+  .hero-stats { display: flex; justify-content: center; gap: 28px; margin-top: 26px; position: relative; }
+  .stat { text-align: center; animation: popIn .5s ease .15s both; }
+  .stat:nth-child(2) { animation-delay: .25s; }
+  @keyframes popIn { from { opacity:0; transform:scale(.7) } to { opacity:1; transform:scale(1) } }
+  .stat-num {
+    font-size: 26px; font-weight: 900;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .stat-label { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* ══ Ticker ══ */
+  .ticker-wrap {
+    background: linear-gradient(90deg, rgba(255,138,61,.12), rgba(108,99,255,.12));
+    border-bottom: 1px solid var(--border);
+    overflow: hidden; padding: 8px 0; white-space: nowrap; position: relative;
+  }
+  .ticker-track { display: inline-flex; gap: 28px; animation: ticker 22s linear infinite; padding-right: 28px; }
+  .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-item { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text); font-weight: 600; }
+  .ticker-item .rank {
+    background: linear-gradient(135deg, var(--orange), #ffb380);
+    color: #1a0f00; font-weight: 900; font-size: 11px; border-radius: 5px; padding: 1px 6px;
+  }
+
+  /* ══ Toolbar: filters + view toggle + accent picker ══ */
+  .toolbar {
+    max-width: 1200px; margin: 0 auto; padding: 18px 16px 0;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 7px 14px; font-family: 'Cairo', sans-serif; font-size: 13px; color: var(--muted);
+    cursor: pointer; transition: all .2s; white-space: nowrap;
+  }
+  .filter-btn:hover, .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; transform: translateY(-1px); }
+  .filter-btn:active { transform: scale(.96); }
+
+  .toolbar-right { display: flex; gap: 8px; align-items: center; }
+  .view-toggle { display: flex; background: var(--card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .view-toggle button {
+    background: none; border: none; color: var(--muted); padding: 7px 10px; cursor: pointer; font-size: 15px;
+    transition: background .2s, color .2s;
+  }
+  .view-toggle button.active { background: var(--accent); color: #fff; }
+
+  .accent-picker { display: flex; gap: 5px; align-items: center; }
+  .accent-dot {
+    width: 20px; height: 20px; border-radius: 50%; cursor: pointer; border: 2px solid transparent;
+    transition: transform .15s, border-color .15s;
+  }
+  .accent-dot:hover { transform: scale(1.15); }
+  .accent-dot.active { border-color: #fff; }
+
+  /* ══ Grid / List ══ */
+  .grid-wrap { max-width: 1200px; margin: 0 auto; padding: 20px 16px; }
+  .section-title {
+    font-size: 14px; font-weight: 700; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .05em; margin-bottom: 14px;
+  }
+  .games-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px;
+  }
+  .games-grid.list-mode { grid-template-columns: 1fr; gap: 10px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    overflow: hidden; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+    cursor: pointer; display: flex; flex-direction: column; position: relative;
+    animation: cardIn .4s ease both;
+  }
+  .games-grid.list-mode .card { flex-direction: row; align-items: stretch; }
+  .games-grid.list-mode .card-img { width: 110px; flex-shrink: 0; aspect-ratio: auto; }
+  .games-grid.list-mode .card-body { flex: 1; }
+  .games-grid.list-mode .card-btn { margin: auto 12px 12px auto; align-self: flex-end; width: fit-content; padding: 8px 16px; }
+
+  @keyframes cardIn { from { opacity:0; transform:translateY(10px) scale(.97) } to { opacity:1; transform:translateY(0) scale(1) } }
+  .card:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: 0 10px 32px rgba(108,99,255,.25); }
+  .games-grid.list-mode .card:hover { transform: translateX(-3px); }
+  .card:active { transform: scale(.97); }
+
+  /* ── fire glow for top-3 ── */
+  .card.is-hot {
+    border-color: rgba(255,77,77,.45);
+    box-shadow: 0 0 0 1px rgba(255,77,77,.25), 0 8px 26px rgba(255,77,61,.18);
+  }
+  .card.is-hot::before {
+    content: ''; position: absolute; inset: -2px; border-radius: var(--radius);
+    background: linear-gradient(135deg, rgba(255,77,61,.55), rgba(255,154,61,.35), rgba(255,77,61,.55));
+    background-size: 200% 200%;
+    animation: fireGlow 3.2s ease-in-out infinite;
+    z-index: -1; filter: blur(8px); opacity: .8;
+  }
+  @keyframes fireGlow {
+    0%, 100% { background-position: 0% 50%; opacity: .55; }
+    50%      { background-position: 100% 50%; opacity: .9; }
+  }
+  .hot-flame {
+    position: absolute; bottom: 6px; left: 6px; font-size: 13px; z-index: 3;
+    animation: flameFlicker 1.4s ease-in-out infinite;
+  }
+  @keyframes flameFlicker {
+    0%, 100% { transform: scale(1) rotate(-2deg); }
+    50%      { transform: scale(1.15) rotate(2deg); }
+  }
+
+  .card-img {
+    width: 100%; aspect-ratio: 16/9; object-fit: cover; background: var(--surface);
+    display: flex; align-items: center; justify-content: center; font-size: 36px;
+    position: relative; overflow: hidden;
+  }
+  .card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+  .badge-new {
+    position: absolute; top: 7px; right: 7px;
+    background: linear-gradient(135deg, var(--green), #4ee8c2);
+    color: #002e22; font-size: 9px; font-weight: 900; padding: 3px 7px; border-radius: 20px;
+    display: flex; align-items: center; gap: 3px;
+    box-shadow: 0 2px 10px rgba(34,211,160,.5);
+    animation: pulseBadge 1.8s ease-in-out infinite; z-index: 2;
+  }
+  @keyframes pulseBadge { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+
+  .badge-rank {
+    position: absolute; top: 7px; left: 7px;
+    background: linear-gradient(135deg, var(--orange), #ffb380);
+    color: #1a0f00; font-size: 10px; font-weight: 900;
+    width: 20px; height: 20px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; z-index: 2;
+  }
+
+  .badge-pin {
+    position: absolute; top: 7px; right: 7px;
+    background: linear-gradient(135deg, #ffd93d, #ffb300);
+    color: #2a1d00; font-size: 9px; font-weight: 900; padding: 3px 7px; border-radius: 20px;
+    z-index: 2;
+  }
+
+  .card-body { padding: 11px; flex: 1; display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+  .card-title {
+    font-size: 13px; font-weight: 700; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card-meta { display: flex; align-items: center; gap: 7px; font-size: 10.5px; color: var(--muted); margin-top: auto; }
+  .dl-count { display: flex; align-items: center; gap: 3px; }
+
+  .card-actions { display: flex; gap: 6px; margin: 0 11px 11px; }
+  .card-btn {
+    flex: 1; display: block;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; text-align: center; text-decoration: none; border-radius: 8px; padding: 9px;
+    font-family: 'Cairo', sans-serif; font-size: 12.5px; font-weight: 700;
+    transition: opacity .2s, transform .15s; border: none; cursor: pointer;
+  }
+  .card-btn:hover { opacity: .88; }
+  .card-btn:active { transform: scale(.95); }
+
+  .cart-btn {
+    background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    border-radius: 8px; width: 36px; flex-shrink: 0; cursor: pointer; font-size: 14px;
+    transition: border-color .2s, transform .15s, background .2s;
+  }
+  .cart-btn:active { transform: scale(.9); }
+  .cart-btn.in-cart { background: rgba(108,99,255,.18); border-color: var(--accent); color: var(--accent2); }
+
+  /* ══ admin controls on card ══ */
+  .admin-controls {
+    display: none; gap: 6px; padding: 0 11px 11px; flex-wrap: wrap;
+  }
+  body.admin-mode .admin-controls { display: flex; }
+  .admin-chip {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 6px;
+    padding: 5px 9px; font-size: 11px; color: var(--muted); cursor: pointer;
+    transition: border-color .15s, color .15s;
+  }
+  .admin-chip:hover { border-color: var(--accent); color: var(--text); }
+  .admin-chip.danger:hover { border-color: var(--red); color: var(--red); }
+
+  .empty { grid-column: 1/-1; text-align: center; padding: 70px 20px; color: var(--muted); animation: fadeInBody .4s ease; }
+  .empty-icon { font-size: 44px; margin-bottom: 14px; }
+  .empty h3 { font-size: 17px; margin-bottom: 6px; color: var(--text); }
+
+  .skeleton-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .skeleton-shine {
+    background: linear-gradient(100deg, var(--card) 30%, var(--border) 50%, var(--card) 70%);
+    background-size: 250% 100%; animation: shimmer 1.3s ease-in-out infinite;
+  }
+  .skeleton-img { aspect-ratio: 16/9; }
+  .skeleton-line { height: 10px; border-radius: 5px; margin: 11px; }
+  .skeleton-line.short { width: 60%; }
+  .skeleton-btn { height: 30px; border-radius: 8px; margin: 0 11px 11px; }
+  @keyframes shimmer { to { background-position: -250% 0; } }
+
+  footer { text-align: center; padding: 28px 20px; color: var(--muted); font-size: 12.5px; border-top: 1px solid var(--border); margin-top: 28px; }
+  footer a { color: var(--accent2); text-decoration: none; }
+
+  /* ══ Cart drawer ══ */
+  .drawer-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: 200;
+    opacity: 0; pointer-events: none; transition: opacity .25s ease;
+  }
+  .drawer-overlay.open { opacity: 1; pointer-events: auto; }
+  .drawer {
+    position: fixed; top: 0; left: -340px; width: 320px; height: 100%;
+    background: var(--surface); border-right: 1px solid var(--border);
+    z-index: 201; transition: left .3s ease; display: flex; flex-direction: column;
+    direction: rtl;
+  }
+  .drawer.open { left: 0; }
+  .drawer-header { padding: 16px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .drawer-header h3 { font-size: 16px; }
+  .drawer-close { background: none; border: none; color: var(--muted); font-size: 20px; cursor: pointer; }
+  .drawer-body { flex: 1; overflow-y: auto; padding: 12px; }
+  .drawer-item {
+    display: flex; gap: 10px; align-items: center; padding: 8px; border-radius: 10px;
+    background: var(--card); margin-bottom: 8px; border: 1px solid var(--border);
+  }
+  .drawer-item img { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; background: var(--bg); }
+  .drawer-item-info { flex: 1; min-width: 0; }
+  .drawer-item-title { font-size: 12.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .drawer-item-remove { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 16px; padding: 4px; }
+  .drawer-empty { text-align: center; color: var(--muted); padding: 40px 20px; font-size: 13px; }
+  .drawer-footer { padding: 14px; border-top: 1px solid var(--border); }
+  .drawer-footer button {
+    width: 100%; background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; border: none; border-radius: 10px; padding: 12px; font-weight: 700; font-size: 13.5px;
+    font-family: 'Cairo', sans-serif; cursor: pointer;
+  }
+
+  /* ══ Admin login modal ══ */
+  .modal-overlay {
+    position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 300;
+    display: none; align-items: center; justify-content: center; padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal-box {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 24px; width: 100%; max-width: 320px; animation: popIn .25s ease;
+  }
+  .modal-box h3 { font-size: 16px; margin-bottom: 14px; text-align: center; }
+  .modal-box input {
+    width: 100%; background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 11px; color: var(--text); font-family: 'Cairo', sans-serif; font-size: 14px;
+    outline: none; margin-bottom: 12px; text-align: center;
+  }
+  .modal-box input:focus { border-color: var(--accent); }
+  .modal-box button {
+    width: 100%; background: linear-gradient(135deg, var(--accent), var(--accent2));
+    color: #fff; border: none; border-radius: 10px; padding: 11px; font-weight: 700;
+    font-family: 'Cairo', sans-serif; font-size: 13.5px; cursor: pointer; margin-bottom: 8px;
+  }
+  .modal-box .cancel-btn { background: var(--card); border: 1px solid var(--border); color: var(--muted); }
+  .modal-error { color: var(--red); font-size: 12px; text-align: center; margin-bottom: 10px; min-height: 16px; }
+
+  .admin-fab {
+    position: fixed; bottom: 18px; left: 18px; z-index: 90;
+    background: var(--card); border: 1px solid var(--border); color: var(--muted);
+    width: 42px; height: 42px; border-radius: 50%; font-size: 17px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,.3);
+  }
+  body.admin-mode .admin-fab { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  .admin-banner {
+    display: none; background: linear-gradient(90deg, rgba(108,99,255,.18), rgba(167,139,250,.12));
+    border-bottom: 1px solid var(--accent); padding: 8px 16px; text-align: center;
+    font-size: 12.5px; color: var(--accent2); font-weight: 600;
+  }
+  body.admin-mode .admin-banner { display: block; }
+
+  @media (max-width: 600px) {
+    .hero-stats { gap: 18px; }
+    .games-grid { grid-template-columns: repeat(2, 1fr); gap: 9px; }
+    .card-img { aspect-ratio: 1/1; }
+    .games-grid.list-mode .card-img { aspect-ratio: auto; width: 90px; }
+  }
+</style>
+</head>
+<body>
+
+<div id="starfield"></div>
+
+<div class="admin-banner">🛠 وضع الأدمن مُفعّل</div>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">🎮 GameStore</div>
+    <div class="search-wrap" id="searchWrap">
+      <span class="search-icon-inner">🔍</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+    </div>
+    <button class="icon-btn" id="searchToggle" title="بحث">🔍</button>
+    <button class="icon-btn" id="cartToggle" title="السلة">
+      🛒
+      <span class="cart-badge" id="cartBadge" style="display:none">0</span>
+    </button>
+    <div class="badge">المنشورات: <span id="totalCount">...</span></div>
+  </div>
+</header>
+
+<div class="ticker-wrap" id="tickerWrap" style="display:none">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<div class="hero">
+  <h1>أفضل الألعاب المهكرة<br><em>في مكان واحد</em></h1>
+  <p>يتحدث تلقائياً مع البوت — كل منشور جديد يظهر هنا فوراً</p>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num" id="statGames">0</div>
+      <div class="stat-label">لعبة متاحة</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="statDownloads">0</div>
+      <div class="stat-label">مشاهدة إجمالية</div>
+    </div>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">🎮 الكل</button>
+    <button class="filter-btn" data-filter="new">✨ الأحدث</button>
+    <button class="filter-btn" data-filter="top">🔥 الأكثر تحميلاً</button>
+  </div>
+  <div class="toolbar-right">
+    <div class="accent-picker" id="accentPicker">
+      <div class="accent-dot active" data-accent="6c63ff,a78bfa" style="background:linear-gradient(135deg,#6c63ff,#a78bfa)"></div>
+      <div class="accent-dot" data-accent="22d3a0,4ee8c2" style="background:linear-gradient(135deg,#22d3a0,#4ee8c2)"></div>
+      <div class="accent-dot" data-accent="ff4d6a,ff8fa3" style="background:linear-gradient(135deg,#ff4d6a,#ff8fa3)"></div>
+      <div class="accent-dot" data-accent="ffb000,ffd93d" style="background:linear-gradient(135deg,#ffb000,#ffd93d)"></div>
+      <div class="accent-dot" data-accent="3da9ff,7ec8ff" style="background:linear-gradient(135deg,#3da9ff,#7ec8ff)"></div>
+    </div>
+    <div class="view-toggle">
+      <button id="viewGrid" class="active" title="شبكة">▦</button>
+      <button id="viewList" title="قائمة">☰</button>
+    </div>
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div class="section-title" id="sectionTitle">جميع الألعاب</div>
+  <div class="games-grid" id="gamesGrid">
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+    <div class="skeleton-card"><div class="skeleton-shine skeleton-img"></div><div class="skeleton-shine skeleton-line"></div><div class="skeleton-shine skeleton-line short"></div><div class="skeleton-shine skeleton-btn"></div></div>
+  </div>
+</div>
+
+<footer>
+  <p>يتحدث تلقائياً من البوت • <a href="#" id="botLink">فتح البوت</a></p>
+</footer>
+
+<!-- Cart Drawer -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<div class="drawer" id="cartDrawer">
+  <div class="drawer-header">
+    <h3>🛒 السلة (تحميل لاحقاً)</h3>
+    <button class="drawer-close" id="drawerClose">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-footer">
+    <button id="openAllBtn">فتح روابط الكل في البوت</button>
+  </div>
+</div>
+
+<!-- Admin login modal -->
+<div class="modal-overlay" id="adminModal">
+  <div class="modal-box">
+    <h3>🔐 دخول الأدمن</h3>
+    <input type="password" id="adminPassword" placeholder="كلمة المرور">
+    <div class="modal-error" id="adminError"></div>
+    <button id="adminLoginBtn">دخول</button>
+    <button class="cancel-btn" id="adminCancelBtn">إلغاء</button>
+  </div>
+</div>
+
+<button class="admin-fab" id="adminFab" title="وضع الأدمن">🛠</button>
+
+<script src="app.js"></script>
+</body>
+</html>
