@@ -1,28 +1,19 @@
-// ══════════════════════════════════════════
-//  إعدادات — عدّل هذا السطر الوحيد بعد النشر
-// ══════════════════════════════════════════
-const API_BASE = "https://maybeahmed.alwaysdata.net";
+const GAMES_JSON_URL = "games.json";
+const BOT_USERNAME    = "kkn2bot";
+const WORKER_URL       = "https://gamestore.ahmedx.workers.dev/";
+const ADMIN_PASSWORD = "ahmed2026";
 
-const ADMIN_PASSWORD = "ahmed2026";  // غيّرها لكلمة مرورك الخاصة
-
-// ══════════════════════════════════════════
-//  Telegram Mini App
-// ══════════════════════════════════════════
 const tg = window.Telegram?.WebApp;
 if (tg) { tg.ready(); tg.expand(); }
 function haptic(style = "light") {
   try { tg?.HapticFeedback?.impactOccurred(style); } catch (e) {}
 }
 
-// ══════════════════════════════════════════
-//  حالة التطبيق
-// ══════════════════════════════════════════
 let allPosts      = [];
 let currentFilter = "all";
 let searchQuery   = "";
 let viewMode      = localStorage.getItem("gs_view") || "grid";
 let isAdmin       = sessionStorage.getItem("gs_admin") === "1";
-
 let cart    = JSON.parse(localStorage.getItem("gs_cart")    || "[]");
 let pinned  = JSON.parse(localStorage.getItem("gs_pinned")  || "[]");
 let hidden  = JSON.parse(localStorage.getItem("gs_hidden")  || "[]");
@@ -30,21 +21,18 @@ let renamed = JSON.parse(localStorage.getItem("gs_renamed") || "{}");
 
 if (isAdmin) document.body.classList.add("admin-mode");
 
-// ══════════════════════════════════════════
-//  جلب البيانات من alwaysdata مباشرة
-// ══════════════════════════════════════════
 async function loadPosts() {
   try {
-    const res  = await fetch(`${API_BASE}/api/games`);
+    const res = await fetch(GAMES_JSON_URL + "?t=" + Date.now());
     const data = await res.json();
-    const games = data.games || [];
+    const games = data.games || {};
 
-    allPosts = games.map(g => {
-      const key = String(g.msg_id || g.title);
+    allPosts = Object.entries(games).map(([title, g]) => {
+      const key = String(g.msg_id || title);
       return {
         key,
-        title:     renamed[key] || g.title,
-        deep_link: g.deep_link || "",
+        title:     renamed[key] || title,
+        deep_link: g.deep_link || `https://t.me/${BOT_USERNAME}`,
         views:     g.views || 0,
         file_id:   g.file_id || null,
         thumb:     null,
@@ -60,21 +48,18 @@ async function loadPosts() {
       <div class="empty">
         <div class="empty-icon">⚠️</div>
         <h3>تعذّر تحميل البيانات</h3>
-        <p>تأكد أن السيرفر يعمل</p>
+        <p>تأكد أن ملف games.json موجود</p>
       </div>`;
   }
 }
 
-// ══════════════════════════════════════════
-//  جلب الصور من السيرفر (التوكن مخفي هناك)
-// ══════════════════════════════════════════
 async function loadThumbnails() {
   const targets = allPosts.filter(p => p.file_id && !p.thumb);
   for (const post of targets) {
     try {
-      const imgUrl = `${API_BASE}/api/image?file_id=${encodeURIComponent(post.file_id)}`;
-      post.thumb = imgUrl;
-      updateCardImage(post.key, imgUrl);
+      const res = await fetch(`${WORKER_URL}?file_id=${encodeURIComponent(post.file_id)}`);
+      const data = await res.json();
+      if (data.url) { post.thumb = data.url; updateCardImage(post.key, data.url); }
     } catch (e) {}
   }
 }
@@ -96,9 +81,6 @@ function reapplyKnownThumbs() {
   allPosts.filter(p => p.thumb).forEach(p => updateCardImage(p.key, p.thumb));
 }
 
-// ══════════════════════════════════════════
-//  إحصائيات + عداد متحرك
-// ══════════════════════════════════════════
 function animateCounter(el, target, duration = 900) {
   const startTime = performance.now();
   function tick(now) {
@@ -111,79 +93,59 @@ function animateCounter(el, target, duration = 900) {
 }
 
 function animateStats() {
-  const total     = allPosts.length;
-  const totalView = allPosts.reduce((s, p) => s + p.views, 0);
-  animateCounter(document.getElementById("statGames"), total);
-  animateCounter(document.getElementById("statDownloads"), totalView);
-  document.getElementById("totalCount").textContent = total;
+  animateCounter(document.getElementById("statGames"), allPosts.length);
+  animateCounter(document.getElementById("statDownloads"), allPosts.reduce((s,p)=>s+p.views,0));
+  document.getElementById("totalCount").textContent = allPosts.length;
+  document.getElementById("botLink").href = `https://t.me/${BOT_USERNAME}`;
 }
 
-// ══════════════════════════════════════════
-//  شريط الأكثر شعبية
-// ══════════════════════════════════════════
 function buildTicker() {
-  const top5 = [...allPosts].sort((a,b) => b.views - a.views).slice(0, 5);
+  const top5 = [...allPosts].sort((a,b)=>b.views-a.views).slice(0,5);
   const wrap  = document.getElementById("tickerWrap");
   const track = document.getElementById("tickerTrack");
-  if (!top5.length) { wrap.style.display = "none"; return; }
-  const html = top5.map((p, i) => `
-    <span class="ticker-item"><span class="rank">#${i+1}</span> 🔥 ${escHtml(p.title)} — 👁 ${p.views}</span>
-  `).join("");
+  if (!top5.length) { wrap.style.display="none"; return; }
+  const html = top5.map((p,i)=>`<span class="ticker-item"><span class="rank">#${i+1}</span> 🔥 ${escHtml(p.title)} — 👁 ${p.views}</span>`).join("");
   track.innerHTML = html + html;
   wrap.style.display = "block";
 }
 
-// ══════════════════════════════════════════
-//  فلترة + ترتيب
-// ══════════════════════════════════════════
 function getFiltered() {
   let list = [...allPosts];
-  if (searchQuery) {
-    const q = searchQuery.toLowerCase();
-    list = list.filter(p => p.title.toLowerCase().includes(q));
-  }
-  if (currentFilter === "top") list.sort((a, b) => b.views - a.views);
-  if (!searchQuery && pinned.length) {
-    list.sort((a, b) => (pinned.includes(b.key)?1:0) - (pinned.includes(a.key)?1:0));
-  }
+  if (searchQuery) { const q=searchQuery.toLowerCase(); list=list.filter(p=>p.title.toLowerCase().includes(q)); }
+  if (currentFilter==="top") list.sort((a,b)=>b.views-a.views);
+  if (!searchQuery && pinned.length) list.sort((a,b)=>(pinned.includes(b.key)?1:0)-(pinned.includes(a.key)?1:0));
   return list;
 }
 
 function getTop3Keys() {
-  return [...allPosts].sort((a,b) => b.views - a.views).slice(0,3).map(p => p.key);
+  return [...allPosts].sort((a,b)=>b.views-a.views).slice(0,3).map(p=>p.key);
 }
 
-// ══════════════════════════════════════════
-//  رسم الكروت
-// ══════════════════════════════════════════
 function render() {
   const grid = document.getElementById("gamesGrid");
   const list = getFiltered();
   const top3 = getTop3Keys();
 
-  grid.className = "games-grid" + (viewMode === "list" ? " list-mode" : "");
+  grid.className = "games-grid" + (viewMode==="list" ? " list-mode" : "");
 
-  const labels = { all: "جميع الألعاب", new: "الأحدث إضافةً", top: "الأكثر شعبية" };
-  document.getElementById("sectionTitle").textContent =
-    searchQuery ? `نتائج البحث عن "${searchQuery}"` : labels[currentFilter];
+  const labels = {all:"جميع الألعاب", new:"الأحدث إضافةً", top:"الأكثر شعبية"};
+  document.getElementById("sectionTitle").textContent = searchQuery ? `نتائج البحث عن "${searchQuery}"` : labels[currentFilter];
 
   if (!list.length) {
     grid.innerHTML = `<div class="empty"><div class="empty-icon">🔍</div><h3>لا توجد نتائج</h3></div>`;
     return;
   }
 
-  const showRank = currentFilter === "top" && !searchQuery;
+  const showRank = currentFilter==="top" && !searchQuery;
 
-  grid.innerHTML = list.map((p, i) => {
-    const isHot    = top3.includes(p.key);
-    const isPinned = pinned.includes(p.key);
-    const inCart   = cart.includes(p.key);
+  grid.innerHTML = list.map((p,i) => {
+    const isHot=top3.includes(p.key), isPinned=pinned.includes(p.key), inCart=cart.includes(p.key);
     return `
-    <div class="card ${isHot ? 'is-hot' : ''}" data-key="${p.key}" style="animation-delay:${Math.min(i*0.04,0.4)}s">
+    <div class="card ${isHot?'is-hot':''}" data-key="${p.key}" style="animation-delay:${Math.min(i*0.04,0.4)}s">
       <div class="card-img">
-        ${isPinned ? `<span class="badge-pin">📌 مثبت</span>` : (showRank ? `<span class="badge-rank">${i+1}</span>` : "")}
-        ${isHot ? `<span class="hot-flame">🔥</span>` : ""}
-        🎮
+        ${isPinned?`<span class="badge-pin">📌 مثبت</span>`:(showRank?`<span class="badge-rank">${i+1}</span>`:"")}
+        ${isHot?`<span class="hot-flame">🔥</span>`:""}
+        ${p.thumb?`<img src="${p.thumb}" alt="${escHtml(p.title)}" loading="lazy">`:`🎮`}
       </div>
       <div class="card-body">
         <div class="card-title">${escHtml(p.title)}</div>
@@ -202,181 +164,67 @@ function render() {
     </div>`;
   }).join("");
 
-  grid.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click", e => {
+  grid.querySelectorAll(".card").forEach(card=>{
+    card.addEventListener("click",e=>{
       if (e.target.closest("a,button,.admin-chip")) return;
       haptic("light");
-      const p = allPosts.find(p => p.key === card.dataset.key);
-      if (p) window.open(p.deep_link, "_blank");
+      const p=allPosts.find(p=>p.key===card.dataset.key);
+      if (p) window.open(p.deep_link,"_blank");
     });
   });
-  grid.querySelectorAll('[data-action="cart"]').forEach(btn =>
-    btn.addEventListener("click", e => { e.stopPropagation(); toggleCart(btn.dataset.key); }));
-  grid.querySelectorAll('[data-action="pin"]').forEach(el =>
-    el.addEventListener("click", e => { e.stopPropagation(); togglePin(el.dataset.key); }));
-  grid.querySelectorAll('[data-action="rename"]').forEach(el =>
-    el.addEventListener("click", e => { e.stopPropagation(); renamePost(el.dataset.key); }));
-  grid.querySelectorAll('[data-action="hide"]').forEach(el =>
-    el.addEventListener("click", e => { e.stopPropagation(); hidePost(el.dataset.key); }));
-  grid.querySelectorAll('[data-action="delete"]').forEach(el =>
-    el.addEventListener("click", e => { e.stopPropagation(); deletePost(el.dataset.key); }));
-
+  grid.querySelectorAll('[data-action="cart"]').forEach(btn=>btn.addEventListener("click",e=>{e.stopPropagation();toggleCart(btn.dataset.key);}));
+  grid.querySelectorAll('[data-action="pin"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();togglePin(el.dataset.key);}));
+  grid.querySelectorAll('[data-action="rename"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();renamePost(el.dataset.key);}));
+  grid.querySelectorAll('[data-action="hide"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();hidePost(el.dataset.key);}));
+  grid.querySelectorAll('[data-action="delete"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();deletePost(el.dataset.key);}));
   reapplyKnownThumbs();
-  loadThumbnails();
 }
 
-function escHtml(s) {
-  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-}
+function escHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 
-// ══════════════════════════════════════════
-//  السلة
-// ══════════════════════════════════════════
-function saveCart() { localStorage.setItem("gs_cart", JSON.stringify(cart)); updateCartBadge(); }
-function toggleCart(key) {
-  haptic("light");
-  cart = cart.includes(key) ? cart.filter(k=>k!==key) : [...cart, key];
-  saveCart(); render();
+function saveCart(){localStorage.setItem("gs_cart",JSON.stringify(cart));updateCartBadge();}
+function toggleCart(key){haptic("light");cart=cart.includes(key)?cart.filter(k=>k!==key):[...cart,key];saveCart();render();}
+function updateCartBadge(){const b=document.getElementById("cartBadge");b.style.display=cart.length?"flex":"none";b.textContent=cart.length;}
+function renderDrawer(){
+  const body=document.getElementById("drawerBody");
+  if (!cart.length){body.innerHTML=`<div class="drawer-empty">السلة فارغة 🛒</div>`;return;}
+  body.innerHTML=cart.map(key=>{const p=allPosts.find(p=>p.key===key);if(!p)return"";return`<div class="drawer-item"><img src="${p.thumb||''}" alt="" onerror="this.style.display='none'"><div class="drawer-item-info"><div class="drawer-item-title">${escHtml(p.title)}</div></div><button class="drawer-item-remove" data-key="${key}">✕</button></div>`;}).join("");
+  body.querySelectorAll(".drawer-item-remove").forEach(btn=>btn.addEventListener("click",()=>{toggleCart(btn.dataset.key);renderDrawer();}));
 }
-function updateCartBadge() {
-  const b = document.getElementById("cartBadge");
-  b.style.display = cart.length ? "flex" : "none";
-  b.textContent = cart.length;
-}
-function renderDrawer() {
-  const body = document.getElementById("drawerBody");
-  if (!cart.length) { body.innerHTML = `<div class="drawer-empty">السلة فارغة 🛒</div>`; return; }
-  body.innerHTML = cart.map(key => {
-    const p = allPosts.find(p=>p.key===key); if (!p) return "";
-    return `<div class="drawer-item">
-      <img src="${p.thumb||''}" alt="" onerror="this.style.display='none'">
-      <div class="drawer-item-info"><div class="drawer-item-title">${escHtml(p.title)}</div></div>
-      <button class="drawer-item-remove" data-key="${key}">✕</button>
-    </div>`;
-  }).join("");
-  body.querySelectorAll(".drawer-item-remove").forEach(btn =>
-    btn.addEventListener("click", () => { toggleCart(btn.dataset.key); renderDrawer(); }));
-}
-document.getElementById("cartToggle").addEventListener("click", () => {
-  renderDrawer();
-  document.getElementById("cartDrawer").classList.add("open");
-  document.getElementById("drawerOverlay").classList.add("open");
-});
-function closeDrawer() {
-  document.getElementById("cartDrawer").classList.remove("open");
-  document.getElementById("drawerOverlay").classList.remove("open");
-}
-document.getElementById("drawerClose").addEventListener("click", closeDrawer);
-document.getElementById("drawerOverlay").addEventListener("click", closeDrawer);
-document.getElementById("openAllBtn").addEventListener("click", () => {
-  cart.forEach(key => { const p=allPosts.find(p=>p.key===key); if(p) window.open(p.deep_link,"_blank"); });
-});
+document.getElementById("cartToggle").addEventListener("click",()=>{renderDrawer();document.getElementById("cartDrawer").classList.add("open");document.getElementById("drawerOverlay").classList.add("open");});
+function closeDrawer(){document.getElementById("cartDrawer").classList.remove("open");document.getElementById("drawerOverlay").classList.remove("open");}
+document.getElementById("drawerClose").addEventListener("click",closeDrawer);
+document.getElementById("drawerOverlay").addEventListener("click",closeDrawer);
+document.getElementById("openAllBtn").addEventListener("click",()=>{cart.forEach(key=>{const p=allPosts.find(p=>p.key===key);if(p)window.open(p.deep_link,"_blank");});});
 
-// ══════════════════════════════════════════
-//  أدوات الأدمن
-// ══════════════════════════════════════════
-function togglePin(key) {
-  haptic("medium");
-  pinned = pinned.includes(key) ? pinned.filter(k=>k!==key) : [...pinned, key];
-  localStorage.setItem("gs_pinned", JSON.stringify(pinned)); render();
-}
-function renamePost(key) {
-  const p = allPosts.find(p=>p.key===key); if (!p) return;
-  const t = prompt("الاسم الجديد:", p.title);
-  if (t?.trim()) {
-    renamed[key] = t.trim();
-    localStorage.setItem("gs_renamed", JSON.stringify(renamed));
-    p.title = t.trim(); render();
-  }
-}
-function hidePost(key) {
-  if (!confirm("إخفاء هذه اللعبة؟")) return;
-  hidden.push(key); localStorage.setItem("gs_hidden", JSON.stringify(hidden));
-  allPosts = allPosts.filter(p=>p.key!==key); render(); animateStats();
-}
-function deletePost(key) {
-  if (!confirm("حذف هذه اللعبة من العرض؟")) return;
-  hidden.push(key); localStorage.setItem("gs_hidden", JSON.stringify(hidden));
-  allPosts = allPosts.filter(p=>p.key!==key); render(); animateStats();
-}
+function togglePin(key){haptic("medium");pinned=pinned.includes(key)?pinned.filter(k=>k!==key):[...pinned,key];localStorage.setItem("gs_pinned",JSON.stringify(pinned));render();}
+function renamePost(key){const p=allPosts.find(p=>p.key===key);if(!p)return;const t=prompt("الاسم الجديد:",p.title);if(t?.trim()){renamed[key]=t.trim();localStorage.setItem("gs_renamed",JSON.stringify(renamed));p.title=t.trim();render();}}
+function hidePost(key){if(!confirm("إخفاء هذه اللعبة؟"))return;hidden.push(key);localStorage.setItem("gs_hidden",JSON.stringify(hidden));allPosts=allPosts.filter(p=>p.key!==key);render();animateStats();}
+function deletePost(key){if(!confirm("حذف هذه اللعبة من العرض؟"))return;hidden.push(key);localStorage.setItem("gs_hidden",JSON.stringify(hidden));allPosts=allPosts.filter(p=>p.key!==key);render();animateStats();}
 
-// ══════════════════════════════════════════
-//  تسجيل دخول الأدمن
-// ══════════════════════════════════════════
-const adminModal = document.getElementById("adminModal");
-document.getElementById("adminFab").addEventListener("click", () => {
-  if (isAdmin) {
-    isAdmin = false; sessionStorage.removeItem("gs_admin");
-    document.body.classList.remove("admin-mode"); render();
-  } else {
-    adminModal.classList.add("open");
-    document.getElementById("adminPassword").value = "";
-    document.getElementById("adminError").textContent = "";
-  }
+const adminModal=document.getElementById("adminModal");
+document.getElementById("adminFab").addEventListener("click",()=>{
+  if(isAdmin){isAdmin=false;sessionStorage.removeItem("gs_admin");document.body.classList.remove("admin-mode");render();}
+  else{adminModal.classList.add("open");document.getElementById("adminPassword").value="";document.getElementById("adminError").textContent="";}
 });
-document.getElementById("adminCancelBtn").addEventListener("click", () => adminModal.classList.remove("open"));
-document.getElementById("adminLoginBtn").addEventListener("click", () => {
-  if (document.getElementById("adminPassword").value === ADMIN_PASSWORD) {
-    isAdmin = true; sessionStorage.setItem("gs_admin","1");
-    document.body.classList.add("admin-mode"); adminModal.classList.remove("open"); render();
-  } else {
-    document.getElementById("adminError").textContent = "كلمة المرور غير صحيحة";
-  }
+document.getElementById("adminCancelBtn").addEventListener("click",()=>adminModal.classList.remove("open"));
+document.getElementById("adminLoginBtn").addEventListener("click",()=>{
+  if(document.getElementById("adminPassword").value===ADMIN_PASSWORD){isAdmin=true;sessionStorage.setItem("gs_admin","1");document.body.classList.add("admin-mode");adminModal.classList.remove("open");render();}
+  else document.getElementById("adminError").textContent="كلمة المرور غير صحيحة";
 });
-document.getElementById("adminPassword").addEventListener("keydown", e => {
-  if (e.key==="Enter") document.getElementById("adminLoginBtn").click();
-});
+document.getElementById("adminPassword").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("adminLoginBtn").click();});
 
-// ══════════════════════════════════════════
-//  بحث / فلاتر / عرض / لون التمييز
-// ══════════════════════════════════════════
-document.getElementById("searchToggle").addEventListener("click", () => {
-  const w = document.getElementById("searchWrap");
-  w.classList.toggle("open");
-  if (w.classList.contains("open")) document.getElementById("searchInput").focus();
-});
-document.getElementById("searchInput").addEventListener("input", e => {
-  searchQuery = e.target.value.trim(); render();
-});
-document.querySelectorAll(".filter-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    haptic("light");
-    document.querySelectorAll(".filter-btn").forEach(b=>b.classList.remove("active"));
-    btn.classList.add("active"); currentFilter = btn.dataset.filter; render();
-  });
-});
-document.getElementById("viewGrid").addEventListener("click", () => setView("grid"));
-document.getElementById("viewList").addEventListener("click", () => setView("list"));
-function setView(mode) {
-  viewMode = mode; localStorage.setItem("gs_view", mode);
-  document.getElementById("viewGrid").classList.toggle("active", mode==="grid");
-  document.getElementById("viewList").classList.toggle("active", mode==="list");
-  render();
-}
+document.getElementById("searchToggle").addEventListener("click",()=>{const w=document.getElementById("searchWrap");w.classList.toggle("open");if(w.classList.contains("open"))document.getElementById("searchInput").focus();});
+document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value.trim();render();});
+document.querySelectorAll(".filter-btn").forEach(btn=>{btn.addEventListener("click",()=>{haptic("light");document.querySelectorAll(".filter-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");currentFilter=btn.dataset.filter;render();});});
+document.getElementById("viewGrid").addEventListener("click",()=>setView("grid"));
+document.getElementById("viewList").addEventListener("click",()=>setView("list"));
+function setView(mode){viewMode=mode;localStorage.setItem("gs_view",mode);document.getElementById("viewGrid").classList.toggle("active",mode==="grid");document.getElementById("viewList").classList.toggle("active",mode==="list");render();}
 setView(viewMode);
-document.querySelectorAll(".accent-dot").forEach(dot => {
-  dot.addEventListener("click", () => {
-    const [c1,c2] = dot.dataset.accent.split(",");
-    document.documentElement.style.setProperty("--accent","#"+c1);
-    document.documentElement.style.setProperty("--accent2","#"+c2);
-    document.querySelectorAll(".accent-dot").forEach(d=>d.classList.remove("active"));
-    dot.classList.add("active"); localStorage.setItem("gs_accent", dot.dataset.accent);
-  });
-});
-const sa = localStorage.getItem("gs_accent");
-if (sa) {
-  const [c1,c2] = sa.split(",");
-  document.documentElement.style.setProperty("--accent","#"+c1);
-  document.documentElement.style.setProperty("--accent2","#"+c2);
-  document.querySelectorAll(".accent-dot").forEach(d=>d.classList.toggle("active",d.dataset.accent===sa));
-}
+document.querySelectorAll(".accent-dot").forEach(dot=>{dot.addEventListener("click",()=>{const[c1,c2]=dot.dataset.accent.split(",");document.documentElement.style.setProperty("--accent","#"+c1);document.documentElement.style.setProperty("--accent2","#"+c2);document.querySelectorAll(".accent-dot").forEach(d=>d.classList.remove("active"));dot.classList.add("active");localStorage.setItem("gs_accent",dot.dataset.accent);});});
+const sa=localStorage.getItem("gs_accent");
+if(sa){const[c1,c2]=sa.split(",");document.documentElement.style.setProperty("--accent","#"+c1);document.documentElement.style.setProperty("--accent2","#"+c2);document.querySelectorAll(".accent-dot").forEach(d=>d.classList.toggle("active",d.dataset.accent===sa));}
 
-// ══════════════════════════════════════════
-//  تشغيل
-// ══════════════════════════════════════════
 loadPosts();
-setInterval(loadPosts, 10 * 60 * 1000);
-
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(()=>{}));
-}
+setInterval(loadPosts,10*60*1000);
+if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}
