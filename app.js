@@ -1,6 +1,6 @@
 const GAMES_JSON_URL = "games.json";
 const BOT_USERNAME    = "kkn2bot";
-const WORKER_URL       = "https://gamestore.ahmedx.workers.dev/";
+const CHANNEL_USERNAME = "melo00n";
 const ADMIN_PASSWORD = "ahmed2026";
 
 const tg = window.Telegram?.WebApp;
@@ -33,16 +33,15 @@ async function loadPosts() {
         key,
         title:     renamed[key] || title,
         deep_link: g.deep_link || `https://t.me/${BOT_USERNAME}`,
+        post_link: g.post_link || `https://t.me/${CHANNEL_USERNAME}`,
         views:     g.views || 0,
-        file_id:   g.file_id || null,
-        thumb:     null,
+        thumb:     g.image || null,
       };
     }).filter(p => !hidden.includes(p.key));
 
     animateStats();
     buildTicker();
     render();
-    loadThumbnails();
   } catch (e) {
     document.getElementById("gamesGrid").innerHTML = `
       <div class="empty">
@@ -51,34 +50,6 @@ async function loadPosts() {
         <p>تأكد أن ملف games.json موجود</p>
       </div>`;
   }
-}
-
-async function loadThumbnails() {
-  const targets = allPosts.filter(p => p.file_id && !p.thumb);
-  for (const post of targets) {
-    try {
-      const res = await fetch(`${WORKER_URL}?file_id=${encodeURIComponent(post.file_id)}`);
-      const data = await res.json();
-      if (data.url) { post.thumb = data.url; updateCardImage(post.key, data.url); }
-    } catch (e) {}
-  }
-}
-
-function updateCardImage(key, imgUrl) {
-  document.querySelectorAll(`.card[data-key="${key}"] .card-img`).forEach(card => {
-    if (card.querySelector("img")) return;
-    const img = document.createElement("img");
-    img.src = imgUrl; img.alt = ""; img.loading = "lazy";
-    img.style.opacity = "0"; img.style.transition = "opacity .3s ease";
-    const badges = card.querySelectorAll(".badge-new,.badge-rank,.badge-pin,.hot-flame");
-    card.innerHTML = ""; badges.forEach(b => card.appendChild(b));
-    card.appendChild(img);
-    requestAnimationFrame(() => { img.style.opacity = "1"; });
-  });
-}
-
-function reapplyKnownThumbs() {
-  allPosts.filter(p => p.thumb).forEach(p => updateCardImage(p.key, p.thumb));
 }
 
 function animateCounter(el, target, duration = 900) {
@@ -169,7 +140,7 @@ function render() {
       if (e.target.closest("a,button,.admin-chip")) return;
       haptic("light");
       const p=allPosts.find(p=>p.key===card.dataset.key);
-      if (p) window.open(p.deep_link,"_blank");
+      if (p) window.open(p.post_link,"_blank");
     });
   });
   grid.querySelectorAll('[data-action="cart"]').forEach(btn=>btn.addEventListener("click",e=>{e.stopPropagation();toggleCart(btn.dataset.key);}));
@@ -177,7 +148,6 @@ function render() {
   grid.querySelectorAll('[data-action="rename"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();renamePost(el.dataset.key);}));
   grid.querySelectorAll('[data-action="hide"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();hidePost(el.dataset.key);}));
   grid.querySelectorAll('[data-action="delete"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();deletePost(el.dataset.key);}));
-  reapplyKnownThumbs();
 }
 
 function escHtml(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
