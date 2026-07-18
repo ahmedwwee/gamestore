@@ -52,7 +52,7 @@
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 298,
+      "views": 299,
       "msg_id": 25260,
       "chat_id": -1001893520557,
       "image": "images/25260.jpg"
@@ -1972,7 +1972,7 @@
     "LOST in Blue 2": {
       "deep_link": "https://t.me/kkn2bot?start=1966",
       "post_link": "https://t.me/melo00n/25274",
-      "views": 235,
+      "views": 237,
       "msg_id": 25274,
       "chat_id": -1001893520557,
       "image": "images/25274.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 11:04 UTC",
+  "updated_at": "2026-07-18 11:05 UTC",
   "total": 249
 }
