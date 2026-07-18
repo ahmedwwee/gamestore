@@ -180,7 +180,7 @@
     "Ludo Club": {
       "deep_link": "https://t.me/kkn2bot?start=1912",
       "post_link": "https://t.me/melo00n/25241",
-      "views": 433,
+      "views": 434,
       "msg_id": 25241,
       "chat_id": -1001893520557,
       "image": "images/25241.jpg"
@@ -188,7 +188,7 @@
     "Driving & Drift": {
       "deep_link": "https://t.me/kkn2bot?start=1910",
       "post_link": "https://t.me/melo00n/25240",
-      "views": 424,
+      "views": 425,
       "msg_id": 25240,
       "chat_id": -1001893520557,
       "image": "images/25240.jpg"
@@ -196,7 +196,7 @@
     "Eternal Empire": {
       "deep_link": "https://t.me/kkn2bot?start=1908",
       "post_link": "https://t.me/melo00n/25239",
-      "views": 421,
+      "views": 422,
       "msg_id": 25239,
       "chat_id": -1001893520557,
       "image": "images/25239.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 06:41 UTC",
+  "updated_at": "2026-07-18 06:42 UTC",
   "total": 249
 }
