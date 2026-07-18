@@ -36,7 +36,7 @@
     "Hunter Assassin": {
       "deep_link": "https://t.me/kkn2bot?start=1948",
       "post_link": "https://t.me/melo00n/25262",
-      "views": 279,
+      "views": 280,
       "msg_id": 25262,
       "chat_id": -1001893520557,
       "image": "images/25262.jpg"
@@ -44,7 +44,7 @@
     "Idle Weapon Shop Tycoon": {
       "deep_link": "https://t.me/kkn2bot?start=1946",
       "post_link": "https://t.me/melo00n/25261",
-      "views": 255,
+      "views": 256,
       "msg_id": 25261,
       "chat_id": -1001893520557,
       "image": "images/25261.jpg"
@@ -52,7 +52,7 @@
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 248,
+      "views": 250,
       "msg_id": 25260,
       "chat_id": -1001893520557,
       "image": "images/25260.jpg"
@@ -60,7 +60,7 @@
     "Dragon Ball Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1942",
       "post_link": "https://t.me/melo00n/25259",
-      "views": 249,
+      "views": 250,
       "msg_id": 25259,
       "chat_id": -1001893520557,
       "image": "images/25259.jpg"
@@ -68,7 +68,7 @@
     "House Flipper": {
       "deep_link": "https://t.me/kkn2bot?start=1940",
       "post_link": "https://t.me/melo00n/25258",
-      "views": 233,
+      "views": 234,
       "msg_id": 25258,
       "chat_id": -1001893520557,
       "image": "images/25258.jpg"
@@ -196,7 +196,7 @@
     "Eternal Empire": {
       "deep_link": "https://t.me/kkn2bot?start=1908",
       "post_link": "https://t.me/melo00n/25239",
-      "views": 409,
+      "views": 411,
       "msg_id": 25239,
       "chat_id": -1001893520557,
       "image": "images/25239.jpg"
@@ -1956,12 +1956,20 @@
     "العنوان : MeloShort": {
       "deep_link": "https://t.me/kkn2bot?start=1958",
       "post_link": "https://t.me/melo00n/25267",
-      "views": 287,
+      "views": 288,
       "msg_id": 25267,
       "chat_id": -1001893520557,
       "image": "images/25267.jpg"
+    },
+    "Life in Adventure": {
+      "deep_link": "https://t.me/kkn2bot?start=1960",
+      "post_link": "https://t.me/melo00n/25271",
+      "views": 1,
+      "msg_id": 25271,
+      "chat_id": -1001893520557,
+      "image": "images/25271.jpg"
     }
   },
-  "updated_at": "2026-07-18 02:12 UTC",
-  "total": 245
+  "updated_at": "2026-07-18 02:23 UTC",
+  "total": 246
 }
