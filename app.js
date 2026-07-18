@@ -81,9 +81,21 @@ function buildTicker() {
   wrap.style.display = "block";
 }
 
+function normalizeArabic(s) {
+  return String(s)
+    .replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g, "") // تشكيل/حركات
+    .replace(/[إأآٱ]/g, "ا")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .replace(/ؤ/g, "و")
+    .replace(/ئ/g, "ي")
+    .toLowerCase()
+    .trim();
+}
+
 function getFiltered() {
   let list = [...allPosts];
-  if (searchQuery) { const q=searchQuery.toLowerCase(); list=list.filter(p=>p.title.toLowerCase().includes(q)); }
+  if (searchQuery) { const q=normalizeArabic(searchQuery); list=list.filter(p=>normalizeArabic(p.title).includes(q)); }
   if (currentFilter==="top") {
     list.sort((a,b)=>b.views-a.views);
   } else {
@@ -130,7 +142,7 @@ function render() {
         <div class="card-meta"><span class="dl-count">👁 ${p.views}</span></div>
       </div>
       <div class="card-actions">
-        <a class="card-btn" href="${p.deep_link}" target="_blank">تحميل عبر البوت</a>
+        <a class="card-btn" href="${p.deep_link}" target="_blank" data-action="download" data-key="${p.key}">تحميل عبر البوت</a>
         <button class="cart-btn ${inCart?'in-cart':''}" data-action="cart" data-key="${p.key}">${inCart?'✓':'🛒'}</button>
       </div>
       <div class="admin-controls">
@@ -150,6 +162,7 @@ function render() {
       if (p) window.open(p.post_link,"_blank");
     });
   });
+  grid.querySelectorAll('[data-action="download"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();haptic("medium");burstConfetti(e.clientX,e.clientY);}));
   grid.querySelectorAll('[data-action="cart"]').forEach(btn=>btn.addEventListener("click",e=>{e.stopPropagation();toggleCart(btn.dataset.key);}));
   grid.querySelectorAll('[data-action="pin"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();togglePin(el.dataset.key);}));
   grid.querySelectorAll('[data-action="rename"]').forEach(el=>el.addEventListener("click",e=>{e.stopPropagation();renamePost(el.dataset.key);}));
@@ -178,6 +191,24 @@ function togglePin(key){haptic("medium");pinned=pinned.includes(key)?pinned.filt
 function renamePost(key){const p=allPosts.find(p=>p.key===key);if(!p)return;const t=prompt("الاسم الجديد:",p.title);if(t?.trim()){renamed[key]=t.trim();localStorage.setItem("gs_renamed",JSON.stringify(renamed));p.title=t.trim();render();}}
 function hidePost(key){if(!confirm("إخفاء هذه اللعبة؟"))return;hidden.push(key);localStorage.setItem("gs_hidden",JSON.stringify(hidden));allPosts=allPosts.filter(p=>p.key!==key);render();animateStats();}
 function deletePost(key){if(!confirm("حذف هذه اللعبة من العرض؟"))return;hidden.push(key);localStorage.setItem("gs_hidden",JSON.stringify(hidden));allPosts=allPosts.filter(p=>p.key!==key);render();animateStats();}
+
+// ══ تأثير جسيمات (Confetti) عند الضغط على تحميل ══
+const CONFETTI_COLORS = ["#6c63ff","#a78bfa","#22d3a0","#ff8a3d","#ff4d6a","#ffd93d"];
+function burstConfetti(x, y){
+  const count = 16;
+  for (let i=0;i<count;i++){
+    const el = document.createElement("div");
+    el.className = "confetti-piece";
+    const angle = (Math.PI*2*i)/count + Math.random()*0.4;
+    const dist = 60 + Math.random()*70;
+    el.style.setProperty("--dx", `${Math.cos(angle)*dist}px`);
+    el.style.setProperty("--dy", `${Math.sin(angle)*dist}px`);
+    el.style.left = x+"px"; el.style.top = y+"px";
+    el.style.background = CONFETTI_COLORS[i % CONFETTI_COLORS.length];
+    document.body.appendChild(el);
+    el.addEventListener("animationend", ()=>el.remove());
+  }
+}
 
 const adminModal=document.getElementById("adminModal");
 document.getElementById("adminFab").addEventListener("click",()=>{

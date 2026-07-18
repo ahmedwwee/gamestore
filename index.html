@@ -170,11 +170,12 @@
     background: linear-gradient(90deg, rgba(255,138,61,.12), rgba(108,99,255,.12));
     border-bottom: 1px solid var(--border);
     overflow: hidden; padding: 8px 0; white-space: nowrap; position: relative;
+    direction: ltr;
   }
   .ticker-track { display: inline-flex; gap: 28px; animation: ticker 22s linear infinite; padding-right: 28px; }
   .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
   @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  .ticker-item { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text); font-weight: 600; }
+  .ticker-item { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text); font-weight: 600; direction: rtl; }
   .ticker-item .rank {
     background: linear-gradient(135deg, var(--orange), #ffb380);
     color: #1a0f00; font-weight: 900; font-size: 11px; border-radius: 5px; padding: 1px 6px;
@@ -428,6 +429,60 @@
     font-size: 12.5px; color: var(--accent2); font-weight: 600;
   }
   body.admin-mode .admin-banner { display: block; }
+
+  /* ══ Confetti burst (تحميل) ══ */
+  @keyframes modalPop { from { opacity:0; transform:scale(.85) translateY(10px); } to { opacity:1; transform:scale(1) translateY(0); } }
+  .confetti-piece {
+    position: fixed; width: 8px; height: 8px; border-radius: 2px; pointer-events: none; z-index: 500;
+    animation: confettiFly .7s cubic-bezier(.25,.8,.4,1) forwards;
+  }
+  @keyframes confettiFly {
+    0%   { transform: translate(-50%,-50%) scale(1) rotate(0deg); opacity: 1; }
+    100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0) rotate(240deg); opacity: 0; }
+  }
+
+  /* ══ Bold gaming-style motion pass ══ */
+  @keyframes neonPulse {
+    0%, 100% { box-shadow: 0 0 6px 0 rgba(108,99,255,.5), 0 0 0 1px var(--accent); }
+    50%      { box-shadow: 0 0 22px 4px rgba(108,99,255,.85), 0 0 0 1px var(--accent2); }
+  }
+  @keyframes shakeX {
+    10%, 90% { transform: translateX(-1px); }
+    20%, 80% { transform: translateX(2px); }
+    30%, 50%, 70% { transform: translateX(-4px); }
+    40%, 60% { transform: translateX(4px); }
+  }
+  .filter-btn.active { animation: neonPulse 2.2s ease-in-out infinite; }
+  .filter-btn { transition: all .18s cubic-bezier(.34,1.56,.64,1); }
+  .filter-btn:active { animation: shakeX .3s ease; }
+
+  .card { transition: transform .3s cubic-bezier(.34,1.2,.64,1), border-color .25s ease, box-shadow .3s ease; }
+  .card:hover .card-img img { transform: scale(1.08); }
+  .card-img img { transition: transform .4s ease; }
+  .card:active { animation: shakeX .25s ease; }
+
+  .card-btn, .cart-btn, .icon-btn, .search-close, .view-toggle button {
+    transition: transform .15s cubic-bezier(.34,1.56,.64,1), box-shadow .2s ease, background .2s ease, border-color .2s ease, opacity .2s ease;
+  }
+  .card-btn:hover { box-shadow: 0 0 16px rgba(108,99,255,.55); transform: translateY(-2px); }
+  .card-btn:active { transform: scale(.92); }
+  .icon-btn:hover { box-shadow: 0 0 12px rgba(108,99,255,.4); transform: translateY(-2px); }
+  .cart-btn:hover { box-shadow: 0 0 10px rgba(108,99,255,.35); }
+  .people-chip:hover .avatar { box-shadow: 0 0 0 2px rgba(255,255,255,.2), 0 0 14px rgba(108,99,255,.7); }
+  .accent-dot:hover { box-shadow: 0 0 10px currentColor; }
+
+  .search-bar-full.open { animation: modalPop .25s cubic-bezier(.34,1.56,.64,1); }
+  .search-bar-inner input:focus { box-shadow: 0 0 0 3px rgba(108,99,255,.2); }
+
+  .admin-fab { transition: transform .2s cubic-bezier(.34,1.56,.64,1), box-shadow .3s ease; }
+  body.admin-mode .admin-fab { animation: neonPulse 2.2s ease-in-out infinite; }
+  .admin-fab:active { transform: scale(.85) rotate(-15deg); }
+
+  .stat-num { animation: statGlow 2.4s ease-in-out infinite; }
+  @keyframes statGlow {
+    0%, 100% { filter: drop-shadow(0 0 2px rgba(108,99,255,.3)); }
+    50%      { filter: drop-shadow(0 0 10px rgba(108,99,255,.7)); }
+  }
 
   @media (max-width: 600px) {
     .hero-stats { gap: 18px; }
