@@ -836,7 +836,7 @@
     "Null’s Clash كلاش اوف كلانس": {
       "deep_link": "https://t.me/kkn2bot?start=1707",
       "post_link": "https://t.me/melo00n/25103",
-      "views": 2304,
+      "views": 2305,
       "msg_id": 25103,
       "chat_id": -1001893520557,
       "image": "images/25103.jpg"
@@ -1975,7 +1975,7 @@
       "views": 124,
       "msg_id": 25274,
       "chat_id": -1001893520557,
-      "image": "images/25274.jpg"
+      "image": null
     },
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 07:43 UTC",
+  "updated_at": "2026-07-18 07:44 UTC",
   "total": 249
 }
