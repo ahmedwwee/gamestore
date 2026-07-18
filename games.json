@@ -20,7 +20,7 @@
     "Train of Hope": {
       "deep_link": "https://t.me/kkn2bot?start=1952",
       "post_link": "https://t.me/melo00n/25264",
-      "views": 444,
+      "views": 445,
       "msg_id": 25264,
       "chat_id": -1001893520557,
       "image": "images/25264.jpg"
@@ -36,7 +36,7 @@
     "Hunter Assassin": {
       "deep_link": "https://t.me/kkn2bot?start=1948",
       "post_link": "https://t.me/melo00n/25262",
-      "views": 342,
+      "views": 343,
       "msg_id": 25262,
       "chat_id": -1001893520557,
       "image": "images/25262.jpg"
@@ -52,7 +52,7 @@
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 309,
+      "views": 310,
       "msg_id": 25260,
       "chat_id": -1001893520557,
       "image": "images/25260.jpg"
@@ -1964,7 +1964,7 @@
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 200,
+      "views": 201,
       "msg_id": 25271,
       "chat_id": -1001893520557,
       "image": "images/25271.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 11:55 UTC",
+  "updated_at": "2026-07-18 11:56 UTC",
   "total": 249
 }
