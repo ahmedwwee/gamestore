@@ -39,7 +39,7 @@
       "views": 337,
       "msg_id": 25262,
       "chat_id": -1001893520557,
-      "image": "images/25262.jpg"
+      "image": null
     },
     "Idle Weapon Shop Tycoon": {
       "deep_link": "https://t.me/kkn2bot?start=1946",
@@ -87,7 +87,7 @@
       "views": 277,
       "msg_id": 25256,
       "chat_id": -1001893520557,
-      "image": "images/25256.jpg"
+      "image": null
     },
     "Snake.io": {
       "deep_link": "https://t.me/kkn2bot?start=1934",
@@ -95,7 +95,7 @@
       "views": 295,
       "msg_id": 25255,
       "chat_id": -1001893520557,
-      "image": "images/25255.jpg"
+      "image": null
     },
     "Space Survivor": {
       "deep_link": "https://t.me/kkn2bot?start=1932",
@@ -103,7 +103,7 @@
       "views": 293,
       "msg_id": 25254,
       "chat_id": -1001893520557,
-      "image": "images/25254.jpg"
+      "image": null
     },
     "State of Survival": {
       "deep_link": "https://t.me/kkn2bot?start=1930",
@@ -111,7 +111,7 @@
       "views": 288,
       "msg_id": 25253,
       "chat_id": -1001893520557,
-      "image": "images/25253.jpg"
+      "image": null
     },
     "Zooba": {
       "deep_link": "https://t.me/kkn2bot?start=1677",
@@ -148,7 +148,7 @@
     "Domino Dreams": {
       "deep_link": "https://t.me/kkn2bot?start=1920",
       "post_link": "https://t.me/melo00n/25246",
-      "views": 547,
+      "views": 545,
       "msg_id": 25246,
       "chat_id": -1001893520557,
       "image": "images/25246.jpg"
@@ -1959,20 +1959,20 @@
       "views": 375,
       "msg_id": 25267,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25267.jpg"
     },
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 184,
+      "views": 183,
       "msg_id": 25271,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25271.jpg"
     },
     "LOST in Blue 2": {
       "deep_link": "https://t.me/kkn2bot?start=1966",
       "post_link": "https://t.me/melo00n/25274",
-      "views": 257,
+      "views": 256,
       "msg_id": 25274,
       "chat_id": -1001893520557,
       "image": null
@@ -1980,7 +1980,7 @@
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
       "post_link": "https://t.me/melo00n/25273",
-      "views": 257,
+      "views": 254,
       "msg_id": 25273,
       "chat_id": -1001893520557,
       "image": null
@@ -1988,12 +1988,12 @@
     "Strategy Games": {
       "deep_link": "https://t.me/kkn2bot?start=1962",
       "post_link": "https://t.me/melo00n/25272",
-      "views": 194,
+      "views": 192,
       "msg_id": 25272,
       "chat_id": -1001893520557,
-      "image": "images/25272.jpg"
+      "image": null
     }
   },
-  "updated_at": "2026-07-18 11:40 UTC",
+  "updated_at": "2026-07-18 11:41 UTC",
   "total": 249
 }
