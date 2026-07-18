@@ -47,20 +47,20 @@
       "views": 304,
       "msg_id": 25261,
       "chat_id": -1001893520557,
-      "image": "images/25261.jpg"
+      "image": null
     },
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 291,
+      "views": 290,
       "msg_id": 25260,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25260.jpg"
     },
     "Dragon Ball Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1942",
       "post_link": "https://t.me/melo00n/25259",
-      "views": 294,
+      "views": 293,
       "msg_id": 25259,
       "chat_id": -1001893520557,
       "image": "images/25259.jpg"
@@ -124,7 +124,7 @@
     "The Game": {
       "deep_link": "https://t.me/kkn2bot?start=1926",
       "post_link": "https://t.me/melo00n/25251",
-      "views": 303,
+      "views": 302,
       "msg_id": 25251,
       "chat_id": -1001893520557,
       "image": "images/25251.jpg"
@@ -1964,7 +1964,7 @@
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 145,
+      "views": 144,
       "msg_id": 25271,
       "chat_id": -1001893520557,
       "image": null
@@ -1975,23 +1975,23 @@
       "views": 194,
       "msg_id": 25274,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25274.jpg"
     },
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
       "post_link": "https://t.me/melo00n/25273",
-      "views": 192,
+      "views": 191,
       "msg_id": 25273,
       "chat_id": -1001893520557,
-      "image": "images/25273.jpg"
+      "image": null
     },
     "Strategy Games": {
       "deep_link": "https://t.me/kkn2bot?start=1962",
       "post_link": "https://t.me/melo00n/25272",
-      "views": 145,
+      "views": 144,
       "msg_id": 25272,
       "chat_id": -1001893520557,
-      "image": "images/25272.jpg"
+      "image": null
     }
   },
   "updated_at": "2026-07-18 09:45 UTC",
