@@ -1,10 +1,42 @@
 {
-  "schema_version": 2,
+  "schema_version": 4,
   "games": {
-    "🔁 تحديث 🔁": {
+    "LOST in Blue 2": {
+      "deep_link": "https://t.me/kkn2bot?start=1966",
+      "post_link": "https://t.me/melo00n/25274",
+      "views": 325,
+      "msg_id": 25274,
+      "chat_id": -1001893520557,
+      "image": "images/25274.jpg"
+    },
+    "LOST in BLUE": {
+      "deep_link": "https://t.me/kkn2bot?start=1964",
+      "post_link": "https://t.me/melo00n/25273",
+      "views": 308,
+      "msg_id": 25273,
+      "chat_id": -1001893520557,
+      "image": "images/25273.jpg"
+    },
+    "Strategy Games": {
+      "deep_link": "https://t.me/kkn2bot?start=1962",
+      "post_link": "https://t.me/melo00n/25272",
+      "views": 251,
+      "msg_id": 25272,
+      "chat_id": -1001893520557,
+      "image": "images/25272.jpg"
+    },
+    "Life in Adventure": {
+      "deep_link": "https://t.me/kkn2bot?start=1960",
+      "post_link": "https://t.me/melo00n/25271",
+      "views": 230,
+      "msg_id": 25271,
+      "chat_id": -1001893520557,
+      "image": "images/25271.jpg"
+    },
+    "العنوان : MeloShort": {
       "deep_link": "https://t.me/kkn2bot?start=1958",
       "post_link": "https://t.me/melo00n/25267",
-      "views": 197,
+      "views": 408,
       "msg_id": 25267,
       "chat_id": -1001893520557,
       "image": "images/25267.jpg"
@@ -12,7 +44,7 @@
     "FPS Strike Ops": {
       "deep_link": "https://t.me/kkn2bot?start=1956",
       "post_link": "https://t.me/melo00n/25265",
-      "views": 460,
+      "views": 466,
       "msg_id": 25265,
       "chat_id": -1001893520557,
       "image": "images/25265.jpg"
@@ -20,7 +52,7 @@
     "Train of Hope": {
       "deep_link": "https://t.me/kkn2bot?start=1952",
       "post_link": "https://t.me/melo00n/25264",
-      "views": 452,
+      "views": 459,
       "msg_id": 25264,
       "chat_id": -1001893520557,
       "image": "images/25264.jpg"
@@ -28,7 +60,7 @@
     "Vector Full": {
       "deep_link": "https://t.me/kkn2bot?start=1950",
       "post_link": "https://t.me/melo00n/25263",
-      "views": 369,
+      "views": 376,
       "msg_id": 25263,
       "chat_id": -1001893520557,
       "image": "images/25263.jpg"
@@ -36,7 +68,7 @@
     "Hunter Assassin": {
       "deep_link": "https://t.me/kkn2bot?start=1948",
       "post_link": "https://t.me/melo00n/25262",
-      "views": 349,
+      "views": 354,
       "msg_id": 25262,
       "chat_id": -1001893520557,
       "image": "images/25262.jpg"
@@ -44,7 +76,7 @@
     "Idle Weapon Shop Tycoon": {
       "deep_link": "https://t.me/kkn2bot?start=1946",
       "post_link": "https://t.me/melo00n/25261",
-      "views": 328,
+      "views": 333,
       "msg_id": 25261,
       "chat_id": -1001893520557,
       "image": "images/25261.jpg"
@@ -52,7 +84,7 @@
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 315,
+      "views": 319,
       "msg_id": 25260,
       "chat_id": -1001893520557,
       "image": "images/25260.jpg"
@@ -60,18 +92,18 @@
     "Dragon Ball Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1942",
       "post_link": "https://t.me/melo00n/25259",
-      "views": 316,
+      "views": 320,
       "msg_id": 25259,
       "chat_id": -1001893520557,
       "image": "images/25259.jpg"
     },
     "House Flipper": {
-      "deep_link": "https://t.me/kkn2bot?start=1940",
-      "post_link": "https://t.me/melo00n/25258",
-      "views": 295,
-      "msg_id": 25258,
+      "deep_link": "https://t.me/kkn2bot?start=1552",
+      "post_link": "https://t.me/melo00n/25014",
+      "views": 1179,
+      "msg_id": 25014,
       "chat_id": -1001893520557,
-      "image": "images/25258.jpg"
+      "image": "images/25014.jpg"
     },
     "Good Coffee, Great Coffee": {
       "deep_link": "https://t.me/kkn2bot?start=1870",
@@ -82,17 +114,17 @@
       "image": "images/25211.jpg"
     },
     "PK XD": {
-      "deep_link": "https://t.me/kkn2bot?start=1936",
-      "post_link": "https://t.me/melo00n/25256",
-      "views": 285,
-      "msg_id": 25256,
+      "deep_link": "https://t.me/kkn2bot?start=1548",
+      "post_link": "https://t.me/melo00n/25012",
+      "views": 1131,
+      "msg_id": 25012,
       "chat_id": -1001893520557,
-      "image": "images/25256.jpg"
+      "image": "images/25012.jpg"
     },
     "Snake.io": {
       "deep_link": "https://t.me/kkn2bot?start=1934",
       "post_link": "https://t.me/melo00n/25255",
-      "views": 301,
+      "views": 304,
       "msg_id": 25255,
       "chat_id": -1001893520557,
       "image": "images/25255.jpg"
@@ -100,7 +132,7 @@
     "Space Survivor": {
       "deep_link": "https://t.me/kkn2bot?start=1932",
       "post_link": "https://t.me/melo00n/25254",
-      "views": 300,
+      "views": 303,
       "msg_id": 25254,
       "chat_id": -1001893520557,
       "image": "images/25254.jpg"
@@ -108,7 +140,7 @@
     "State of Survival": {
       "deep_link": "https://t.me/kkn2bot?start=1930",
       "post_link": "https://t.me/melo00n/25253",
-      "views": 295,
+      "views": 298,
       "msg_id": 25253,
       "chat_id": -1001893520557,
       "image": "images/25253.jpg"
@@ -124,7 +156,7 @@
     "The Game": {
       "deep_link": "https://t.me/kkn2bot?start=1926",
       "post_link": "https://t.me/melo00n/25251",
-      "views": 328,
+      "views": 334,
       "msg_id": 25251,
       "chat_id": -1001893520557,
       "image": "images/25251.jpg"
@@ -132,7 +164,7 @@
     "🎮Slime Rancher": {
       "deep_link": "https://t.me/kkn2bot?start=1924",
       "post_link": "https://t.me/melo00n/25250",
-      "views": 354,
+      "views": 360,
       "msg_id": 25250,
       "chat_id": -1001893520557,
       "image": "images/25250.jpg"
@@ -140,7 +172,7 @@
     "Strategy Battle": {
       "deep_link": "https://t.me/kkn2bot?start=1922",
       "post_link": "https://t.me/melo00n/25247",
-      "views": 592,
+      "views": 598,
       "msg_id": 25247,
       "chat_id": -1001893520557,
       "image": "images/25247.jpg"
@@ -148,7 +180,7 @@
     "Domino Dreams": {
       "deep_link": "https://t.me/kkn2bot?start=1920",
       "post_link": "https://t.me/melo00n/25246",
-      "views": 571,
+      "views": 577,
       "msg_id": 25246,
       "chat_id": -1001893520557,
       "image": "images/25246.jpg"
@@ -164,23 +196,23 @@
     "Assoluto Racing": {
       "deep_link": "https://t.me/kkn2bot?start=1916",
       "post_link": "https://t.me/melo00n/25243",
-      "views": 577,
+      "views": 579,
       "msg_id": 25243,
       "chat_id": -1001893520557,
       "image": "images/25243.jpg"
     },
     "Timeline Up": {
-      "deep_link": "https://t.me/kkn2bot?start=1728",
-      "post_link": "https://t.me/melo00n/25131",
-      "views": 927,
-      "msg_id": 25131,
+      "deep_link": "https://t.me/kkn2bot?start=1394",
+      "post_link": "https://t.me/melo00n/24924",
+      "views": 1710,
+      "msg_id": 24924,
       "chat_id": -1001893520557,
-      "image": "images/25131.jpg"
+      "image": null
     },
     "Ludo Club": {
       "deep_link": "https://t.me/kkn2bot?start=1912",
       "post_link": "https://t.me/melo00n/25241",
-      "views": 452,
+      "views": 454,
       "msg_id": 25241,
       "chat_id": -1001893520557,
       "image": "images/25241.jpg"
@@ -188,7 +220,7 @@
     "Driving & Drift": {
       "deep_link": "https://t.me/kkn2bot?start=1910",
       "post_link": "https://t.me/melo00n/25240",
-      "views": 443,
+      "views": 445,
       "msg_id": 25240,
       "chat_id": -1001893520557,
       "image": "images/25240.jpg"
@@ -196,7 +228,7 @@
     "Eternal Empire": {
       "deep_link": "https://t.me/kkn2bot?start=1908",
       "post_link": "https://t.me/melo00n/25239",
-      "views": 441,
+      "views": 443,
       "msg_id": 25239,
       "chat_id": -1001893520557,
       "image": "images/25239.jpg"
@@ -204,7 +236,7 @@
     "Survival": {
       "deep_link": "https://t.me/kkn2bot?start=1864",
       "post_link": "https://t.me/melo00n/25208",
-      "views": 650,
+      "views": 652,
       "msg_id": 25208,
       "chat_id": -1001893520557,
       "image": "images/25208.jpg"
@@ -212,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=1904",
       "post_link": "https://t.me/melo00n/25237",
-      "views": 469,
+      "views": 470,
       "msg_id": 25237,
       "chat_id": -1001893520557,
       "image": "images/25237.jpg"
@@ -220,7 +252,7 @@
     "Kingdom Clash": {
       "deep_link": "https://t.me/kkn2bot?start=1902",
       "post_link": "https://t.me/melo00n/25236",
-      "views": 442,
+      "views": 443,
       "msg_id": 25236,
       "chat_id": -1001893520557,
       "image": "images/25236.jpg"
@@ -236,7 +268,7 @@
     "🔵 تحديث 🔵": {
       "deep_link": "https://t.me/kkn2bot?start=1898",
       "post_link": "https://t.me/melo00n/25233",
-      "views": 521,
+      "views": 523,
       "msg_id": 25233,
       "chat_id": -1001893520557,
       "image": "images/25233.jpg"
@@ -244,7 +276,7 @@
     "🔥 Defense Zone 3 Ultra HD v1.6.73": {
       "deep_link": "https://t.me/kkn2bot?start=1892",
       "post_link": "https://t.me/melo00n/25231",
-      "views": 567,
+      "views": 568,
       "msg_id": 25231,
       "chat_id": -1001893520557,
       "image": "images/25231.jpg"
@@ -252,7 +284,7 @@
     "🔥 Tomorrow v1.7.1": {
       "deep_link": "https://t.me/kkn2bot?start=1890",
       "post_link": "https://t.me/melo00n/25230",
-      "views": 550,
+      "views": 551,
       "msg_id": 25230,
       "chat_id": -1001893520557,
       "image": "images/25230.jpg"
@@ -260,7 +292,7 @@
     "نت شورت NetShort مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=1888",
       "post_link": "https://t.me/melo00n/25227",
-      "views": 615,
+      "views": 617,
       "msg_id": 25227,
       "chat_id": -1001893520557,
       "image": "images/25227.jpg"
@@ -268,7 +300,7 @@
     "War Machines": {
       "deep_link": "https://t.me/kkn2bot?start=1886",
       "post_link": "https://t.me/melo00n/25225",
-      "views": 671,
+      "views": 672,
       "msg_id": 25225,
       "chat_id": -1001893520557,
       "image": "images/25225.jpg"
@@ -276,7 +308,7 @@
     "🔥 DEAD TARGET v4.177.0": {
       "deep_link": "https://t.me/kkn2bot?start=1884",
       "post_link": "https://t.me/melo00n/25219",
-      "views": 742,
+      "views": 743,
       "msg_id": 25219,
       "chat_id": -1001893520557,
       "image": "images/25219.jpg"
@@ -284,7 +316,7 @@
     "Niffelheim": {
       "deep_link": "https://t.me/kkn2bot?start=1880",
       "post_link": "https://t.me/melo00n/25216",
-      "views": 714,
+      "views": 715,
       "msg_id": 25216,
       "chat_id": -1001893520557,
       "image": "images/25216.jpg"
@@ -292,7 +324,7 @@
     "Wolf Tales": {
       "deep_link": "https://t.me/kkn2bot?start=1878",
       "post_link": "https://t.me/melo00n/25215",
-      "views": 715,
+      "views": 717,
       "msg_id": 25215,
       "chat_id": -1001893520557,
       "image": "images/25215.jpg"
@@ -300,7 +332,7 @@
     "My Cafe": {
       "deep_link": "https://t.me/kkn2bot?start=1876",
       "post_link": "https://t.me/melo00n/25214",
-      "views": 653,
+      "views": 655,
       "msg_id": 25214,
       "chat_id": -1001893520557,
       "image": "images/25214.jpg"
@@ -308,31 +340,31 @@
     "Cooking Madness": {
       "deep_link": "https://t.me/kkn2bot?start=1874",
       "post_link": "https://t.me/melo00n/25213",
-      "views": 588,
+      "views": 589,
       "msg_id": 25213,
       "chat_id": -1001893520557,
       "image": "images/25213.jpg"
     },
     "Minecraft": {
-      "deep_link": "https://t.me/kkn2bot?start=1872",
-      "post_link": "https://t.me/melo00n/25212",
-      "views": 625,
-      "msg_id": 25212,
+      "deep_link": "https://t.me/kkn2bot?start=1456",
+      "post_link": "https://t.me/melo00n/24956",
+      "views": 1262,
+      "msg_id": 24956,
       "chat_id": -1001893520557,
-      "image": "images/25212.jpg"
+      "image": null
     },
     "Worms Zone.io": {
-      "deep_link": "https://t.me/kkn2bot?start=1868",
-      "post_link": "https://t.me/melo00n/25210",
-      "views": 610,
-      "msg_id": 25210,
+      "deep_link": "https://t.me/kkn2bot?start=1550",
+      "post_link": "https://t.me/melo00n/25013",
+      "views": 1094,
+      "msg_id": 25013,
       "chat_id": -1001893520557,
-      "image": "images/25210.jpg"
+      "image": "images/25013.jpg"
     },
     "Online": {
       "deep_link": "https://t.me/kkn2bot?start=1866",
       "post_link": "https://t.me/melo00n/25209",
-      "views": 651,
+      "views": 653,
       "msg_id": 25209,
       "chat_id": -1001893520557,
       "image": "images/25209.jpg"
@@ -340,7 +372,7 @@
     "Zero City": {
       "deep_link": "https://t.me/kkn2bot?start=1862",
       "post_link": "https://t.me/melo00n/25207",
-      "views": 646,
+      "views": 648,
       "msg_id": 25207,
       "chat_id": -1001893520557,
       "image": "images/25207.jpg"
@@ -348,7 +380,7 @@
     "Drift Max Pro": {
       "deep_link": "https://t.me/kkn2bot?start=1860",
       "post_link": "https://t.me/melo00n/25206",
-      "views": 747,
+      "views": 748,
       "msg_id": 25206,
       "chat_id": -1001893520557,
       "image": "images/25206.jpg"
@@ -356,7 +388,7 @@
     "🔥 Among the Sleep v1.0.0.0.23": {
       "deep_link": "https://t.me/kkn2bot?start=1858",
       "post_link": "https://t.me/melo00n/25205",
-      "views": 701,
+      "views": 703,
       "msg_id": 25205,
       "chat_id": -1001893520557,
       "image": "images/25205.jpg"
@@ -364,7 +396,7 @@
     "🔥 Zombie Catchers v1.67.15": {
       "deep_link": "https://t.me/kkn2bot?start=1856",
       "post_link": "https://t.me/melo00n/25204",
-      "views": 688,
+      "views": 691,
       "msg_id": 25204,
       "chat_id": -1001893520557,
       "image": "images/25204.jpg"
@@ -372,7 +404,7 @@
     "🔥 Tegra: Crafting and Building v1.8.85": {
       "deep_link": "https://t.me/kkn2bot?start=1854",
       "post_link": "https://t.me/melo00n/25203",
-      "views": 713,
+      "views": 715,
       "msg_id": 25203,
       "chat_id": -1001893520557,
       "image": "images/25203.jpg"
@@ -380,7 +412,7 @@
     "🎮Beholder Conductor": {
       "deep_link": "https://t.me/kkn2bot?start=1852",
       "post_link": "https://t.me/melo00n/25202",
-      "views": 703,
+      "views": 705,
       "msg_id": 25202,
       "chat_id": -1001893520557,
       "image": "images/25202.jpg"
@@ -388,7 +420,7 @@
     "هاي تيفي HiTV": {
       "deep_link": "https://t.me/kkn2bot?start=1846",
       "post_link": "https://t.me/melo00n/25197",
-      "views": 856,
+      "views": 858,
       "msg_id": 25197,
       "chat_id": -1001893520557,
       "image": "images/25197.jpg"
@@ -396,7 +428,7 @@
     "تطبيق Perplexity Ai": {
       "deep_link": "https://t.me/kkn2bot?start=1844",
       "post_link": "https://t.me/melo00n/25196",
-      "views": 820,
+      "views": 821,
       "msg_id": 25196,
       "chat_id": -1001893520557,
       "image": "images/25196.jpg"
@@ -404,7 +436,7 @@
     "تحويل الصور لكرتون ToonApp": {
       "deep_link": "https://t.me/kkn2bot?start=1842",
       "post_link": "https://t.me/melo00n/25195",
-      "views": 791,
+      "views": 792,
       "msg_id": 25195,
       "chat_id": -1001893520557,
       "image": "images/25195.jpg"
@@ -412,7 +444,7 @@
     "تطبيق أنمي سلاير Anime Slayer": {
       "deep_link": "https://t.me/kkn2bot?start=1839",
       "post_link": "https://t.me/melo00n/25194",
-      "views": 750,
+      "views": 751,
       "msg_id": 25194,
       "chat_id": -1001893520557,
       "image": "images/25194.jpg"
@@ -420,7 +452,7 @@
     "Modern Ops": {
       "deep_link": "https://t.me/kkn2bot?start=1837",
       "post_link": "https://t.me/melo00n/25193",
-      "views": 746,
+      "views": 748,
       "msg_id": 25193,
       "chat_id": -1001893520557,
       "image": "images/25193.jpg"
@@ -444,7 +476,7 @@
     "Spider Fighter 3": {
       "deep_link": "https://t.me/kkn2bot?start=1831",
       "post_link": "https://t.me/melo00n/25190",
-      "views": 682,
+      "views": 683,
       "msg_id": 25190,
       "chat_id": -1001893520557,
       "image": "images/25190.jpg"
@@ -452,7 +484,7 @@
     "City Life": {
       "deep_link": "https://t.me/kkn2bot?start=1829",
       "post_link": "https://t.me/melo00n/25189",
-      "views": 747,
+      "views": 749,
       "msg_id": 25189,
       "chat_id": -1001893520557,
       "image": "images/25189.jpg"
@@ -460,7 +492,7 @@
     "My Supermarket Simulator 3D": {
       "deep_link": "https://t.me/kkn2bot?start=1827",
       "post_link": "https://t.me/melo00n/25188",
-      "views": 775,
+      "views": 777,
       "msg_id": 25188,
       "chat_id": -1001893520557,
       "image": "images/25188.jpg"
@@ -468,7 +500,7 @@
     "ATOM RPG v1.52": {
       "deep_link": "https://t.me/kkn2bot?start=1825",
       "post_link": "https://t.me/melo00n/25187",
-      "views": 915,
+      "views": 917,
       "msg_id": 25187,
       "chat_id": -1001893520557,
       "image": "images/25187.jpg"
@@ -476,7 +508,7 @@
     "🔥 My Child Lebensborn v2.0.115": {
       "deep_link": "https://t.me/kkn2bot?start=1823",
       "post_link": "https://t.me/melo00n/25186",
-      "views": 1048,
+      "views": 1050,
       "msg_id": 25186,
       "chat_id": -1001893520557,
       "image": "images/25186.jpg"
@@ -484,7 +516,7 @@
     "🔥 Ash of Gods The Way v1.0.23": {
       "deep_link": "https://t.me/kkn2bot?start=1821",
       "post_link": "https://t.me/melo00n/25185",
-      "views": 1063,
+      "views": 1066,
       "msg_id": 25185,
       "chat_id": -1001893520557,
       "image": "images/25185.jpg"
@@ -492,7 +524,7 @@
     "🔥 Ash of Gods Redemption v1.0.36": {
       "deep_link": "https://t.me/kkn2bot?start=1819",
       "post_link": "https://t.me/melo00n/25184",
-      "views": 991,
+      "views": 992,
       "msg_id": 25184,
       "chat_id": -1001893520557,
       "image": "images/25184.jpg"
@@ -508,7 +540,7 @@
     "🔥 Vampire Survivors v1.15.109": {
       "deep_link": "https://t.me/kkn2bot?start=1813",
       "post_link": "https://t.me/melo00n/25180",
-      "views": 865,
+      "views": 866,
       "msg_id": 25180,
       "chat_id": -1001893520557,
       "image": "images/25180.jpg"
@@ -564,7 +596,7 @@
     "🔥 Project Terrarium v1.1494.2": {
       "deep_link": "https://t.me/kkn2bot?start=1799",
       "post_link": "https://t.me/melo00n/25172",
-      "views": 900,
+      "views": 902,
       "msg_id": 25172,
       "chat_id": -1001893520557,
       "image": "images/25172.jpg"
@@ -572,7 +604,7 @@
     "🔥 One Hand Clapping v1.0.53": {
       "deep_link": "https://t.me/kkn2bot?start=1797",
       "post_link": "https://t.me/melo00n/25171",
-      "views": 889,
+      "views": 891,
       "msg_id": 25171,
       "chat_id": -1001893520557,
       "image": "images/25171.jpg"
@@ -580,7 +612,7 @@
     "Beat Hazard Arcade 🎶🚀": {
       "deep_link": "https://t.me/kkn2bot?start=1793",
       "post_link": "https://t.me/melo00n/25166",
-      "views": 1009,
+      "views": 1011,
       "msg_id": 25166,
       "chat_id": -1001893520557,
       "image": "images/25166.jpg"
@@ -588,7 +620,7 @@
     "Zombeast 🧟‍♂️🔫": {
       "deep_link": "https://t.me/kkn2bot?start=1791",
       "post_link": "https://t.me/melo00n/25165",
-      "views": 851,
+      "views": 853,
       "msg_id": 25165,
       "chat_id": -1001893520557,
       "image": "images/25165.jpg"
@@ -620,7 +652,7 @@
     "Railways 🚂🛤️": {
       "deep_link": "https://t.me/kkn2bot?start=1783",
       "post_link": "https://t.me/melo00n/25161",
-      "views": 741,
+      "views": 742,
       "msg_id": 25161,
       "chat_id": -1001893520557,
       "image": "images/25161.jpg"
@@ -644,7 +676,7 @@
     "sky warriors": {
       "deep_link": "https://t.me/kkn2bot?start=1765",
       "post_link": "https://t.me/melo00n/25154",
-      "views": 887,
+      "views": 888,
       "msg_id": 25154,
       "chat_id": -1001893520557,
       "image": "images/25154.jpg"
@@ -746,17 +778,17 @@
       "image": "images/25136.jpg"
     },
     "Shadow Fight 2": {
-      "deep_link": "https://t.me/kkn2bot?start=1736",
-      "post_link": "https://t.me/melo00n/25135",
-      "views": 1102,
-      "msg_id": 25135,
+      "deep_link": "https://t.me/kkn2bot?start=1490",
+      "post_link": "https://t.me/melo00n/24975",
+      "views": 1420,
+      "msg_id": 24975,
       "chat_id": -1001893520557,
-      "image": "images/25135.jpg"
+      "image": null
     },
     "Idle Miner Tycoon": {
       "deep_link": "https://t.me/kkn2bot?start=1734",
       "post_link": "https://t.me/melo00n/25134",
-      "views": 1033,
+      "views": 1034,
       "msg_id": 25134,
       "chat_id": -1001893520557,
       "image": "images/25134.jpg"
@@ -764,7 +796,7 @@
     "Love Eden": {
       "deep_link": "https://t.me/kkn2bot?start=1732",
       "post_link": "https://t.me/melo00n/25133",
-      "views": 939,
+      "views": 940,
       "msg_id": 25133,
       "chat_id": -1001893520557,
       "image": "images/25133.jpg"
@@ -772,7 +804,7 @@
     "Swamp Attack 2": {
       "deep_link": "https://t.me/kkn2bot?start=1730",
       "post_link": "https://t.me/melo00n/25132",
-      "views": 933,
+      "views": 935,
       "msg_id": 25132,
       "chat_id": -1001893520557,
       "image": "images/25132.jpg"
@@ -796,7 +828,7 @@
     "🔥 Polyfield v0.7.5": {
       "deep_link": "https://t.me/kkn2bot?start=1720",
       "post_link": "https://t.me/melo00n/25118",
-      "views": 1910,
+      "views": 1911,
       "msg_id": 25118,
       "chat_id": -1001893520557,
       "image": "images/25118.jpg"
@@ -812,7 +844,7 @@
     "🎮Pocket Build": {
       "deep_link": "https://t.me/kkn2bot?start=1716",
       "post_link": "https://t.me/melo00n/25113",
-      "views": 1749,
+      "views": 1750,
       "msg_id": 25113,
       "chat_id": -1001893520557,
       "image": "images/25113.jpg"
@@ -828,7 +860,7 @@
     "🎮Voidloop": {
       "deep_link": "https://t.me/kkn2bot?start=1710",
       "post_link": "https://t.me/melo00n/25109",
-      "views": 1854,
+      "views": 1855,
       "msg_id": 25109,
       "chat_id": -1001893520557,
       "image": "images/25109.jpg"
@@ -836,7 +868,7 @@
     "Null’s Clash كلاش اوف كلانس": {
       "deep_link": "https://t.me/kkn2bot?start=1707",
       "post_link": "https://t.me/melo00n/25103",
-      "views": 2311,
+      "views": 2312,
       "msg_id": 25103,
       "chat_id": -1001893520557,
       "image": "images/25103.jpg"
@@ -844,7 +876,7 @@
     "🎮Death Park 2": {
       "deep_link": "https://t.me/kkn2bot?start=1705",
       "post_link": "https://t.me/melo00n/25102",
-      "views": 1986,
+      "views": 1987,
       "msg_id": 25102,
       "chat_id": -1001893520557,
       "image": "images/25102.jpg"
@@ -900,7 +932,7 @@
     "Sniper 3D Assassin": {
       "deep_link": "https://t.me/kkn2bot?start=1691",
       "post_link": "https://t.me/melo00n/25089",
-      "views": 1618,
+      "views": 1619,
       "msg_id": 25089,
       "chat_id": -1001893520557,
       "image": "images/25089.jpg"
@@ -908,7 +940,7 @@
     "🔥 The Bonfire 2: Uncharted Shores v191.9.8": {
       "deep_link": "https://t.me/kkn2bot?start=1689",
       "post_link": "https://t.me/melo00n/25088",
-      "views": 1659,
+      "views": 1660,
       "msg_id": 25088,
       "chat_id": -1001893520557,
       "image": "images/25088.jpg"
@@ -1167,28 +1199,28 @@
       "views": 1643,
       "msg_id": 25048,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25048.jpg"
     },
     "Days After": {
       "deep_link": "https://t.me/kkn2bot?start=1615",
       "post_link": "https://t.me/melo00n/25047",
-      "views": 1775,
+      "views": 1777,
       "msg_id": 25047,
       "chat_id": -1001893520557,
       "image": "images/25047.jpg"
     },
     "Darkest AFK": {
-      "deep_link": "https://t.me/kkn2bot?start=1613",
-      "post_link": "https://t.me/melo00n/25046",
-      "views": 1617,
-      "msg_id": 25046,
+      "deep_link": "https://t.me/kkn2bot?start=1558",
+      "post_link": "https://t.me/melo00n/25017",
+      "views": 1249,
+      "msg_id": 25017,
       "chat_id": -1001893520557,
-      "image": "images/25046.jpg"
+      "image": "images/25017.jpg"
     },
     "🔥 Hitman Sniper v1.23.10": {
       "deep_link": "https://t.me/kkn2bot?start=1609",
       "post_link": "https://t.me/melo00n/25045",
-      "views": 1814,
+      "views": 1818,
       "msg_id": 25045,
       "chat_id": -1001893520557,
       "image": "images/25045.jpg"
@@ -1196,7 +1228,7 @@
     "🎮Deep Rock Galactic": {
       "deep_link": "https://t.me/kkn2bot?start=1607",
       "post_link": "https://t.me/melo00n/25044",
-      "views": 1917,
+      "views": 1921,
       "msg_id": 25044,
       "chat_id": -1001893520557,
       "image": "images/25044.jpg"
@@ -1204,7 +1236,7 @@
     "🔥 Playing Kafka v1.03 b27": {
       "deep_link": "https://t.me/kkn2bot?start=1605",
       "post_link": "https://t.me/melo00n/25042",
-      "views": 2109,
+      "views": 2116,
       "msg_id": 25042,
       "chat_id": -1001893520557,
       "image": "images/25042.jpg"
@@ -1212,7 +1244,7 @@
     "تيك توك معدل": {
       "deep_link": "https://t.me/kkn2bot?start=1602",
       "post_link": "https://t.me/melo00n/25040",
-      "views": 2011,
+      "views": 2016,
       "msg_id": 25040,
       "chat_id": -1001893520557,
       "image": "images/25040.jpg"
@@ -1220,7 +1252,7 @@
     "Easy Delivery Co. 🚚 🌄": {
       "deep_link": "https://t.me/kkn2bot?start=1600",
       "post_link": "https://t.me/melo00n/25039",
-      "views": 1964,
+      "views": 1970,
       "msg_id": 25039,
       "chat_id": -1001893520557,
       "image": "images/25039.jpg"
@@ -1228,7 +1260,7 @@
     "🔥 Hungry Shark World v7.9.1": {
       "deep_link": "https://t.me/kkn2bot?start=1598",
       "post_link": "https://t.me/melo00n/25038",
-      "views": 1630,
+      "views": 1636,
       "msg_id": 25038,
       "chat_id": -1001893520557,
       "image": "images/25038.jpg"
@@ -1236,7 +1268,7 @@
     "🔥 Drag Racing v5.5.1": {
       "deep_link": "https://t.me/kkn2bot?start=1596",
       "post_link": "https://t.me/melo00n/25037",
-      "views": 1673,
+      "views": 1681,
       "msg_id": 25037,
       "chat_id": -1001893520557,
       "image": "images/25037.jpg"
@@ -1244,7 +1276,7 @@
     "🎮Mini Metro": {
       "deep_link": "https://t.me/kkn2bot?start=1594",
       "post_link": "https://t.me/melo00n/25036",
-      "views": 1750,
+      "views": 1759,
       "msg_id": 25036,
       "chat_id": -1001893520557,
       "image": "images/25036.jpg"
@@ -1252,7 +1284,7 @@
     "Archero 🏹👾": {
       "deep_link": "https://t.me/kkn2bot?start=1592",
       "post_link": "https://t.me/melo00n/25035",
-      "views": 1982,
+      "views": 1990,
       "msg_id": 25035,
       "chat_id": -1001893520557,
       "image": "images/25035.jpg"
@@ -1260,7 +1292,7 @@
     "Kamla - Horror Exorcism Escape 👻🔮": {
       "deep_link": "https://t.me/kkn2bot?start=1590",
       "post_link": "https://t.me/melo00n/25034",
-      "views": 1721,
+      "views": 1725,
       "msg_id": 25034,
       "chat_id": -1001893520557,
       "image": "images/25034.jpg"
@@ -1268,7 +1300,7 @@
     "🔥 Sea of Stars v3.0.60146": {
       "deep_link": "https://t.me/kkn2bot?start=1588",
       "post_link": "https://t.me/melo00n/25033",
-      "views": 1690,
+      "views": 1695,
       "msg_id": 25033,
       "chat_id": -1001893520557,
       "image": "images/25033.jpg"
@@ -1276,7 +1308,7 @@
     "🎮Polyfield": {
       "deep_link": "https://t.me/kkn2bot?start=1586",
       "post_link": "https://t.me/melo00n/25032",
-      "views": 1808,
+      "views": 1812,
       "msg_id": 25032,
       "chat_id": -1001893520557,
       "image": "images/25032.jpg"
@@ -1284,7 +1316,7 @@
     "🔥 Phantom Tower v0.4.14": {
       "deep_link": "https://t.me/kkn2bot?start=1584",
       "post_link": "https://t.me/melo00n/25031",
-      "views": 2119,
+      "views": 2124,
       "msg_id": 25031,
       "chat_id": -1001893520557,
       "image": "images/25031.jpg"
@@ -1292,7 +1324,7 @@
     "🎮Lost Twins 2": {
       "deep_link": "https://t.me/kkn2bot?start=1582",
       "post_link": "https://t.me/melo00n/25030",
-      "views": 1835,
+      "views": 1841,
       "msg_id": 25030,
       "chat_id": -1001893520557,
       "image": "images/25030.jpg"
@@ -1300,7 +1332,7 @@
     "Hazmob FPS": {
       "deep_link": "https://t.me/kkn2bot?start=1542",
       "post_link": "https://t.me/melo00n/25009",
-      "views": 1098,
+      "views": 1104,
       "msg_id": 25009,
       "chat_id": -1001893520557,
       "image": null
@@ -1308,7 +1340,7 @@
     "Darkrise": {
       "deep_link": "https://t.me/kkn2bot?start=1578",
       "post_link": "https://t.me/melo00n/25028",
-      "views": 1829,
+      "views": 1834,
       "msg_id": 25028,
       "chat_id": -1001893520557,
       "image": "images/25028.jpg"
@@ -1316,7 +1348,7 @@
     "MadOut2": {
       "deep_link": "https://t.me/kkn2bot?start=1576",
       "post_link": "https://t.me/melo00n/25027",
-      "views": 1530,
+      "views": 1538,
       "msg_id": 25027,
       "chat_id": -1001893520557,
       "image": "images/25027.jpg"
@@ -1324,7 +1356,7 @@
     "Telegram Gold مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=1574",
       "post_link": "https://t.me/melo00n/25025",
-      "views": 1595,
+      "views": 1605,
       "msg_id": 25025,
       "chat_id": -1001893520557,
       "image": "images/25025.jpg"
@@ -1332,7 +1364,7 @@
     "Extreme Car Driving Simulator": {
       "deep_link": "https://t.me/kkn2bot?start=1572",
       "post_link": "https://t.me/melo00n/25024",
-      "views": 1541,
+      "views": 1548,
       "msg_id": 25024,
       "chat_id": -1001893520557,
       "image": "images/25024.jpg"
@@ -1340,7 +1372,7 @@
     "Dead Ahead": {
       "deep_link": "https://t.me/kkn2bot?start=1570",
       "post_link": "https://t.me/melo00n/25023",
-      "views": 1452,
+      "views": 1459,
       "msg_id": 25023,
       "chat_id": -1001893520557,
       "image": "images/25023.jpg"
@@ -1348,7 +1380,7 @@
     "Grim Soul": {
       "deep_link": "https://t.me/kkn2bot?start=1568",
       "post_link": "https://t.me/melo00n/25022",
-      "views": 1300,
+      "views": 1306,
       "msg_id": 25022,
       "chat_id": -1001893520557,
       "image": "images/25022.jpg"
@@ -1356,7 +1388,7 @@
     "Soccer Legend": {
       "deep_link": "https://t.me/kkn2bot?start=1566",
       "post_link": "https://t.me/melo00n/25021",
-      "views": 1263,
+      "views": 1269,
       "msg_id": 25021,
       "chat_id": -1001893520557,
       "image": "images/25021.jpg"
@@ -1364,7 +1396,7 @@
     "Crash Arena": {
       "deep_link": "https://t.me/kkn2bot?start=1564",
       "post_link": "https://t.me/melo00n/25020",
-      "views": 1329,
+      "views": 1336,
       "msg_id": 25020,
       "chat_id": -1001893520557,
       "image": "images/25020.jpg"
@@ -1372,7 +1404,7 @@
     "Fishing Clash": {
       "deep_link": "https://t.me/kkn2bot?start=1444",
       "post_link": "https://t.me/melo00n/24950",
-      "views": 1157,
+      "views": 1160,
       "msg_id": 24950,
       "chat_id": -1001893520557,
       "image": null
@@ -1380,7 +1412,7 @@
     "Vampire’s Fall 2": {
       "deep_link": "https://t.me/kkn2bot?start=1556",
       "post_link": "https://t.me/melo00n/25016",
-      "views": 1112,
+      "views": 1117,
       "msg_id": 25016,
       "chat_id": -1001893520557,
       "image": "images/25016.jpg"
@@ -1388,7 +1420,7 @@
     "Summoner’s Greed": {
       "deep_link": "https://t.me/kkn2bot?start=1380",
       "post_link": "https://t.me/melo00n/24923",
-      "views": 1506,
+      "views": 1507,
       "msg_id": 24923,
       "chat_id": -1001893520557,
       "image": null
@@ -1396,7 +1428,7 @@
     "Rally ONE": {
       "deep_link": "https://t.me/kkn2bot?start=1546",
       "post_link": "https://t.me/melo00n/25011",
-      "views": 1061,
+      "views": 1066,
       "msg_id": 25011,
       "chat_id": -1001893520557,
       "image": "images/25011.jpg"
@@ -1404,7 +1436,7 @@
     "State.io": {
       "deep_link": "https://t.me/kkn2bot?start=1544",
       "post_link": "https://t.me/melo00n/25010",
-      "views": 1038,
+      "views": 1043,
       "msg_id": 25010,
       "chat_id": -1001893520557,
       "image": "images/25010.jpg"
@@ -1412,7 +1444,7 @@
     "Resident Evil Survival Unit": {
       "deep_link": "https://t.me/kkn2bot?start=1540",
       "post_link": "https://t.me/melo00n/25008",
-      "views": 1070,
+      "views": 1077,
       "msg_id": 25008,
       "chat_id": -1001893520557,
       "image": null
@@ -1420,7 +1452,7 @@
     "India": {
       "deep_link": "https://t.me/kkn2bot?start=1538",
       "post_link": "https://t.me/melo00n/25007",
-      "views": 1063,
+      "views": 1070,
       "msg_id": 25007,
       "chat_id": -1001893520557,
       "image": null
@@ -1428,7 +1460,7 @@
     "Legend Fighter": {
       "deep_link": "https://t.me/kkn2bot?start=1536",
       "post_link": "https://t.me/melo00n/25006",
-      "views": 1204,
+      "views": 1210,
       "msg_id": 25006,
       "chat_id": -1001893520557,
       "image": null
@@ -1436,7 +1468,7 @@
     "Hunting Clash": {
       "deep_link": "https://t.me/kkn2bot?start=1534",
       "post_link": "https://t.me/melo00n/25005",
-      "views": 1205,
+      "views": 1211,
       "msg_id": 25005,
       "chat_id": -1001893520557,
       "image": null
@@ -1444,7 +1476,7 @@
     "🎮Alien Invasion": {
       "deep_link": "https://t.me/kkn2bot?start=1532",
       "post_link": "https://t.me/melo00n/25003",
-      "views": 1379,
+      "views": 1383,
       "msg_id": 25003,
       "chat_id": -1001893520557,
       "image": "images/25003.jpg"
@@ -1452,15 +1484,15 @@
     "🔥 MeChat v4.49.0": {
       "deep_link": "https://t.me/kkn2bot?start=1530",
       "post_link": "https://t.me/melo00n/25002",
-      "views": 1313,
+      "views": 1316,
       "msg_id": 25002,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25002.jpg"
     },
     "🔥 Skullgirls v8.7.0": {
       "deep_link": "https://t.me/kkn2bot?start=1528",
       "post_link": "https://t.me/melo00n/25001",
-      "views": 1293,
+      "views": 1296,
       "msg_id": 25001,
       "chat_id": -1001893520557,
       "image": "images/25001.jpg"
@@ -1468,15 +1500,15 @@
     "🔥 Need for Speed No Limits v9.3.0": {
       "deep_link": "https://t.me/kkn2bot?start=1526",
       "post_link": "https://t.me/melo00n/25000",
-      "views": 1227,
+      "views": 1231,
       "msg_id": 25000,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25000.jpg"
     },
     "🔥 Into the Dead 2 v1.85.0": {
       "deep_link": "https://t.me/kkn2bot?start=1524",
       "post_link": "https://t.me/melo00n/24999",
-      "views": 1136,
+      "views": 1140,
       "msg_id": 24999,
       "chat_id": -1001893520557,
       "image": "images/24999.jpg"
@@ -1484,7 +1516,7 @@
     "🎮Vampires Fall 2": {
       "deep_link": "https://t.me/kkn2bot?start=1522",
       "post_link": "https://t.me/melo00n/24998",
-      "views": 1042,
+      "views": 1045,
       "msg_id": 24998,
       "chat_id": -1001893520557,
       "image": "images/24998.jpg"
@@ -1492,15 +1524,15 @@
     "Food — تطبيق يقدم وصفات خطوة بخطوة وتوصيات مخصصة. يختار الأطباق حسب المكونات والنظام الغذائي وتفضيلات الطهي.": {
       "deep_link": "https://t.me/kkn2bot?start=1520",
       "post_link": "https://t.me/melo00n/24997",
-      "views": 1090,
+      "views": 1093,
       "msg_id": 24997,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24997.jpg"
     },
     "Zombie Forest 3: Underground — survival-لعبة حرفة تصفية حيث تبقى على قيد الحياة في عالم تحت الأرض مليء بالزومبي. اجمع الموارد، وصنع الأسلحة، وحصن ملجأك.": {
       "deep_link": "https://t.me/kkn2bot?start=1518",
       "post_link": "https://t.me/melo00n/24996",
-      "views": 999,
+      "views": 1001,
       "msg_id": 24996,
       "chat_id": -1001893520557,
       "image": "images/24996.jpg"
@@ -1508,15 +1540,15 @@
     "Deep Rock Galactic: Survivor   ⛏️👾": {
       "deep_link": "https://t.me/kkn2bot?start=1516",
       "post_link": "https://t.me/melo00n/24995",
-      "views": 1110,
+      "views": 1113,
       "msg_id": 24995,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24995.jpg"
     },
     "Toca Boca World  🏠 🌈": {
       "deep_link": "https://t.me/kkn2bot?start=1514",
       "post_link": "https://t.me/melo00n/24994",
-      "views": 1067,
+      "views": 1071,
       "msg_id": 24994,
       "chat_id": -1001893520557,
       "image": "images/24994.jpg"
@@ -1524,15 +1556,15 @@
     "Cars Royale: League of Rocket 🚗🔥⚽": {
       "deep_link": "https://t.me/kkn2bot?start=1512",
       "post_link": "https://t.me/melo00n/24993",
-      "views": 1167,
+      "views": 1170,
       "msg_id": 24993,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24993.jpg"
     },
     "Human Fall Flat 🧍‍♂️🤸‍♂️": {
       "deep_link": "https://t.me/kkn2bot?start=1510",
       "post_link": "https://t.me/melo00n/24992",
-      "views": 1194,
+      "views": 1197,
       "msg_id": 24992,
       "chat_id": -1001893520557,
       "image": "images/24992.jpg"
@@ -1540,31 +1572,31 @@
     "🔥 Event Horizon v1.13.1 b113012": {
       "deep_link": "https://t.me/kkn2bot?start=1508",
       "post_link": "https://t.me/melo00n/24991",
-      "views": 1412,
+      "views": 1416,
       "msg_id": 24991,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24991.jpg"
     },
     "🔥 Adorable Home v2.18.6": {
       "deep_link": "https://t.me/kkn2bot?start=1506",
       "post_link": "https://t.me/melo00n/24990",
-      "views": 1478,
+      "views": 1481,
       "msg_id": 24990,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24990.jpg"
     },
     "🔥 Tiny Room Stories v2.7.14": {
       "deep_link": "https://t.me/kkn2bot?start=1504",
       "post_link": "https://t.me/melo00n/24989",
-      "views": 1480,
+      "views": 1483,
       "msg_id": 24989,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24989.jpg"
     },
     "🔥 CloverPit v1.4.8": {
       "deep_link": "https://t.me/kkn2bot?start=1502",
       "post_link": "https://t.me/melo00n/24981",
-      "views": 1431,
+      "views": 1434,
       "msg_id": 24981,
       "chat_id": -1001893520557,
       "image": "images/24981.jpg"
@@ -1572,15 +1604,15 @@
     "🎮Extreme Landings PRO": {
       "deep_link": "https://t.me/kkn2bot?start=1500",
       "post_link": "https://t.me/melo00n/24980",
-      "views": 1409,
+      "views": 1413,
       "msg_id": 24980,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24980.jpg"
     },
     "Amnezia VPN — هو تطبيق للحفاظ على الخصوصية والأمان على الإنترنت. يتيح لك إخفاء عنوان IP الخاص بك، وحماية بياناتك من الاعتراض، والوصول إلى المواقع المحجوبة. يدعم التطبيق العديد من الخوادم حول العالم ويوفر واجهة سهلة الاستخدام لاتصالات سريعة.": {
       "deep_link": "https://t.me/kkn2bot?start=1498",
       "post_link": "https://t.me/melo00n/24979",
-      "views": 1543,
+      "views": 1547,
       "msg_id": 24979,
       "chat_id": -1001893520557,
       "image": "images/24979.jpg"
@@ -1588,15 +1620,15 @@
     "🔥 Angry Birds Friends v14.4.0": {
       "deep_link": "https://t.me/kkn2bot?start=1496",
       "post_link": "https://t.me/melo00n/24978",
-      "views": 1574,
+      "views": 1577,
       "msg_id": 24978,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24978.jpg"
     },
     "TEGRA: Выживание на острове 🏝️🔫": {
       "deep_link": "https://t.me/kkn2bot?start=1494",
       "post_link": "https://t.me/melo00n/24977",
-      "views": 1464,
+      "views": 1466,
       "msg_id": 24977,
       "chat_id": -1001893520557,
       "image": "images/24977.jpg"
@@ -1604,15 +1636,15 @@
     "Botworld Adventure 🤖🌍": {
       "deep_link": "https://t.me/kkn2bot?start=1492",
       "post_link": "https://t.me/melo00n/24976",
-      "views": 1472,
+      "views": 1474,
       "msg_id": 24976,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24976.jpg"
     },
     "(Traffic Racer Russian Village) — هذه محاكاة سيارات عادية تتيح القيادة بحرية. لا توجد تجارب زمنية أو منافسين هنا - فقط أنت، طرق المناطق النائية الروسية، وحرية اللعب الكاملة.": {
       "deep_link": "https://t.me/kkn2bot?start=1488",
       "post_link": "https://t.me/melo00n/24972",
-      "views": 1595,
+      "views": 1597,
       "msg_id": 24972,
       "chat_id": -1001893520557,
       "image": "images/24972.jpg"
@@ -1620,15 +1652,15 @@
     "🔥 DEAD TARGET v4.175.0": {
       "deep_link": "https://t.me/kkn2bot?start=1486",
       "post_link": "https://t.me/melo00n/24971",
-      "views": 1619,
+      "views": 1621,
       "msg_id": 24971,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24971.jpg"
     },
     "🎮Steel And Flesh 2": {
       "deep_link": "https://t.me/kkn2bot?start=1484",
       "post_link": "https://t.me/melo00n/24970",
-      "views": 1600,
+      "views": 1601,
       "msg_id": 24970,
       "chat_id": -1001893520557,
       "image": "images/24970.jpg"
@@ -1636,15 +1668,15 @@
     "تطبيق Oscar Tv مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=1481",
       "post_link": "https://t.me/melo00n/24968",
-      "views": 1629,
+      "views": 1631,
       "msg_id": 24968,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24968.jpg"
     },
     "تطبيق اكوا Ako Tv مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=1478",
       "post_link": "https://t.me/melo00n/24967",
-      "views": 1457,
+      "views": 1459,
       "msg_id": 24967,
       "chat_id": -1001893520557,
       "image": "images/24967.jpg"
@@ -1652,15 +1684,15 @@
     "دراما بوكس DramaBox مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=1474",
       "post_link": "https://t.me/melo00n/24965",
-      "views": 1402,
+      "views": 1403,
       "msg_id": 24965,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24965.jpg"
     },
     "Steel And Flesh 2": {
       "deep_link": "https://t.me/kkn2bot?start=1472",
       "post_link": "https://t.me/melo00n/24964",
-      "views": 1367,
+      "views": 1369,
       "msg_id": 24964,
       "chat_id": -1001893520557,
       "image": null
@@ -1668,7 +1700,7 @@
     "DriveCSX": {
       "deep_link": "https://t.me/kkn2bot?start=1470",
       "post_link": "https://t.me/melo00n/24963",
-      "views": 1360,
+      "views": 1361,
       "msg_id": 24963,
       "chat_id": -1001893520557,
       "image": null
@@ -1676,7 +1708,7 @@
     "Football League 2026": {
       "deep_link": "https://t.me/kkn2bot?start=1468",
       "post_link": "https://t.me/melo00n/24962",
-      "views": 1327,
+      "views": 1328,
       "msg_id": 24962,
       "chat_id": -1001893520557,
       "image": null
@@ -1684,7 +1716,7 @@
     "TripleFantasy Premium": {
       "deep_link": "https://t.me/kkn2bot?start=1466",
       "post_link": "https://t.me/melo00n/24961",
-      "views": 1326,
+      "views": 1327,
       "msg_id": 24961,
       "chat_id": -1001893520557,
       "image": null
@@ -1692,7 +1724,7 @@
     "Leonardo.Ai — هو تطبيق أندرويد يسمح لك بإنشاء صور ورسوم متحركة باستخدام الذكاء الاصطناعي. يقدم مجموعة متنوعة من الأساليب، بما في ذلك الواقعية الفوتوغرافية، والأنمي، والفن المفاهمي، بالإضافة إلى ميزات مثل توليد الصور بوصف النص، وتحويل الصور، وإنشاء الخامات ثلاثية الأبعاد.": {
       "deep_link": "https://t.me/kkn2bot?start=1464",
       "post_link": "https://t.me/melo00n/24960",
-      "views": 1564,
+      "views": 1565,
       "msg_id": 24960,
       "chat_id": -1001893520557,
       "image": "images/24960.jpg"
@@ -1700,15 +1732,15 @@
     "🔥 Iron Marines v1.9.30": {
       "deep_link": "https://t.me/kkn2bot?start=1462",
       "post_link": "https://t.me/melo00n/24959",
-      "views": 1474,
+      "views": 1475,
       "msg_id": 24959,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24959.jpg"
     },
     "🔥 Live or Die Zombie Survival Pro v0.5.8 b538": {
       "deep_link": "https://t.me/kkn2bot?start=1460",
       "post_link": "https://t.me/melo00n/24958",
-      "views": 1563,
+      "views": 1564,
       "msg_id": 24958,
       "chat_id": -1001893520557,
       "image": "images/24958.jpg"
@@ -1716,7 +1748,7 @@
     "Farm City": {
       "deep_link": "https://t.me/kkn2bot?start=1458",
       "post_link": "https://t.me/melo00n/24957",
-      "views": 1454,
+      "views": 1455,
       "msg_id": 24957,
       "chat_id": -1001893520557,
       "image": null
@@ -1724,7 +1756,7 @@
     "Pocket Champs": {
       "deep_link": "https://t.me/kkn2bot?start=1454",
       "post_link": "https://t.me/melo00n/24955",
-      "views": 1204,
+      "views": 1205,
       "msg_id": 24955,
       "chat_id": -1001893520557,
       "image": null
@@ -1732,7 +1764,7 @@
     "Castle Busters": {
       "deep_link": "https://t.me/kkn2bot?start=1452",
       "post_link": "https://t.me/melo00n/24954",
-      "views": 1187,
+      "views": 1189,
       "msg_id": 24954,
       "chat_id": -1001893520557,
       "image": null
@@ -1740,7 +1772,7 @@
     "The Wolf": {
       "deep_link": "https://t.me/kkn2bot?start=1450",
       "post_link": "https://t.me/melo00n/24953",
-      "views": 1115,
+      "views": 1119,
       "msg_id": 24953,
       "chat_id": -1001893520557,
       "image": null
@@ -1748,7 +1780,7 @@
     "Nightclub Tycoon": {
       "deep_link": "https://t.me/kkn2bot?start=1448",
       "post_link": "https://t.me/melo00n/24952",
-      "views": 1081,
+      "views": 1083,
       "msg_id": 24952,
       "chat_id": -1001893520557,
       "image": null
@@ -1756,7 +1788,7 @@
     "SAKURA School Simulator": {
       "deep_link": "https://t.me/kkn2bot?start=1378",
       "post_link": "https://t.me/melo00n/24922",
-      "views": 1434,
+      "views": 1435,
       "msg_id": 24922,
       "chat_id": -1001893520557,
       "image": null
@@ -1764,15 +1796,15 @@
     "🎮Choo-Choo Charles": {
       "deep_link": "https://t.me/kkn2bot?start=1442",
       "post_link": "https://t.me/melo00n/24949",
-      "views": 1410,
+      "views": 1413,
       "msg_id": 24949,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24949.jpg"
     },
     "🔥 Jurassic Survival v2.7.9": {
       "deep_link": "https://t.me/kkn2bot?start=1440",
       "post_link": "https://t.me/melo00n/24948",
-      "views": 1561,
+      "views": 1564,
       "msg_id": 24948,
       "chat_id": -1001893520557,
       "image": "images/24948.jpg"
@@ -1780,15 +1812,15 @@
     "Marvel Contest of Champions 🦸‍♂️🦸‍♀️": {
       "deep_link": "https://t.me/kkn2bot?start=1438",
       "post_link": "https://t.me/melo00n/24947",
-      "views": 1331,
+      "views": 1334,
       "msg_id": 24947,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24947.jpg"
     },
     "Medieval Merge - تجمع هذه اللعبة المحمولة بين أنواع الألغاز وتقمص الأدوار الحركة. تذهب البطلة إلى عالم خيالي لترميم قرية مدمرة، ومحاربة الوحوش وحل الألغاز. التركيز الرئيسي هو على دمج العناصر لإنشاء الأسلحة والأدوات، بالإضافة إلى استكشاف المواقع.": {
       "deep_link": "https://t.me/kkn2bot?start=1436",
       "post_link": "https://t.me/melo00n/24946",
-      "views": 1477,
+      "views": 1480,
       "msg_id": 24946,
       "chat_id": -1001893520557,
       "image": "images/24946.jpg"
@@ -1796,15 +1828,15 @@
     "Mimo — هذا تطبيق لتعلم البرمجة. سيحصل المستخدمون على دروس تفاعلية تساعدهم على إتقان لغة البرمجة خطوة بخطوة. يقدم التطبيق أيضا خطط تعلم شخصية وإمكانية تطبيق المهارات على مشاريع واقعية.": {
       "deep_link": "https://t.me/kkn2bot?start=1434",
       "post_link": "https://t.me/melo00n/24945",
-      "views": 1385,
+      "views": 1388,
       "msg_id": 24945,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24945.jpg"
     },
     "SuperVPN Pro — عميل VPN سريع وسهل لتجاوز الحواجز وحماية حركة المرور الخاصة بك. يوفر التطبيق اتصالا بنقرة واحدة مع خوادم في دول مختلفة، وتشفير بيانات، وإعدادات قدية.": {
       "deep_link": "https://t.me/kkn2bot?start=1432",
       "post_link": "https://t.me/melo00n/24944",
-      "views": 1283,
+      "views": 1287,
       "msg_id": 24944,
       "chat_id": -1001893520557,
       "image": null
@@ -1812,7 +1844,7 @@
     "Carly OBD2 — تطبيق لتشخيص السيارات. يقدم دعما لأجهزة استشعار متنوعة، وإمكانية قراءة الأخطاء، وواجهة سهلة الاستخدام. ومع ذلك، بعض الميزات متوفرة فقط في النسخة المدفوعة، وللمبتدئين، قد تبدو بعض الأدوات معقدة.": {
       "deep_link": "https://t.me/kkn2bot?start=1430",
       "post_link": "https://t.me/melo00n/24943",
-      "views": 1152,
+      "views": 1156,
       "msg_id": 24943,
       "chat_id": -1001893520557,
       "image": "images/24943.jpg"
@@ -1820,15 +1852,15 @@
     "PCRADIO — مشغل إذاعي مجاني على الإنترنت يضم آلاف محطات FM وAM ومحطات الإنترنت من جميع أنحاء العالم. يدعم جميع الأنواع، من البوب والروك إلى الجاز والكلاسيكي وASMR، بالإضافة إلى قنوات الأخبار والأطفال والرياضة. البحث السريع، والمعادل، والمحطات المفضلة، ومؤقت النوم تجعل الاستماع مريحا.": {
       "deep_link": "https://t.me/kkn2bot?start=1428",
       "post_link": "https://t.me/melo00n/24942",
-      "views": 1121,
+      "views": 1125,
       "msg_id": 24942,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24942.jpg"
     },
     "Grok — إنه مساعد مدعوم بالذكاء الاصطناعي طورته xAI وصمم ليكون صادقا ومفيدا وفضوليا قدر الإمكان. احصل على إجابات لأي أسئلة، وأنشئ صورا حية، ورفعها لفهم أعمق لعالمك. مع جروك، الكون بين يديك!": {
       "deep_link": "https://t.me/kkn2bot?start=1426",
       "post_link": "https://t.me/melo00n/24941",
-      "views": 1142,
+      "views": 1145,
       "msg_id": 24941,
       "chat_id": -1001893520557,
       "image": "images/24941.jpg"
@@ -1836,15 +1868,15 @@
     "🔥 My Child New Beginnings v1.0.027": {
       "deep_link": "https://t.me/kkn2bot?start=1424",
       "post_link": "https://t.me/melo00n/24940",
-      "views": 1081,
+      "views": 1084,
       "msg_id": 24940,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24940.jpg"
     },
     "🔥 Arcane Quest Legends v1.8.5": {
       "deep_link": "https://t.me/kkn2bot?start=1422",
       "post_link": "https://t.me/melo00n/24939",
-      "views": 1139,
+      "views": 1142,
       "msg_id": 24939,
       "chat_id": -1001893520557,
       "image": "images/24939.jpg"
@@ -1852,15 +1884,15 @@
     "🔥 Thronefall v2.12.25": {
       "deep_link": "https://t.me/kkn2bot?start=1420",
       "post_link": "https://t.me/melo00n/24938",
-      "views": 1182,
+      "views": 1185,
       "msg_id": 24938,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24938.jpg"
     },
     "🔥 Off Road 4x4 Driving Simulator v2.26.1.000.468": {
       "deep_link": "https://t.me/kkn2bot?start=1418",
       "post_link": "https://t.me/melo00n/24937",
-      "views": 1157,
+      "views": 1160,
       "msg_id": 24937,
       "chat_id": -1001893520557,
       "image": "images/24937.jpg"
@@ -1868,15 +1900,15 @@
     "🔥 Turboprop Flight Simulator 3D v1.34.3": {
       "deep_link": "https://t.me/kkn2bot?start=1416",
       "post_link": "https://t.me/melo00n/24936",
-      "views": 1065,
+      "views": 1067,
       "msg_id": 24936,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24936.jpg"
     },
     "🎮Into the Dead 2 Unleashed": {
       "deep_link": "https://t.me/kkn2bot?start=1414",
       "post_link": "https://t.me/melo00n/24935",
-      "views": 1084,
+      "views": 1086,
       "msg_id": 24935,
       "chat_id": -1001893520557,
       "image": "images/24935.jpg"
@@ -1884,15 +1916,15 @@
     "🎮Hellrider 3": {
       "deep_link": "https://t.me/kkn2bot?start=1412",
       "post_link": "https://t.me/melo00n/24934",
-      "views": 1058,
+      "views": 1061,
       "msg_id": 24934,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24934.jpg"
     },
     "Dungeon Clawler 🕹️🕷️": {
       "deep_link": "https://t.me/kkn2bot?start=1410",
       "post_link": "https://t.me/melo00n/24933",
-      "views": 990,
+      "views": 994,
       "msg_id": 24933,
       "chat_id": -1001893520557,
       "image": "images/24933.jpg"
@@ -1900,15 +1932,15 @@
     "20 Minutes Till Dawn 🌑💀": {
       "deep_link": "https://t.me/kkn2bot?start=1408",
       "post_link": "https://t.me/melo00n/24932",
-      "views": 911,
+      "views": 914,
       "msg_id": 24932,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24932.jpg"
     },
     "Thronefall 👑 ⚔️": {
       "deep_link": "https://t.me/kkn2bot?start=1406",
       "post_link": "https://t.me/melo00n/24931",
-      "views": 984,
+      "views": 987,
       "msg_id": 24931,
       "chat_id": -1001893520557,
       "image": "images/24931.jpg"
@@ -1916,23 +1948,23 @@
     "Jurassic Survival 🦕🌿": {
       "deep_link": "https://t.me/kkn2bot?start=1404",
       "post_link": "https://t.me/melo00n/24930",
-      "views": 1068,
+      "views": 1071,
       "msg_id": 24930,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24930.jpg"
     },
     "Day R Premium ☢️ ": {
       "deep_link": "https://t.me/kkn2bot?start=1402",
       "post_link": "https://t.me/melo00n/24929",
-      "views": 991,
+      "views": 994,
       "msg_id": 24929,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24929.jpg"
     },
     "Angry Birds 2 🎯🐦": {
       "deep_link": "https://t.me/kkn2bot?start=1400",
       "post_link": "https://t.me/melo00n/24928",
-      "views": 1009,
+      "views": 1011,
       "msg_id": 24928,
       "chat_id": -1001893520557,
       "image": "images/24928.jpg"
@@ -1940,60 +1972,20 @@
     "Event Horizon 🚀💥": {
       "deep_link": "https://t.me/kkn2bot?start=1398",
       "post_link": "https://t.me/melo00n/24927",
-      "views": 1351,
+      "views": 1354,
       "msg_id": 24927,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/24927.jpg"
     },
     "🔥 Driving Zone: Russia v1.330": {
       "deep_link": "https://t.me/kkn2bot?start=1396",
       "post_link": "https://t.me/melo00n/24925",
-      "views": 1858,
+      "views": 1861,
       "msg_id": 24925,
       "chat_id": -1001893520557,
       "image": "images/24925.jpg"
-    },
-    "العنوان : MeloShort": {
-      "deep_link": "https://t.me/kkn2bot?start=1958",
-      "post_link": "https://t.me/melo00n/25267",
-      "views": 397,
-      "msg_id": 25267,
-      "chat_id": -1001893520557,
-      "image": "images/25267.jpg"
-    },
-    "Life in Adventure": {
-      "deep_link": "https://t.me/kkn2bot?start=1960",
-      "post_link": "https://t.me/melo00n/25271",
-      "views": 217,
-      "msg_id": 25271,
-      "chat_id": -1001893520557,
-      "image": "images/25271.jpg"
-    },
-    "LOST in Blue 2": {
-      "deep_link": "https://t.me/kkn2bot?start=1966",
-      "post_link": "https://t.me/melo00n/25274",
-      "views": 307,
-      "msg_id": 25274,
-      "chat_id": -1001893520557,
-      "image": "images/25274.jpg"
-    },
-    "LOST in BLUE": {
-      "deep_link": "https://t.me/kkn2bot?start=1964",
-      "post_link": "https://t.me/melo00n/25273",
-      "views": 292,
-      "msg_id": 25273,
-      "chat_id": -1001893520557,
-      "image": "images/25273.jpg"
-    },
-    "Strategy Games": {
-      "deep_link": "https://t.me/kkn2bot?start=1962",
-      "post_link": "https://t.me/melo00n/25272",
-      "views": 233,
-      "msg_id": 25272,
-      "chat_id": -1001893520557,
-      "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 13:04 UTC",
-  "total": 249
+  "updated_at": "2026-07-18 13:39 UTC",
+  "total": 248
 }
