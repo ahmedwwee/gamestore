@@ -36,7 +36,7 @@
     "Hunter Assassin": {
       "deep_link": "https://t.me/kkn2bot?start=1948",
       "post_link": "https://t.me/melo00n/25262",
-      "views": 343,
+      "views": 344,
       "msg_id": 25262,
       "chat_id": -1001893520557,
       "image": "images/25262.jpg"
@@ -124,7 +124,7 @@
     "The Game": {
       "deep_link": "https://t.me/kkn2bot?start=1926",
       "post_link": "https://t.me/melo00n/25251",
-      "views": 321,
+      "views": 322,
       "msg_id": 25251,
       "chat_id": -1001893520557,
       "image": "images/25251.jpg"
@@ -132,7 +132,7 @@
     "🎮Slime Rancher": {
       "deep_link": "https://t.me/kkn2bot?start=1924",
       "post_link": "https://t.me/melo00n/25250",
-      "views": 351,
+      "views": 352,
       "msg_id": 25250,
       "chat_id": -1001893520557,
       "image": "images/25250.jpg"
@@ -652,7 +652,7 @@
     "Rust Mobile": {
       "deep_link": "https://t.me/kkn2bot?start=1763",
       "post_link": "https://t.me/melo00n/25152",
-      "views": 1101,
+      "views": 1102,
       "msg_id": 25152,
       "chat_id": -1001893520557,
       "image": "images/25152.jpg"
@@ -660,7 +660,7 @@
     "دراما بوكس DramaBox": {
       "deep_link": "https://t.me/kkn2bot?start=1761",
       "post_link": "https://t.me/melo00n/25151",
-      "views": 1172,
+      "views": 1173,
       "msg_id": 25151,
       "chat_id": -1001893520557,
       "image": "images/25151.jpg"
@@ -668,7 +668,7 @@
     "تطبيق HDO Box": {
       "deep_link": "https://t.me/kkn2bot?start=1759",
       "post_link": "https://t.me/melo00n/25150",
-      "views": 1190,
+      "views": 1191,
       "msg_id": 25150,
       "chat_id": -1001893520557,
       "image": "images/25150.jpg"
@@ -684,7 +684,7 @@
     "سناب تيوب SnapTube": {
       "deep_link": "https://t.me/kkn2bot?start=1755",
       "post_link": "https://t.me/melo00n/25148",
-      "views": 959,
+      "views": 960,
       "msg_id": 25148,
       "chat_id": -1001893520557,
       "image": "images/25148.jpg"
@@ -692,7 +692,7 @@
     "انمي ويتشر Anime Witcher": {
       "deep_link": "https://t.me/kkn2bot?start=1752",
       "post_link": "https://t.me/melo00n/25147",
-      "views": 907,
+      "views": 908,
       "msg_id": 25147,
       "chat_id": -1001893520557,
       "image": "images/25147.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 12:01 UTC",
+  "updated_at": "2026-07-18 12:02 UTC",
   "total": 249
 }
