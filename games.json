@@ -15,7 +15,7 @@
       "views": 458,
       "msg_id": 25265,
       "chat_id": -1001893520557,
-      "image": "images/25265.jpg"
+      "image": null
     },
     "Train of Hope": {
       "deep_link": "https://t.me/kkn2bot?start=1952",
@@ -63,7 +63,7 @@
       "views": 314,
       "msg_id": 25259,
       "chat_id": -1001893520557,
-      "image": "images/25259.jpg"
+      "image": null
     },
     "House Flipper": {
       "deep_link": "https://t.me/kkn2bot?start=1940",
@@ -76,7 +76,7 @@
     "Good Coffee, Great Coffee": {
       "deep_link": "https://t.me/kkn2bot?start=1870",
       "post_link": "https://t.me/melo00n/25211",
-      "views": 613,
+      "views": 614,
       "msg_id": 25211,
       "chat_id": -1001893520557,
       "image": "images/25211.jpg"
@@ -196,7 +196,7 @@
     "Eternal Empire": {
       "deep_link": "https://t.me/kkn2bot?start=1908",
       "post_link": "https://t.me/melo00n/25239",
-      "views": 439,
+      "views": 440,
       "msg_id": 25239,
       "chat_id": -1001893520557,
       "image": "images/25239.jpg"
@@ -268,7 +268,7 @@
     "War Machines": {
       "deep_link": "https://t.me/kkn2bot?start=1886",
       "post_link": "https://t.me/melo00n/25225",
-      "views": 668,
+      "views": 669,
       "msg_id": 25225,
       "chat_id": -1001893520557,
       "image": "images/25225.jpg"
@@ -1964,18 +1964,18 @@
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 210,
+      "views": 211,
       "msg_id": 25271,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25271.jpg"
     },
     "LOST in Blue 2": {
       "deep_link": "https://t.me/kkn2bot?start=1966",
       "post_link": "https://t.me/melo00n/25274",
-      "views": 292,
+      "views": 293,
       "msg_id": 25274,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25274.jpg"
     },
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
@@ -1991,7 +1991,7 @@
       "views": 226,
       "msg_id": 25272,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25272.jpg"
     }
   },
   "updated_at": "2026-07-18 12:42 UTC",
