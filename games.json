@@ -4,7 +4,7 @@
     "LOST in Blue 2": {
       "deep_link": "https://t.me/kkn2bot?start=1966",
       "post_link": "https://t.me/melo00n/25274",
-      "views": 406,
+      "views": 408,
       "msg_id": 25274,
       "chat_id": -1001893520557,
       "image": "images/25274.jpg"
@@ -12,7 +12,7 @@
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
       "post_link": "https://t.me/melo00n/25273",
-      "views": 380,
+      "views": 382,
       "msg_id": 25273,
       "chat_id": -1001893520557,
       "image": "images/25273.jpg"
@@ -20,7 +20,7 @@
     "Strategy Games": {
       "deep_link": "https://t.me/kkn2bot?start=1962",
       "post_link": "https://t.me/melo00n/25272",
-      "views": 314,
+      "views": 316,
       "msg_id": 25272,
       "chat_id": -1001893520557,
       "image": "images/25272.jpg"
@@ -28,7 +28,7 @@
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 281,
+      "views": 282,
       "msg_id": 25271,
       "chat_id": -1001893520557,
       "image": "images/25271.jpg"
@@ -52,7 +52,7 @@
     "Train of Hope": {
       "deep_link": "https://t.me/kkn2bot?start=1952",
       "post_link": "https://t.me/melo00n/25264",
-      "views": 481,
+      "views": 482,
       "msg_id": 25264,
       "chat_id": -1001893520557,
       "image": "images/25264.jpg"
@@ -1986,6 +1986,6 @@
       "image": "images/24925.jpg"
     }
   },
-  "updated_at": "2026-07-18 16:07 UTC",
+  "updated_at": "2026-07-18 16:17 UTC",
   "total": 248
 }
