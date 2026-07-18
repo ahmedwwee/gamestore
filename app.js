@@ -31,6 +31,7 @@ async function loadPosts() {
       const key = String(g.msg_id || title);
       return {
         key,
+        msgId:     Number(g.msg_id) || 0,
         title:     renamed[key] || title,
         deep_link: g.deep_link || `https://t.me/${BOT_USERNAME}`,
         post_link: g.post_link || `https://t.me/${CHANNEL_USERNAME}`,
@@ -83,7 +84,13 @@ function buildTicker() {
 function getFiltered() {
   let list = [...allPosts];
   if (searchQuery) { const q=searchQuery.toLowerCase(); list=list.filter(p=>p.title.toLowerCase().includes(q)); }
-  if (currentFilter==="top") list.sort((a,b)=>b.views-a.views);
+  if (currentFilter==="top") {
+    list.sort((a,b)=>b.views-a.views);
+  } else {
+    // "الكل" و"الأحدث": الأحدث فعليًا (رقم المنشور بالقناة) أولًا،
+    // بدل ترتيب التخزين الخام اللي كان يحط أي منشور جديد بآخر القائمة
+    list.sort((a,b)=>b.msgId-a.msgId);
+  }
   if (!searchQuery && pinned.length) list.sort((a,b)=>(pinned.includes(b.key)?1:0)-(pinned.includes(a.key)?1:0));
   return list;
 }
@@ -185,6 +192,7 @@ document.getElementById("adminLoginBtn").addEventListener("click",()=>{
 document.getElementById("adminPassword").addEventListener("keydown",e=>{if(e.key==="Enter")document.getElementById("adminLoginBtn").click();});
 
 document.getElementById("searchToggle").addEventListener("click",()=>{const w=document.getElementById("searchWrap");w.classList.toggle("open");if(w.classList.contains("open"))document.getElementById("searchInput").focus();});
+document.getElementById("searchClose").addEventListener("click",()=>{const w=document.getElementById("searchWrap");w.classList.remove("open");document.getElementById("searchInput").value="";searchQuery="";render();});
 document.getElementById("searchInput").addEventListener("input",e=>{searchQuery=e.target.value.trim();render();});
 document.querySelectorAll(".filter-btn").forEach(btn=>{btn.addEventListener("click",()=>{haptic("light");document.querySelectorAll(".filter-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");currentFilter=btn.dataset.filter;render();});});
 document.getElementById("viewGrid").addEventListener("click",()=>setView("grid"));
