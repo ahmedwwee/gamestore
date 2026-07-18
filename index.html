@@ -96,7 +96,8 @@
      مع أيقونات الهيدر الثانية ويخلي الكتابة تختفي */
   .search-bar-full { display: none; background: var(--surface); border-bottom: 1px solid var(--border); padding: 12px 16px; position: sticky; top: 60px; z-index: 99; }
   .search-bar-full.open { display: block; animation: slideDown .2s ease; }
-  .search-bar-inner { max-width: 1200px; margin: 0 auto; position: relative; display: flex; align-items: center; gap: 8px; }
+  .search-bar-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; gap: 8px; }
+  .search-input-wrap { position: relative; flex: 1; }
   .search-bar-inner input {
     flex: 1; width: 100%; background: var(--card); border: 1px solid var(--border);
     border-radius: 10px; padding: 11px 16px 11px 40px; color: var(--text);
@@ -136,9 +137,11 @@
   }
   .people-chip:hover { border-color: var(--accent); transform: translateY(-2px); }
   .people-chip .avatar {
-    width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
     font-size: 13px; background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; flex-shrink: 0;
+    overflow: hidden; box-shadow: 0 0 0 2px rgba(255,255,255,.12), 0 2px 6px rgba(0,0,0,.35);
   }
+  .people-chip .avatar img { width: 100%; height: 100%; object-fit: cover; }
   .people-chip.channel-chip .avatar { background: linear-gradient(135deg, var(--green), var(--accent2)); }
   .hero h1 {
     font-size: clamp(24px, 5vw, 42px); font-weight: 900; line-height: 1.25;
@@ -455,8 +458,10 @@
 
 <div class="search-bar-full" id="searchWrap">
   <div class="search-bar-inner">
-    <span class="search-icon-inner">🔍</span>
-    <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+    <div class="search-input-wrap">
+      <span class="search-icon-inner">🔍</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن لعبة...">
+    </div>
     <button class="search-close" id="searchClose" title="إغلاق">✕</button>
   </div>
 </div>
@@ -468,13 +473,13 @@
 <div class="hero">
   <div class="hero-people">
     <a class="people-chip" href="https://t.me/wh_ac" target="_blank" rel="noopener">
-      <span class="avatar">👨‍💻</span><span>أحمد</span>
+      <span class="avatar"><img src="images/people/ahmed.jpg" alt="أحمد"></span><span>أحمد</span>
     </a>
     <a class="people-chip channel-chip" href="https://t.me/melo00n" target="_blank" rel="noopener">
-      <span class="avatar">📢</span><span>القناة</span>
+      <span class="avatar"><img src="images/people/channel.jpg" alt="القناة"></span><span>القناة</span>
     </a>
     <a class="people-chip" href="https://t.me/S_31L" target="_blank" rel="noopener">
-      <span class="avatar">🤝</span><span>محمد</span>
+      <span class="avatar"><img src="images/people/mohammed.jpg" alt="محمد"></span><span>محمد</span>
     </a>
   </div>
   <h1>أفضل الألعاب المهكرة<br><em>في مكان واحد</em></h1>
