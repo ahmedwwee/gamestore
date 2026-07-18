@@ -100,7 +100,7 @@
     "Space Survivor": {
       "deep_link": "https://t.me/kkn2bot?start=1932",
       "post_link": "https://t.me/melo00n/25254",
-      "views": 261,
+      "views": 262,
       "msg_id": 25254,
       "chat_id": -1001893520557,
       "image": "images/25254.jpg"
@@ -1964,7 +1964,7 @@
     "Life in Adventure": {
       "deep_link": "https://t.me/kkn2bot?start=1960",
       "post_link": "https://t.me/melo00n/25271",
-      "views": 87,
+      "views": 88,
       "msg_id": 25271,
       "chat_id": -1001893520557,
       "image": "images/25271.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 06:43 UTC",
+  "updated_at": "2026-07-18 06:45 UTC",
   "total": 249
 }
