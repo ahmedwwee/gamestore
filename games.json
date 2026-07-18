@@ -124,7 +124,7 @@
     "The Game": {
       "deep_link": "https://t.me/kkn2bot?start=1926",
       "post_link": "https://t.me/melo00n/25251",
-      "views": 289,
+      "views": 290,
       "msg_id": 25251,
       "chat_id": -1001893520557,
       "image": "images/25251.jpg"
@@ -132,7 +132,7 @@
     "🎮Slime Rancher": {
       "deep_link": "https://t.me/kkn2bot?start=1924",
       "post_link": "https://t.me/melo00n/25250",
-      "views": 318,
+      "views": 319,
       "msg_id": 25250,
       "chat_id": -1001893520557,
       "image": "images/25250.jpg"
@@ -1167,7 +1167,7 @@
       "views": 1643,
       "msg_id": 25048,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25048.jpg"
     },
     "Days After": {
       "deep_link": "https://t.me/kkn2bot?start=1615",
@@ -1956,7 +1956,7 @@
     "العنوان : MeloShort": {
       "deep_link": "https://t.me/kkn2bot?start=1958",
       "post_link": "https://t.me/melo00n/25267",
-      "views": 342,
+      "views": 343,
       "msg_id": 25267,
       "chat_id": -1001893520557,
       "image": "images/25267.jpg"
@@ -1972,7 +1972,7 @@
     "LOST in Blue 2": {
       "deep_link": "https://t.me/kkn2bot?start=1966",
       "post_link": "https://t.me/melo00n/25274",
-      "views": 147,
+      "views": 148,
       "msg_id": 25274,
       "chat_id": -1001893520557,
       "image": "images/25274.jpg"
@@ -1980,7 +1980,7 @@
     "LOST in BLUE": {
       "deep_link": "https://t.me/kkn2bot?start=1964",
       "post_link": "https://t.me/melo00n/25273",
-      "views": 144,
+      "views": 145,
       "msg_id": 25273,
       "chat_id": -1001893520557,
       "image": "images/25273.jpg"
@@ -1994,6 +1994,6 @@
       "image": "images/25272.jpg"
     }
   },
-  "updated_at": "2026-07-18 07:57 UTC",
+  "updated_at": "2026-07-18 07:58 UTC",
   "total": 249
 }
