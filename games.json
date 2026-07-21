@@ -2116,7 +2116,7 @@
     "Squad Alpha": {
       "deep_link": "https://t.me/kkn2bot?start=2002",
       "post_link": "https://t.me/melo00n/25305",
-      "views": 322,
+      "views": 323,
       "msg_id": 25305,
       "chat_id": -1001893520557,
       "image": "images/25305.jpg"
@@ -2124,7 +2124,7 @@
     "Hungry Shark World": {
       "deep_link": "https://t.me/kkn2bot?start=2000",
       "post_link": "https://t.me/melo00n/25304",
-      "views": 307,
+      "views": 308,
       "msg_id": 25304,
       "chat_id": -1001893520557,
       "image": "images/25304.jpg"
@@ -2132,7 +2132,7 @@
     "باشن دراما Passion Drama": {
       "deep_link": "https://t.me/kkn2bot?start=2004",
       "post_link": "https://t.me/melo00n/25306",
-      "views": 294,
+      "views": 295,
       "msg_id": 25306,
       "chat_id": -1001893520557,
       "image": "images/25306.jpg"
@@ -2140,7 +2140,7 @@
     "تحريك الصور Dream Face": {
       "deep_link": "https://t.me/kkn2bot?start=2006",
       "post_link": "https://t.me/melo00n/25307",
-      "views": 260,
+      "views": 261,
       "msg_id": 25307,
       "chat_id": -1001893520557,
       "image": "images/25307.jpg"
@@ -2148,7 +2148,7 @@
     "تيك توك TikTok": {
       "deep_link": "https://t.me/kkn2bot?start=2008",
       "post_link": "https://t.me/melo00n/25308",
-      "views": 245,
+      "views": 246,
       "msg_id": 25308,
       "chat_id": -1001893520557,
       "image": "images/25308.jpg"
@@ -2156,7 +2156,7 @@
     "🔥 Cat Quest III v1.5.13": {
       "deep_link": "https://t.me/kkn2bot?start=2018",
       "post_link": "https://t.me/melo00n/25313",
-      "views": 308,
+      "views": 309,
       "msg_id": 25313,
       "chat_id": -1001893520557,
       "image": "images/25313.jpg"
@@ -2164,7 +2164,7 @@
     "🔥 Last Day on Earth: Survival v1.50.0": {
       "deep_link": "https://t.me/kkn2bot?start=2016",
       "post_link": "https://t.me/melo00n/25312",
-      "views": 288,
+      "views": 289,
       "msg_id": 25312,
       "chat_id": -1001893520557,
       "image": "images/25312.jpg"
@@ -2172,7 +2172,7 @@
     "🔥 Smurfs Village v2.97.1": {
       "deep_link": "https://t.me/kkn2bot?start=2014",
       "post_link": "https://t.me/melo00n/25311",
-      "views": 256,
+      "views": 257,
       "msg_id": 25311,
       "chat_id": -1001893520557,
       "image": "images/25311.jpg"
@@ -2180,7 +2180,7 @@
     "🔥 Phantom Tower v0.5": {
       "deep_link": "https://t.me/kkn2bot?start=2012",
       "post_link": "https://t.me/melo00n/25310",
-      "views": 250,
+      "views": 251,
       "msg_id": 25310,
       "chat_id": -1001893520557,
       "image": "images/25310.jpg"
@@ -2188,7 +2188,7 @@
     "🔥 SpongeBob: Krusty Cook-Off v5.11.4": {
       "deep_link": "https://t.me/kkn2bot?start=2010",
       "post_link": "https://t.me/melo00n/25309",
-      "views": 225,
+      "views": 226,
       "msg_id": 25309,
       "chat_id": -1001893520557,
       "image": "images/25309.jpg"
@@ -2200,8 +2200,16 @@
       "msg_id": 25314,
       "chat_id": -1001893520557,
       "image": "images/25314.jpg"
+    },
+    "MyDrama": {
+      "deep_link": "https://t.me/kkn2bot?start=2020",
+      "post_link": "https://t.me/melo00n/25314",
+      "views": 210,
+      "msg_id": 25314,
+      "chat_id": -1001893520557,
+      "image": "images/25314.jpg"
     }
   },
-  "updated_at": "2026-07-21 15:47 UTC",
-  "total": 275
+  "updated_at": "2026-07-21 15:57 UTC",
+  "total": 276
 }
