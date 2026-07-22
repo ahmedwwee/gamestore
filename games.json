@@ -2012,7 +2012,7 @@
     "Rally Horizon": {
       "deep_link": "https://t.me/kkn2bot?start=1972",
       "post_link": "https://t.me/melo00n/25285",
-      "views": 629,
+      "views": 631,
       "msg_id": 25285,
       "chat_id": -1001893520557,
       "image": "images/25285.jpg"
@@ -2204,7 +2204,7 @@
     "MyDrama": {
       "deep_link": "https://t.me/kkn2bot?start=2020",
       "post_link": "https://t.me/melo00n/25314",
-      "views": 538,
+      "views": 540,
       "msg_id": 25314,
       "chat_id": -1001893520557,
       "image": "images/25314.jpg"
@@ -2212,12 +2212,12 @@
     "Micro Drama": {
       "deep_link": "https://t.me/kkn2bot?start=2022",
       "post_link": "https://t.me/melo00n/25316",
-      "views": 163,
+      "views": 168,
       "msg_id": 25316,
       "chat_id": -1001893520557,
       "image": "images/25316.jpg"
     }
   },
-  "updated_at": "2026-07-22 10:57 UTC",
+  "updated_at": "2026-07-22 11:07 UTC",
   "total": 277
 }
