@@ -500,7 +500,7 @@
     "ATOM RPG v1.52": {
       "deep_link": "https://t.me/kkn2bot?start=1825",
       "post_link": "https://t.me/melo00n/25187",
-      "views": 1073,
+      "views": 1074,
       "msg_id": 25187,
       "chat_id": -1001893520557,
       "image": "images/25187.jpg"
@@ -2116,7 +2116,7 @@
     "Squad Alpha": {
       "deep_link": "https://t.me/kkn2bot?start=2002",
       "post_link": "https://t.me/melo00n/25305",
-      "views": 789,
+      "views": 790,
       "msg_id": 25305,
       "chat_id": -1001893520557,
       "image": "images/25305.jpg"
@@ -2298,6 +2298,6 @@
       "image": "images/25329.jpg"
     }
   },
-  "updated_at": "2026-07-26 07:47 UTC",
+  "updated_at": "2026-07-26 07:57 UTC",
   "total": 287
 }
