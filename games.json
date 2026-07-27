@@ -740,7 +740,7 @@
     "تطبيق الويدجت العربي": {
       "deep_link": "https://t.me/kkn2bot?start=1748",
       "post_link": "https://t.me/melo00n/25145",
-      "views": 1103,
+      "views": 1104,
       "msg_id": 25145,
       "chat_id": -1001893520557,
       "image": "images/25145.jpg"
@@ -748,7 +748,7 @@
     "In A Jam": {
       "deep_link": "https://t.me/kkn2bot?start=1746",
       "post_link": "https://t.me/melo00n/25144",
-      "views": 1099,
+      "views": 1100,
       "msg_id": 25144,
       "chat_id": -1001893520557,
       "image": "images/25144.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=1744",
       "post_link": "https://t.me/melo00n/25143",
-      "views": 1112,
+      "views": 1113,
       "msg_id": 25143,
       "chat_id": -1001893520557,
       "image": "images/25143.jpg"
@@ -2298,6 +2298,6 @@
       "image": "images/25329.jpg"
     }
   },
-  "updated_at": "2026-07-27 03:47 UTC",
+  "updated_at": "2026-07-27 03:57 UTC",
   "total": 287
 }
