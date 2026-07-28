@@ -204,7 +204,7 @@
     "Timeline Up": {
       "deep_link": "https://t.me/kkn2bot?start=1728",
       "post_link": "https://t.me/melo00n/25131",
-      "views": 1064,
+      "views": 1065,
       "msg_id": 25131,
       "chat_id": -1001893520557,
       "image": "images/25131.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=1744",
       "post_link": "https://t.me/melo00n/25143",
-      "views": 1126,
+      "views": 1127,
       "msg_id": 25143,
       "chat_id": -1001893520557,
       "image": "images/25143.jpg"
@@ -804,7 +804,7 @@
     "Swamp Attack 2": {
       "deep_link": "https://t.me/kkn2bot?start=1730",
       "post_link": "https://t.me/melo00n/25132",
-      "views": 1080,
+      "views": 1081,
       "msg_id": 25132,
       "chat_id": -1001893520557,
       "image": "images/25132.jpg"
@@ -812,7 +812,7 @@
     "Homescapes": {
       "deep_link": "https://t.me/kkn2bot?start=1726",
       "post_link": "https://t.me/melo00n/25130",
-      "views": 1209,
+      "views": 1210,
       "msg_id": 25130,
       "chat_id": -1001893520557,
       "image": "images/25130.jpg"
@@ -820,7 +820,7 @@
     "Army Men Strike": {
       "deep_link": "https://t.me/kkn2bot?start=1724",
       "post_link": "https://t.me/melo00n/25129",
-      "views": 1188,
+      "views": 1189,
       "msg_id": 25129,
       "chat_id": -1001893520557,
       "image": "images/25129.jpg"
@@ -2306,6 +2306,6 @@
       "image": "images/25332.jpg"
     }
   },
-  "updated_at": "2026-07-28 17:17 UTC",
+  "updated_at": "2026-07-28 17:27 UTC",
   "total": 288
 }
