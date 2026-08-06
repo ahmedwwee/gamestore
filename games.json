@@ -2452,7 +2452,7 @@
     "Left to Survive": {
       "deep_link": "https://t.me/kkn2bot?start=2128",
       "post_link": "https://t.me/melo00n/25384",
-      "views": 142,
+      "views": 143,
       "msg_id": 25384,
       "chat_id": -1001893520557,
       "image": "images/25384.jpg"
@@ -2460,7 +2460,7 @@
     "The Walking Zombie 2": {
       "deep_link": "https://t.me/kkn2bot?start=2126",
       "post_link": "https://t.me/melo00n/25383",
-      "views": 142,
+      "views": 143,
       "msg_id": 25383,
       "chat_id": -1001893520557,
       "image": "images/25383.jpg"
@@ -2468,7 +2468,7 @@
     "Tanks a Lot": {
       "deep_link": "https://t.me/kkn2bot?start=2124",
       "post_link": "https://t.me/melo00n/25382",
-      "views": 128,
+      "views": 129,
       "msg_id": 25382,
       "chat_id": -1001893520557,
       "image": "images/25382.jpg"
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2122",
       "post_link": "https://t.me/melo00n/25381",
-      "views": 128,
+      "views": 129,
       "msg_id": 25381,
       "chat_id": -1001893520557,
       "image": "images/25381.jpg"
@@ -2490,6 +2490,6 @@
       "image": "images/25379.jpg"
     }
   },
-  "updated_at": "2026-08-06 13:03 UTC",
+  "updated_at": "2026-08-06 13:13 UTC",
   "total": 311
 }
