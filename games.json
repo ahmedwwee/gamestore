@@ -1436,7 +1436,7 @@
     "State.io": {
       "deep_link": "https://t.me/kkn2bot?start=2120",
       "post_link": "https://t.me/melo00n/25380",
-      "views": 102,
+      "views": 108,
       "msg_id": 25380,
       "chat_id": -1001893520557,
       "image": "images/25380.jpg"
@@ -2452,7 +2452,7 @@
     "Left to Survive": {
       "deep_link": "https://t.me/kkn2bot?start=2128",
       "post_link": "https://t.me/melo00n/25384",
-      "views": 121,
+      "views": 128,
       "msg_id": 25384,
       "chat_id": -1001893520557,
       "image": "images/25384.jpg"
@@ -2460,7 +2460,7 @@
     "The Walking Zombie 2": {
       "deep_link": "https://t.me/kkn2bot?start=2126",
       "post_link": "https://t.me/melo00n/25383",
-      "views": 120,
+      "views": 125,
       "msg_id": 25383,
       "chat_id": -1001893520557,
       "image": "images/25383.jpg"
@@ -2468,7 +2468,7 @@
     "Tanks a Lot": {
       "deep_link": "https://t.me/kkn2bot?start=2124",
       "post_link": "https://t.me/melo00n/25382",
-      "views": 106,
+      "views": 112,
       "msg_id": 25382,
       "chat_id": -1001893520557,
       "image": "images/25382.jpg"
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2122",
       "post_link": "https://t.me/melo00n/25381",
-      "views": 105,
+      "views": 111,
       "msg_id": 25381,
       "chat_id": -1001893520557,
       "image": "images/25381.jpg"
@@ -2484,12 +2484,12 @@
     "Idle RPG Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2118",
       "post_link": "https://t.me/melo00n/25379",
-      "views": 109,
+      "views": 115,
       "msg_id": 25379,
       "chat_id": -1001893520557,
       "image": "images/25379.jpg"
     }
   },
-  "updated_at": "2026-08-06 12:13 UTC",
+  "updated_at": "2026-08-06 12:23 UTC",
   "total": 311
 }
