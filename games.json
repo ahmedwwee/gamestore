@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=2219",
       "post_link": "https://t.me/melo00n/25462",
-      "views": 674,
+      "views": 675,
       "msg_id": 25462,
       "chat_id": -1001893520557,
       "image": "images/25462.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 604,
+      "views": 605,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-15 23:43 UTC",
+  "updated_at": "2026-08-15 23:53 UTC",
   "total": 337
 }
