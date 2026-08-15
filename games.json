@@ -244,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2209",
       "post_link": "https://t.me/melo00n/25457",
-      "views": 403,
+      "views": 404,
       "msg_id": 25457,
       "chat_id": -1001893520557,
       "image": "images/25457.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=2219",
       "post_link": "https://t.me/melo00n/25462",
-      "views": 619,
+      "views": 622,
       "msg_id": 25462,
       "chat_id": -1001893520557,
       "image": "images/25462.jpg"
@@ -2644,7 +2644,7 @@
     "🎮The Eyes of Ara": {
       "deep_link": "https://t.me/kkn2bot?start=2195",
       "post_link": "https://t.me/melo00n/25447",
-      "views": 712,
+      "views": 713,
       "msg_id": 25447,
       "chat_id": -1001893520557,
       "image": "images/25447.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 547,
+      "views": 549,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2684,7 +2684,7 @@
     "R.E.P.O.": {
       "deep_link": "https://t.me/kkn2bot?start=2221",
       "post_link": "https://t.me/melo00n/25468",
-      "views": 543,
+      "views": 545,
       "msg_id": 25468,
       "chat_id": -1001893520557,
       "image": "images/25468.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-15 17:43 UTC",
+  "updated_at": "2026-08-15 17:53 UTC",
   "total": 337
 }
