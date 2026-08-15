@@ -2596,7 +2596,7 @@
     "Eternium": {
       "deep_link": "https://t.me/kkn2bot?start=2173",
       "post_link": "https://t.me/melo00n/25434",
-      "views": 683,
+      "views": 684,
       "msg_id": 25434,
       "chat_id": -1001893520557,
       "image": "images/25434.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 432,
+      "views": 433,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2684,7 +2684,7 @@
     "R.E.P.O.": {
       "deep_link": "https://t.me/kkn2bot?start=2221",
       "post_link": "https://t.me/melo00n/25468",
-      "views": 285,
+      "views": 288,
       "msg_id": 25468,
       "chat_id": -1001893520557,
       "image": "images/25468.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-15 04:53 UTC",
+  "updated_at": "2026-08-15 05:03 UTC",
   "total": 337
 }
