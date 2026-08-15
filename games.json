@@ -2620,7 +2620,7 @@
     "Happy Citizens": {
       "deep_link": "https://t.me/kkn2bot?start=2187",
       "post_link": "https://t.me/melo00n/25440",
-      "views": 524,
+      "views": 525,
       "msg_id": 25440,
       "chat_id": -1001893520557,
       "image": "images/25440.jpg"
@@ -2660,7 +2660,7 @@
     "Treasure Hunter Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2203",
       "post_link": "https://t.me/melo00n/25454",
-      "views": 407,
+      "views": 408,
       "msg_id": 25454,
       "chat_id": -1001893520557,
       "image": "images/25454.jpg"
@@ -2668,7 +2668,7 @@
     "VibeShort": {
       "deep_link": "https://t.me/kkn2bot?start=2199",
       "post_link": "https://t.me/melo00n/25452",
-      "views": 468,
+      "views": 469,
       "msg_id": 25452,
       "chat_id": -1001893520557,
       "image": "images/25452.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 602,
+      "views": 603,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-15 23:23 UTC",
+  "updated_at": "2026-08-15 23:33 UTC",
   "total": 337
 }
