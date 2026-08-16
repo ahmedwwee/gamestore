@@ -156,7 +156,7 @@
     "The Game": {
       "deep_link": "https://t.me/kkn2bot?start=1926",
       "post_link": "https://t.me/melo00n/25251",
-      "views": 897,
+      "views": 898,
       "msg_id": 25251,
       "chat_id": -1001893520557,
       "image": "images/25251.jpg"
@@ -164,7 +164,7 @@
     "🎮Slime Rancher": {
       "deep_link": "https://t.me/kkn2bot?start=1924",
       "post_link": "https://t.me/melo00n/25250",
-      "views": 955,
+      "views": 956,
       "msg_id": 25250,
       "chat_id": -1001893520557,
       "image": "images/25250.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-16 01:53 UTC",
+  "updated_at": "2026-08-16 02:03 UTC",
   "total": 337
 }
