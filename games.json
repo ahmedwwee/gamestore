@@ -244,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2209",
       "post_link": "https://t.me/melo00n/25457",
-      "views": 512,
+      "views": 513,
       "msg_id": 25457,
       "chat_id": -1001893520557,
       "image": "images/25457.jpg"
@@ -1212,7 +1212,7 @@
     "Darkest AFK": {
       "deep_link": "https://t.me/kkn2bot?start=2189",
       "post_link": "https://t.me/melo00n/25441",
-      "views": 641,
+      "views": 642,
       "msg_id": 25441,
       "chat_id": -1001893520557,
       "image": "images/25441.jpg"
@@ -2604,7 +2604,7 @@
     "Good Pizza, Great Pizza": {
       "deep_link": "https://t.me/kkn2bot?start=2169",
       "post_link": "https://t.me/melo00n/25432",
-      "views": 811,
+      "views": 812,
       "msg_id": 25432,
       "chat_id": -1001893520557,
       "image": "images/25432.jpg"
@@ -2612,7 +2612,7 @@
     "Metro 2055": {
       "deep_link": "https://t.me/kkn2bot?start=2193",
       "post_link": "https://t.me/melo00n/25443",
-      "views": 762,
+      "views": 763,
       "msg_id": 25443,
       "chat_id": -1001893520557,
       "image": "images/25443.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 694,
+      "views": 695,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-16 18:13 UTC",
+  "updated_at": "2026-08-16 18:23 UTC",
   "total": 337
 }
