@@ -84,7 +84,7 @@
     "Monster Legends": {
       "deep_link": "https://t.me/kkn2bot?start=1944",
       "post_link": "https://t.me/melo00n/25260",
-      "views": 958,
+      "views": 959,
       "msg_id": 25260,
       "chat_id": -1001893520557,
       "image": "images/25260.jpg"
@@ -164,7 +164,7 @@
     "🎮Slime Rancher": {
       "deep_link": "https://t.me/kkn2bot?start=1924",
       "post_link": "https://t.me/melo00n/25250",
-      "views": 960,
+      "views": 961,
       "msg_id": 25250,
       "chat_id": -1001893520557,
       "image": "images/25250.jpg"
@@ -1044,7 +1044,7 @@
     "Guild of Heroes": {
       "deep_link": "https://t.me/kkn2bot?start=2227",
       "post_link": "https://t.me/melo00n/25480",
-      "views": 99,
+      "views": 108,
       "msg_id": 25480,
       "chat_id": -1001893520557,
       "image": "images/25480.jpg"
@@ -2612,7 +2612,7 @@
     "Metro 2055": {
       "deep_link": "https://t.me/kkn2bot?start=2193",
       "post_link": "https://t.me/melo00n/25443",
-      "views": 775,
+      "views": 776,
       "msg_id": 25443,
       "chat_id": -1001893520557,
       "image": "images/25443.jpg"
@@ -2700,12 +2700,12 @@
     "Phantom Fight": {
       "deep_link": "https://t.me/kkn2bot?start=2229",
       "post_link": "https://t.me/melo00n/25481",
-      "views": 140,
+      "views": 149,
       "msg_id": 25481,
       "chat_id": -1001893520557,
       "image": "images/25481.jpg"
     }
   },
-  "updated_at": "2026-08-16 19:53 UTC",
+  "updated_at": "2026-08-16 20:03 UTC",
   "total": 338
 }
