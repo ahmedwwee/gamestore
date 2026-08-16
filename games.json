@@ -244,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2209",
       "post_link": "https://t.me/melo00n/25457",
-      "views": 508,
+      "views": 510,
       "msg_id": 25457,
       "chat_id": -1001893520557,
       "image": "images/25457.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=2219",
       "post_link": "https://t.me/melo00n/25462",
-      "views": 758,
+      "views": 759,
       "msg_id": 25462,
       "chat_id": -1001893520557,
       "image": "images/25462.jpg"
@@ -988,7 +988,7 @@
     "Pixel Combat": {
       "deep_link": "https://t.me/kkn2bot?start=2213",
       "post_link": "https://t.me/melo00n/25459",
-      "views": 505,
+      "views": 506,
       "msg_id": 25459,
       "chat_id": -1001893520557,
       "image": "images/25459.jpg"
@@ -2620,7 +2620,7 @@
     "Happy Citizens": {
       "deep_link": "https://t.me/kkn2bot?start=2187",
       "post_link": "https://t.me/melo00n/25440",
-      "views": 600,
+      "views": 601,
       "msg_id": 25440,
       "chat_id": -1001893520557,
       "image": "images/25440.jpg"
@@ -2652,7 +2652,7 @@
     "My Sushi Story": {
       "deep_link": "https://t.me/kkn2bot?start=2211",
       "post_link": "https://t.me/melo00n/25458",
-      "views": 495,
+      "views": 496,
       "msg_id": 25458,
       "chat_id": -1001893520557,
       "image": "images/25458.jpg"
@@ -2684,7 +2684,7 @@
     "R.E.P.O.": {
       "deep_link": "https://t.me/kkn2bot?start=2221",
       "post_link": "https://t.me/melo00n/25468",
-      "views": 841,
+      "views": 842,
       "msg_id": 25468,
       "chat_id": -1001893520557,
       "image": "images/25468.jpg"
@@ -2698,6 +2698,6 @@
       "image": "images/25469.jpg"
     }
   },
-  "updated_at": "2026-08-16 17:13 UTC",
+  "updated_at": "2026-08-16 17:23 UTC",
   "total": 337
 }
