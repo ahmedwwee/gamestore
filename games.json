@@ -108,7 +108,7 @@
     "Good Coffee, Great Coffee": {
       "deep_link": "https://t.me/kkn2bot?start=1938",
       "post_link": "https://t.me/melo00n/25257",
-      "views": 933,
+      "views": 934,
       "msg_id": 25257,
       "chat_id": -1001893520557,
       "image": "images/25257.jpg"
@@ -244,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2209",
       "post_link": "https://t.me/melo00n/25457",
-      "views": 513,
+      "views": 514,
       "msg_id": 25457,
       "chat_id": -1001893520557,
       "image": "images/25457.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=2219",
       "post_link": "https://t.me/melo00n/25462",
-      "views": 763,
+      "views": 764,
       "msg_id": 25462,
       "chat_id": -1001893520557,
       "image": "images/25462.jpg"
@@ -1042,12 +1042,12 @@
       "image": "images/25073.jpg"
     },
     "Guild of Heroes": {
-      "deep_link": "https://t.me/kkn2bot?start=1657",
-      "post_link": "https://t.me/melo00n/25072",
-      "views": 1227,
-      "msg_id": 25072,
+      "deep_link": "https://t.me/kkn2bot?start=2227",
+      "post_link": "https://t.me/melo00n/25480",
+      "views": 31,
+      "msg_id": 25480,
       "chat_id": -1001893520557,
-      "image": "images/25072.jpg"
+      "image": "images/25480.jpg"
     },
     "Mech Assemble": {
       "deep_link": "https://t.me/kkn2bot?start=1655",
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2122",
       "post_link": "https://t.me/melo00n/25381",
-      "views": 849,
+      "views": 850,
       "msg_id": 25381,
       "chat_id": -1001893520557,
       "image": "images/25381.jpg"
@@ -2500,7 +2500,7 @@
     "🔥 MORTAL KOMBAT X v7.3.0": {
       "deep_link": "https://t.me/kkn2bot?start=2142",
       "post_link": "https://t.me/melo00n/25393",
-      "views": 1334,
+      "views": 1335,
       "msg_id": 25393,
       "chat_id": -1001893520557,
       "image": "images/25393.jpg"
@@ -2516,7 +2516,7 @@
     "🔥 Need for Speed No Limits v9.4.1": {
       "deep_link": "https://t.me/kkn2bot?start=2138",
       "post_link": "https://t.me/melo00n/25391",
-      "views": 1127,
+      "views": 1128,
       "msg_id": 25391,
       "chat_id": -1001893520557,
       "image": "images/25391.jpg"
@@ -2612,7 +2612,7 @@
     "Metro 2055": {
       "deep_link": "https://t.me/kkn2bot?start=2193",
       "post_link": "https://t.me/melo00n/25443",
-      "views": 764,
+      "views": 765,
       "msg_id": 25443,
       "chat_id": -1001893520557,
       "image": "images/25443.jpg"
@@ -2652,7 +2652,7 @@
     "My Sushi Story": {
       "deep_link": "https://t.me/kkn2bot?start=2211",
       "post_link": "https://t.me/melo00n/25458",
-      "views": 498,
+      "views": 499,
       "msg_id": 25458,
       "chat_id": -1001893520557,
       "image": "images/25458.jpg"
@@ -2668,7 +2668,7 @@
     "VibeShort": {
       "deep_link": "https://t.me/kkn2bot?start=2199",
       "post_link": "https://t.me/melo00n/25452",
-      "views": 536,
+      "views": 537,
       "msg_id": 25452,
       "chat_id": -1001893520557,
       "image": "images/25452.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 696,
+      "views": 698,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -2684,7 +2684,7 @@
     "R.E.P.O.": {
       "deep_link": "https://t.me/kkn2bot?start=2221",
       "post_link": "https://t.me/melo00n/25468",
-      "views": 849,
+      "views": 850,
       "msg_id": 25468,
       "chat_id": -1001893520557,
       "image": "images/25468.jpg"
@@ -2696,8 +2696,16 @@
       "msg_id": 25469,
       "chat_id": -1001893520557,
       "image": "images/25469.jpg"
+    },
+    "Phantom Fight": {
+      "deep_link": "https://t.me/kkn2bot?start=2229",
+      "post_link": "https://t.me/melo00n/25481",
+      "views": 68,
+      "msg_id": 25481,
+      "chat_id": -1001893520557,
+      "image": "images/25481.jpg"
     }
   },
-  "updated_at": "2026-08-16 18:33 UTC",
-  "total": 337
+  "updated_at": "2026-08-16 18:44 UTC",
+  "total": 338
 }
