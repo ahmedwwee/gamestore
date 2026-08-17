@@ -1044,7 +1044,7 @@
     "Guild of Heroes": {
       "deep_link": "https://t.me/kkn2bot?start=2227",
       "post_link": "https://t.me/melo00n/25480",
-      "views": 248,
+      "views": 250,
       "msg_id": 25480,
       "chat_id": -1001893520557,
       "image": "images/25480.jpg"
@@ -2612,7 +2612,7 @@
     "Metro 2055": {
       "deep_link": "https://t.me/kkn2bot?start=2193",
       "post_link": "https://t.me/melo00n/25443",
-      "views": 805,
+      "views": 806,
       "msg_id": 25443,
       "chat_id": -1001893520557,
       "image": "images/25443.jpg"
@@ -2700,12 +2700,12 @@
     "Phantom Fight": {
       "deep_link": "https://t.me/kkn2bot?start=2229",
       "post_link": "https://t.me/melo00n/25481",
-      "views": 294,
+      "views": 296,
       "msg_id": 25481,
       "chat_id": -1001893520557,
       "image": "images/25481.jpg"
     }
   },
-  "updated_at": "2026-08-17 04:53 UTC",
+  "updated_at": "2026-08-17 05:03 UTC",
   "total": 338
 }
