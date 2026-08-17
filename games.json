@@ -1044,7 +1044,7 @@
     "Guild of Heroes": {
       "deep_link": "https://t.me/kkn2bot?start=2227",
       "post_link": "https://t.me/melo00n/25480",
-      "views": 232,
+      "views": 234,
       "msg_id": 25480,
       "chat_id": -1001893520557,
       "image": "images/25480.jpg"
@@ -1756,7 +1756,7 @@
     "Pocket Champs": {
       "deep_link": "https://t.me/kkn2bot?start=2152",
       "post_link": "https://t.me/melo00n/25402",
-      "views": 984,
+      "views": 985,
       "msg_id": 25402,
       "chat_id": -1001893520557,
       "image": "images/25402.jpg"
@@ -2684,7 +2684,7 @@
     "R.E.P.O.": {
       "deep_link": "https://t.me/kkn2bot?start=2221",
       "post_link": "https://t.me/melo00n/25468",
-      "views": 885,
+      "views": 886,
       "msg_id": 25468,
       "chat_id": -1001893520557,
       "image": "images/25468.jpg"
@@ -2700,12 +2700,12 @@
     "Phantom Fight": {
       "deep_link": "https://t.me/kkn2bot?start=2229",
       "post_link": "https://t.me/melo00n/25481",
-      "views": 278,
+      "views": 280,
       "msg_id": 25481,
       "chat_id": -1001893520557,
       "image": "images/25481.jpg"
     }
   },
-  "updated_at": "2026-08-17 03:53 UTC",
+  "updated_at": "2026-08-17 04:03 UTC",
   "total": 338
 }
