@@ -1044,7 +1044,7 @@
     "Guild of Heroes": {
       "deep_link": "https://t.me/kkn2bot?start=2227",
       "post_link": "https://t.me/melo00n/25480",
-      "views": 206,
+      "views": 207,
       "msg_id": 25480,
       "chat_id": -1001893520557,
       "image": "images/25480.jpg"
@@ -2556,7 +2556,7 @@
     "Zombie Warfare": {
       "deep_link": "https://t.me/kkn2bot?start=2154",
       "post_link": "https://t.me/melo00n/25403",
-      "views": 1050,
+      "views": 1051,
       "msg_id": 25403,
       "chat_id": -1001893520557,
       "image": "images/25403.jpg"
@@ -2700,12 +2700,12 @@
     "Phantom Fight": {
       "deep_link": "https://t.me/kkn2bot?start=2229",
       "post_link": "https://t.me/melo00n/25481",
-      "views": 253,
+      "views": 254,
       "msg_id": 25481,
       "chat_id": -1001893520557,
       "image": "images/25481.jpg"
     }
   },
-  "updated_at": "2026-08-17 00:53 UTC",
+  "updated_at": "2026-08-17 01:03 UTC",
   "total": 338
 }
