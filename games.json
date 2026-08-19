@@ -2820,7 +2820,7 @@
     "Day R Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2265",
       "post_link": "https://t.me/melo00n/25503",
-      "views": 534,
+      "views": 535,
       "msg_id": 25503,
       "chat_id": -1001893520557,
       "image": "images/25503.jpg"
@@ -2828,7 +2828,7 @@
     "Truecaller Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2270",
       "post_link": "https://t.me/melo00n/25509",
-      "views": 228,
+      "views": 235,
       "msg_id": 25509,
       "chat_id": -1001893520557,
       "image": "images/25509.jpg"
@@ -2836,12 +2836,12 @@
     "ShortMax": {
       "deep_link": "https://t.me/kkn2bot?start=2268",
       "post_link": "https://t.me/melo00n/25508",
-      "views": 221,
+      "views": 225,
       "msg_id": 25508,
       "chat_id": -1001893520557,
       "image": "images/25508.jpg"
     }
   },
-  "updated_at": "2026-08-19 15:01 UTC",
+  "updated_at": "2026-08-19 15:11 UTC",
   "total": 355
 }
