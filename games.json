@@ -332,7 +332,7 @@
     "My Cafe": {
       "deep_link": "https://t.me/kkn2bot?start=2215",
       "post_link": "https://t.me/melo00n/25460",
-      "views": 761,
+      "views": 762,
       "msg_id": 25460,
       "chat_id": -1001893520557,
       "image": "images/25460.jpg"
@@ -988,7 +988,7 @@
     "Pixel Combat": {
       "deep_link": "https://t.me/kkn2bot?start=2213",
       "post_link": "https://t.me/melo00n/25459",
-      "views": 654,
+      "views": 655,
       "msg_id": 25459,
       "chat_id": -1001893520557,
       "image": "images/25459.jpg"
@@ -2804,7 +2804,7 @@
     "Hero Wars": {
       "deep_link": "https://t.me/kkn2bot?start=2259",
       "post_link": "https://t.me/melo00n/25500",
-      "views": 213,
+      "views": 214,
       "msg_id": 25500,
       "chat_id": -1001893520557,
       "image": "images/25500.jpg"
@@ -2812,7 +2812,7 @@
     "Pokémon GO": {
       "deep_link": "https://t.me/kkn2bot?start=2257",
       "post_link": "https://t.me/melo00n/25499",
-      "views": 192,
+      "views": 193,
       "msg_id": 25499,
       "chat_id": -1001893520557,
       "image": "images/25499.jpg"
@@ -2820,12 +2820,12 @@
     "Day R Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2265",
       "post_link": "https://t.me/melo00n/25503",
-      "views": 374,
+      "views": 375,
       "msg_id": 25503,
       "chat_id": -1001893520557,
       "image": "images/25503.jpg"
     }
   },
-  "updated_at": "2026-08-19 05:11 UTC",
+  "updated_at": "2026-08-19 05:21 UTC",
   "total": 353
 }
