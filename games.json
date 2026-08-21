@@ -2916,7 +2916,7 @@
     "Viking Rise": {
       "deep_link": "https://t.me/kkn2bot?start=2306",
       "post_link": "https://t.me/melo00n/25532",
-      "views": 468,
+      "views": 471,
       "msg_id": 25532,
       "chat_id": -1001893520557,
       "image": "images/25532.jpg"
@@ -2924,7 +2924,7 @@
     "Zombies Must Die!": {
       "deep_link": "https://t.me/kkn2bot?start=2304",
       "post_link": "https://t.me/melo00n/25531",
-      "views": 437,
+      "views": 440,
       "msg_id": 25531,
       "chat_id": -1001893520557,
       "image": "images/25531.jpg"
@@ -2932,7 +2932,7 @@
     "Shadow Legends": {
       "deep_link": "https://t.me/kkn2bot?start=2302",
       "post_link": "https://t.me/melo00n/25530",
-      "views": 411,
+      "views": 414,
       "msg_id": 25530,
       "chat_id": -1001893520557,
       "image": "images/25530.jpg"
@@ -2946,6 +2946,6 @@
       "image": "images/25528.jpg"
     }
   },
-  "updated_at": "2026-08-21 19:35 UTC",
+  "updated_at": "2026-08-21 19:45 UTC",
   "total": 368
 }
