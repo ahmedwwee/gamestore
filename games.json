@@ -2644,7 +2644,7 @@
     "🎮The Eyes of Ara": {
       "deep_link": "https://t.me/kkn2bot?start=2195",
       "post_link": "https://t.me/melo00n/25447",
-      "views": 1140,
+      "views": 1141,
       "msg_id": 25447,
       "chat_id": -1001893520557,
       "image": "images/25447.jpg"
@@ -2652,7 +2652,7 @@
     "My Sushi Story": {
       "deep_link": "https://t.me/kkn2bot?start=2211",
       "post_link": "https://t.me/melo00n/25458",
-      "views": 812,
+      "views": 813,
       "msg_id": 25458,
       "chat_id": -1001893520557,
       "image": "images/25458.jpg"
@@ -3050,6 +3050,6 @@
       "image": "images/25557.jpg"
     }
   },
-  "updated_at": "2026-08-23 15:25 UTC",
+  "updated_at": "2026-08-23 15:35 UTC",
   "total": 381
 }
