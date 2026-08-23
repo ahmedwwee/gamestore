@@ -1436,7 +1436,7 @@
     "State.io": {
       "deep_link": "https://t.me/kkn2bot?start=2120",
       "post_link": "https://t.me/melo00n/25380",
-      "views": 959,
+      "views": 960,
       "msg_id": 25380,
       "chat_id": -1001893520557,
       "image": "images/25380.jpg"
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2122",
       "post_link": "https://t.me/melo00n/25381",
-      "views": 924,
+      "views": 925,
       "msg_id": 25381,
       "chat_id": -1001893520557,
       "image": "images/25381.jpg"
@@ -2484,7 +2484,7 @@
     "Idle RPG Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2118",
       "post_link": "https://t.me/melo00n/25379",
-      "views": 970,
+      "views": 971,
       "msg_id": 25379,
       "chat_id": -1001893520557,
       "image": "images/25379.jpg"
@@ -2828,7 +2828,7 @@
     "Truecaller Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2270",
       "post_link": "https://t.me/melo00n/25509",
-      "views": 785,
+      "views": 786,
       "msg_id": 25509,
       "chat_id": -1001893520557,
       "image": "images/25509.jpg"
@@ -2836,7 +2836,7 @@
     "ShortMax": {
       "deep_link": "https://t.me/kkn2bot?start=2268",
       "post_link": "https://t.me/melo00n/25508",
-      "views": 728,
+      "views": 729,
       "msg_id": 25508,
       "chat_id": -1001893520557,
       "image": "images/25508.jpg"
@@ -3050,6 +3050,6 @@
       "image": "images/25557.jpg"
     }
   },
-  "updated_at": "2026-08-23 10:15 UTC",
+  "updated_at": "2026-08-23 10:25 UTC",
   "total": 381
 }
