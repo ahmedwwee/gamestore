@@ -2916,7 +2916,7 @@
     "Viking Rise": {
       "deep_link": "https://t.me/kkn2bot?start=2306",
       "post_link": "https://t.me/melo00n/25532",
-      "views": 655,
+      "views": 656,
       "msg_id": 25532,
       "chat_id": -1001893520557,
       "image": "images/25532.jpg"
@@ -2924,7 +2924,7 @@
     "Zombies Must Die!": {
       "deep_link": "https://t.me/kkn2bot?start=2304",
       "post_link": "https://t.me/melo00n/25531",
-      "views": 625,
+      "views": 626,
       "msg_id": 25531,
       "chat_id": -1001893520557,
       "image": "images/25531.jpg"
@@ -2956,7 +2956,7 @@
     "Survival Game": {
       "deep_link": "https://t.me/kkn2bot?start=2314",
       "post_link": "https://t.me/melo00n/25537",
-      "views": 487,
+      "views": 488,
       "msg_id": 25537,
       "chat_id": -1001893520557,
       "image": "images/25537.jpg"
@@ -3020,7 +3020,7 @@
     "Wing Fighter": {
       "deep_link": "https://t.me/kkn2bot?start=2340",
       "post_link": "https://t.me/melo00n/25560",
-      "views": 238,
+      "views": 239,
       "msg_id": 25560,
       "chat_id": -1001893520557,
       "image": "images/25560.jpg"
@@ -3050,6 +3050,6 @@
       "image": "images/25557.jpg"
     }
   },
-  "updated_at": "2026-08-23 09:15 UTC",
+  "updated_at": "2026-08-23 09:25 UTC",
   "total": 381
 }
