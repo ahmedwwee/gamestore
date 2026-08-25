@@ -2740,7 +2740,7 @@
     "Subway Surfers": {
       "deep_link": "https://t.me/kkn2bot?start=2245",
       "post_link": "https://t.me/melo00n/25492",
-      "views": 802,
+      "views": 803,
       "msg_id": 25492,
       "chat_id": -1001893520557,
       "image": "images/25492.jpg"
@@ -2820,7 +2820,7 @@
     "Day R Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2265",
       "post_link": "https://t.me/melo00n/25503",
-      "views": 1046,
+      "views": 1047,
       "msg_id": 25503,
       "chat_id": -1001893520557,
       "image": "images/25503.jpg"
@@ -2828,7 +2828,7 @@
     "Truecaller Premium": {
       "deep_link": "https://t.me/kkn2bot?start=2270",
       "post_link": "https://t.me/melo00n/25509",
-      "views": 877,
+      "views": 878,
       "msg_id": 25509,
       "chat_id": -1001893520557,
       "image": "images/25509.jpg"
@@ -2836,7 +2836,7 @@
     "ShortMax": {
       "deep_link": "https://t.me/kkn2bot?start=2268",
       "post_link": "https://t.me/melo00n/25508",
-      "views": 813,
+      "views": 814,
       "msg_id": 25508,
       "chat_id": -1001893520557,
       "image": "images/25508.jpg"
@@ -3058,6 +3058,6 @@
       "image": "images/25563.jpg"
     }
   },
-  "updated_at": "2026-08-25 14:06 UTC",
+  "updated_at": "2026-08-25 14:15 UTC",
   "total": 382
 }
