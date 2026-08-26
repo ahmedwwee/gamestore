@@ -2764,7 +2764,7 @@
     "Tower of Saviors": {
       "deep_link": "https://t.me/kkn2bot?start=2239",
       "post_link": "https://t.me/melo00n/25489",
-      "views": 797,
+      "views": 798,
       "msg_id": 25489,
       "chat_id": -1001893520557,
       "image": "images/25489.jpg"
@@ -2772,7 +2772,7 @@
     "Plants vs Zombies Fusion Edition": {
       "deep_link": "https://t.me/kkn2bot?start=2237",
       "post_link": "https://t.me/melo00n/25488",
-      "views": 785,
+      "views": 786,
       "msg_id": 25488,
       "chat_id": -1001893520557,
       "image": "images/25488.jpg"
@@ -3090,6 +3090,6 @@
       "image": "images/25579.jpg"
     }
   },
-  "updated_at": "2026-08-26 04:45 UTC",
+  "updated_at": "2026-08-26 04:55 UTC",
   "total": 386
 }
