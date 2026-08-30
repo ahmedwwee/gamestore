@@ -556,7 +556,7 @@
     "CSR Racing 2": {
       "deep_link": "https://t.me/kkn2bot?start=2423",
       "post_link": "https://t.me/melo00n/25612",
-      "views": 428,
+      "views": 429,
       "msg_id": 25612,
       "chat_id": -1001893520557,
       "image": "images/25612.jpg"
@@ -820,7 +820,7 @@
     "Army Men Strike": {
       "deep_link": "https://t.me/kkn2bot?start=2425",
       "post_link": "https://t.me/melo00n/25613",
-      "views": 517,
+      "views": 518,
       "msg_id": 25613,
       "chat_id": -1001893520557,
       "image": "images/25613.jpg"
@@ -3194,6 +3194,6 @@
       "image": "images/25615.jpg"
     }
   },
-  "updated_at": "2026-08-30 21:14 UTC",
+  "updated_at": "2026-08-30 21:24 UTC",
   "total": 399
 }
