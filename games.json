@@ -1036,7 +1036,7 @@
     "Medieval Merge": {
       "deep_link": "https://t.me/kkn2bot?start=2421",
       "post_link": "https://t.me/melo00n/25611",
-      "views": 624,
+      "views": 625,
       "msg_id": 25611,
       "chat_id": -1001893520557,
       "image": "images/25611.jpg"
@@ -3196,7 +3196,7 @@
     "🎮Rush Rally 3": {
       "deep_link": "https://t.me/kkn2bot?start=2431",
       "post_link": "https://t.me/melo00n/25623",
-      "views": 295,
+      "views": 297,
       "msg_id": 25623,
       "chat_id": -1001893520557,
       "image": "images/25623.jpg"
@@ -3204,7 +3204,7 @@
     "Ancient Gods": {
       "deep_link": "https://t.me/kkn2bot?start=2439",
       "post_link": "https://t.me/melo00n/25627",
-      "views": 341,
+      "views": 344,
       "msg_id": 25627,
       "chat_id": -1001893520557,
       "image": "images/25627.jpg"
@@ -3212,7 +3212,7 @@
     "Royal Match": {
       "deep_link": "https://t.me/kkn2bot?start=2437",
       "post_link": "https://t.me/melo00n/25626",
-      "views": 280,
+      "views": 281,
       "msg_id": 25626,
       "chat_id": -1001893520557,
       "image": "images/25626.jpg"
@@ -3220,7 +3220,7 @@
     "My Mini Mart": {
       "deep_link": "https://t.me/kkn2bot?start=2435",
       "post_link": "https://t.me/melo00n/25625",
-      "views": 263,
+      "views": 264,
       "msg_id": 25625,
       "chat_id": -1001893520557,
       "image": "images/25625.jpg"
@@ -3228,12 +3228,20 @@
     "Ala Mobile GP": {
       "deep_link": "https://t.me/kkn2bot?start=2433",
       "post_link": "https://t.me/melo00n/25624",
-      "views": 264,
+      "views": 266,
       "msg_id": 25624,
       "chat_id": -1001893520557,
       "image": "images/25624.jpg"
+    },
+    "🔥 Vigloo — Now Available!": {
+      "deep_link": "https://t.me/kkn2bot?start=2443",
+      "post_link": "https://t.me/melo00n/25630",
+      "views": 2,
+      "msg_id": 25630,
+      "chat_id": -1001893520557,
+      "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-01 15:04 UTC",
-  "total": 404
+  "updated_at": "2026-09-01 15:15 UTC",
+  "total": 405
 }
