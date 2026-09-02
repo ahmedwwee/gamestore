@@ -556,7 +556,7 @@
     "CSR Racing 2": {
       "deep_link": "https://t.me/kkn2bot?start=2423",
       "post_link": "https://t.me/melo00n/25612",
-      "views": 798,
+      "views": 799,
       "msg_id": 25612,
       "chat_id": -1001893520557,
       "image": "images/25612.jpg"
@@ -3204,7 +3204,7 @@
     "Ancient Gods": {
       "deep_link": "https://t.me/kkn2bot?start=2439",
       "post_link": "https://t.me/melo00n/25627",
-      "views": 633,
+      "views": 634,
       "msg_id": 25627,
       "chat_id": -1001893520557,
       "image": "images/25627.jpg"
@@ -3212,7 +3212,7 @@
     "Royal Match": {
       "deep_link": "https://t.me/kkn2bot?start=2437",
       "post_link": "https://t.me/melo00n/25626",
-      "views": 548,
+      "views": 549,
       "msg_id": 25626,
       "chat_id": -1001893520557,
       "image": "images/25626.jpg"
@@ -3220,7 +3220,7 @@
     "My Mini Mart": {
       "deep_link": "https://t.me/kkn2bot?start=2435",
       "post_link": "https://t.me/melo00n/25625",
-      "views": 503,
+      "views": 504,
       "msg_id": 25625,
       "chat_id": -1001893520557,
       "image": "images/25625.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-02 11:34 UTC",
+  "updated_at": "2026-09-02 11:44 UTC",
   "total": 405
 }
