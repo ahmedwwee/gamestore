@@ -2916,7 +2916,7 @@
     "Viking Rise": {
       "deep_link": "https://t.me/kkn2bot?start=2306",
       "post_link": "https://t.me/melo00n/25532",
-      "views": 1028,
+      "views": 1029,
       "msg_id": 25532,
       "chat_id": -1001893520557,
       "image": "images/25532.jpg"
@@ -3108,7 +3108,7 @@
     "Country Escape": {
       "deep_link": "https://t.me/kkn2bot?start=2397",
       "post_link": "https://t.me/melo00n/25599",
-      "views": 962,
+      "views": 963,
       "msg_id": 25599,
       "chat_id": -1001893520557,
       "image": "images/25599.jpg"
@@ -3212,7 +3212,7 @@
     "Royal Match": {
       "deep_link": "https://t.me/kkn2bot?start=2437",
       "post_link": "https://t.me/melo00n/25626",
-      "views": 572,
+      "views": 573,
       "msg_id": 25626,
       "chat_id": -1001893520557,
       "image": "images/25626.jpg"
@@ -3220,7 +3220,7 @@
     "My Mini Mart": {
       "deep_link": "https://t.me/kkn2bot?start=2435",
       "post_link": "https://t.me/melo00n/25625",
-      "views": 525,
+      "views": 527,
       "msg_id": 25625,
       "chat_id": -1001893520557,
       "image": "images/25625.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-02 14:15 UTC",
+  "updated_at": "2026-09-02 14:25 UTC",
   "total": 405
 }
