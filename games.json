@@ -2884,7 +2884,7 @@
     "Lego Star Wars: The Complete Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2296",
       "post_link": "https://t.me/melo00n/25523",
-      "views": 1043,
+      "views": 1044,
       "msg_id": 25523,
       "chat_id": -1001893520557,
       "image": "images/25523.jpg"
@@ -2892,7 +2892,7 @@
     "Otherworld Legends": {
       "deep_link": "https://t.me/kkn2bot?start=2294",
       "post_link": "https://t.me/melo00n/25522",
-      "views": 958,
+      "views": 959,
       "msg_id": 25522,
       "chat_id": -1001893520557,
       "image": "images/25522.jpg"
@@ -2900,7 +2900,7 @@
     "Bloons TD 6": {
       "deep_link": "https://t.me/kkn2bot?start=2292",
       "post_link": "https://t.me/melo00n/25521",
-      "views": 883,
+      "views": 884,
       "msg_id": 25521,
       "chat_id": -1001893520557,
       "image": "images/25521.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-02 04:24 UTC",
+  "updated_at": "2026-09-02 04:34 UTC",
   "total": 405
 }
