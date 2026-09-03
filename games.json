@@ -3132,7 +3132,7 @@
     "🎮Rush Rally 2": {
       "deep_link": "https://t.me/kkn2bot?start=2399",
       "post_link": "https://t.me/melo00n/25601",
-      "views": 1018,
+      "views": 1019,
       "msg_id": 25601,
       "chat_id": -1001893520557,
       "image": "images/25601.jpg"
@@ -3196,7 +3196,7 @@
     "🎮Rush Rally 3": {
       "deep_link": "https://t.me/kkn2bot?start=2431",
       "post_link": "https://t.me/melo00n/25623",
-      "views": 671,
+      "views": 672,
       "msg_id": 25623,
       "chat_id": -1001893520557,
       "image": "images/25623.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-03 10:04 UTC",
+  "updated_at": "2026-09-03 10:14 UTC",
   "total": 405
 }
