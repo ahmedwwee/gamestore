@@ -3188,7 +3188,7 @@
     "🎮Legend of the Skyfish 2": {
       "deep_link": "https://t.me/kkn2bot?start=2429",
       "post_link": "https://t.me/melo00n/25615",
-      "views": 1164,
+      "views": 1165,
       "msg_id": 25615,
       "chat_id": -1001893520557,
       "image": "images/25615.jpg"
@@ -3212,7 +3212,7 @@
     "Royal Match": {
       "deep_link": "https://t.me/kkn2bot?start=2437",
       "post_link": "https://t.me/melo00n/25626",
-      "views": 724,
+      "views": 725,
       "msg_id": 25626,
       "chat_id": -1001893520557,
       "image": "images/25626.jpg"
@@ -3220,7 +3220,7 @@
     "My Mini Mart": {
       "deep_link": "https://t.me/kkn2bot?start=2435",
       "post_link": "https://t.me/melo00n/25625",
-      "views": 692,
+      "views": 693,
       "msg_id": 25625,
       "chat_id": -1001893520557,
       "image": "images/25625.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-03 17:44 UTC",
+  "updated_at": "2026-09-03 17:54 UTC",
   "total": 405
 }
