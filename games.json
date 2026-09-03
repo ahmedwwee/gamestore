@@ -116,7 +116,7 @@
     "PK XD": {
       "deep_link": "https://t.me/kkn2bot?start=2332",
       "post_link": "https://t.me/melo00n/25556",
-      "views": 851,
+      "views": 852,
       "msg_id": 25556,
       "chat_id": -1001893520557,
       "image": "images/25556.jpg"
@@ -492,7 +492,7 @@
     "My Supermarket Simulator 3D": {
       "deep_link": "https://t.me/kkn2bot?start=2407",
       "post_link": "https://t.me/melo00n/25604",
-      "views": 723,
+      "views": 724,
       "msg_id": 25604,
       "chat_id": -1001893520557,
       "image": "images/25604.jpg"
@@ -2450,12 +2450,12 @@
       "image": "images/25373.jpg"
     },
     "Left to Survive": {
-      "deep_link": "https://t.me/kkn2bot?start=2128",
-      "post_link": "https://t.me/melo00n/25384",
-      "views": 1257,
-      "msg_id": 25384,
+      "deep_link": "https://t.me/kkn2bot?start=2441",
+      "post_link": "https://t.me/melo00n/25628",
+      "views": 815,
+      "msg_id": 25628,
       "chat_id": -1001893520557,
-      "image": "images/25384.jpg"
+      "image": "images/25628.jpg"
     },
     "The Walking Zombie 2": {
       "deep_link": "https://t.me/kkn2bot?start=2342",
@@ -2948,7 +2948,7 @@
     "Fate War": {
       "deep_link": "https://t.me/kkn2bot?start=2316",
       "post_link": "https://t.me/melo00n/25538",
-      "views": 985,
+      "views": 986,
       "msg_id": 25538,
       "chat_id": -1001893520557,
       "image": "images/25538.jpg"
@@ -3132,7 +3132,7 @@
     "🎮Rush Rally 2": {
       "deep_link": "https://t.me/kkn2bot?start=2399",
       "post_link": "https://t.me/melo00n/25601",
-      "views": 1031,
+      "views": 1032,
       "msg_id": 25601,
       "chat_id": -1001893520557,
       "image": "images/25601.jpg"
@@ -3140,7 +3140,7 @@
     "🔥 ShortMax — Now Available on the Channel!": {
       "deep_link": "https://t.me/kkn2bot?start=2405",
       "post_link": "https://t.me/melo00n/25603",
-      "views": 886,
+      "views": 888,
       "msg_id": 25603,
       "chat_id": -1001893520557,
       "image": "images/25603.jpg"
@@ -3180,7 +3180,7 @@
     "Tycoon Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2409",
       "post_link": "https://t.me/melo00n/25605",
-      "views": 762,
+      "views": 763,
       "msg_id": 25605,
       "chat_id": -1001893520557,
       "image": "images/25605.jpg"
@@ -3220,7 +3220,7 @@
     "My Mini Mart": {
       "deep_link": "https://t.me/kkn2bot?start=2435",
       "post_link": "https://t.me/melo00n/25625",
-      "views": 652,
+      "views": 653,
       "msg_id": 25625,
       "chat_id": -1001893520557,
       "image": "images/25625.jpg"
@@ -3228,7 +3228,7 @@
     "Ala Mobile GP": {
       "deep_link": "https://t.me/kkn2bot?start=2433",
       "post_link": "https://t.me/melo00n/25624",
-      "views": 664,
+      "views": 665,
       "msg_id": 25624,
       "chat_id": -1001893520557,
       "image": "images/25624.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-03 12:34 UTC",
+  "updated_at": "2026-09-03 12:44 UTC",
   "total": 405
 }
