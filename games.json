@@ -1036,7 +1036,7 @@
     "Medieval Merge": {
       "deep_link": "https://t.me/kkn2bot?start=2421",
       "post_link": "https://t.me/melo00n/25611",
-      "views": 855,
+      "views": 856,
       "msg_id": 25611,
       "chat_id": -1001893520557,
       "image": "images/25611.jpg"
@@ -1468,7 +1468,7 @@
     "Hunting Clash": {
       "deep_link": "https://t.me/kkn2bot?start=2362",
       "post_link": "https://t.me/melo00n/25583",
-      "views": 922,
+      "views": 923,
       "msg_id": 25583,
       "chat_id": -1001893520557,
       "image": "images/25583.jpg"
@@ -1764,7 +1764,7 @@
     "Castle Busters": {
       "deep_link": "https://t.me/kkn2bot?start=2413",
       "post_link": "https://t.me/melo00n/25607",
-      "views": 696,
+      "views": 697,
       "msg_id": 25607,
       "chat_id": -1001893520557,
       "image": "images/25607.jpg"
@@ -1778,12 +1778,12 @@
       "image": null
     },
     "Nightclub Tycoon": {
-      "deep_link": "https://t.me/kkn2bot?start=1448",
-      "post_link": "https://t.me/melo00n/24952",
-      "views": 1083,
-      "msg_id": 24952,
+      "deep_link": "https://t.me/kkn2bot?start=2449",
+      "post_link": "https://t.me/melo00n/25650",
+      "views": 1,
+      "msg_id": 25650,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25650.jpg"
     },
     "SAKURA School Simulator": {
       "deep_link": "https://t.me/kkn2bot?start=1378",
@@ -3076,7 +3076,7 @@
     "Township": {
       "deep_link": "https://t.me/kkn2bot?start=2360",
       "post_link": "https://t.me/melo00n/25582",
-      "views": 915,
+      "views": 916,
       "msg_id": 25582,
       "chat_id": -1001893520557,
       "image": "images/25582.jpg"
@@ -3100,7 +3100,7 @@
     "🔥 Shadow of Death: Dark Knight v1.111.0.7": {
       "deep_link": "https://t.me/kkn2bot?start=2380",
       "post_link": "https://t.me/melo00n/25594",
-      "views": 888,
+      "views": 889,
       "msg_id": 25594,
       "chat_id": -1001893520557,
       "image": "images/25594.jpg"
@@ -3242,6 +3242,6 @@
       "image": "images/25630.jpg"
     }
   },
-  "updated_at": "2026-09-04 00:14 UTC",
+  "updated_at": "2026-09-04 00:24 UTC",
   "total": 405
 }
