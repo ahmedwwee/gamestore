@@ -1434,12 +1434,12 @@
       "image": "images/25421.jpg"
     },
     "State.io": {
-      "deep_link": "https://t.me/kkn2bot?start=2120",
-      "post_link": "https://t.me/melo00n/25380",
-      "views": 1025,
-      "msg_id": 25380,
+      "deep_link": "https://t.me/kkn2bot?start=2467",
+      "post_link": "https://t.me/melo00n/25663",
+      "views": 3,
+      "msg_id": 25663,
       "chat_id": -1001893520557,
-      "image": "images/25380.jpg"
+      "image": "images/25663.jpg"
     },
     "Resident Evil Survival Unit": {
       "deep_link": "https://t.me/kkn2bot?start=1540",
@@ -3260,12 +3260,20 @@
     "🎮Terraria": {
       "deep_link": "https://t.me/kkn2bot?start=2463",
       "post_link": "https://t.me/melo00n/25661",
-      "views": 235,
+      "views": 236,
       "msg_id": 25661,
       "chat_id": -1001893520557,
       "image": "images/25661.jpg"
+    },
+    "Terraria": {
+      "deep_link": "https://t.me/kkn2bot?start=2469",
+      "post_link": "https://t.me/melo00n/25664",
+      "views": 4,
+      "msg_id": 25664,
+      "chat_id": -1001893520557,
+      "image": "images/25664.jpg"
     }
   },
-  "updated_at": "2026-09-05 02:14 UTC",
-  "total": 408
+  "updated_at": "2026-09-05 02:24 UTC",
+  "total": 409
 }
