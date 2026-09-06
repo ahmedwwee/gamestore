@@ -1436,7 +1436,7 @@
     "State.io": {
       "deep_link": "https://t.me/kkn2bot?start=2467",
       "post_link": "https://t.me/melo00n/25663",
-      "views": 515,
+      "views": 516,
       "msg_id": 25663,
       "chat_id": -1001893520557,
       "image": "images/25663.jpg"
@@ -2484,7 +2484,7 @@
     "Idle RPG Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2165",
       "post_link": "https://t.me/melo00n/25420",
-      "views": 1346,
+      "views": 1347,
       "msg_id": 25420,
       "chat_id": -1001893520557,
       "image": "images/25420.jpg"
@@ -2604,7 +2604,7 @@
     "Good Pizza, Great Pizza": {
       "deep_link": "https://t.me/kkn2bot?start=2169",
       "post_link": "https://t.me/melo00n/25432",
-      "views": 1218,
+      "views": 1219,
       "msg_id": 25432,
       "chat_id": -1001893520557,
       "image": "images/25432.jpg"
@@ -3274,6 +3274,6 @@
       "image": "images/25664.jpg"
     }
   },
-  "updated_at": "2026-09-06 14:14 UTC",
+  "updated_at": "2026-09-06 14:24 UTC",
   "total": 409
 }
