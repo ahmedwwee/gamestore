@@ -492,7 +492,7 @@
     "My Supermarket Simulator 3D": {
       "deep_link": "https://t.me/kkn2bot?start=2407",
       "post_link": "https://t.me/melo00n/25604",
-      "views": 878,
+      "views": 879,
       "msg_id": 25604,
       "chat_id": -1001893520557,
       "image": "images/25604.jpg"
@@ -2586,12 +2586,12 @@
       "image": "images/25399.jpg"
     },
     "Cup Heroes": {
-      "deep_link": "https://t.me/kkn2bot?start=2161",
-      "post_link": "https://t.me/melo00n/25418",
-      "views": 1217,
-      "msg_id": 25418,
+      "deep_link": "https://t.me/kkn2bot?start=2290",
+      "post_link": "https://t.me/melo00n/25520",
+      "views": 866,
+      "msg_id": 25520,
       "chat_id": -1001893520557,
-      "image": "images/25418.jpg"
+      "image": "images/25520.jpg"
     },
     "Eternium": {
       "deep_link": "https://t.me/kkn2bot?start=2173",
@@ -3108,7 +3108,7 @@
     "Country Escape": {
       "deep_link": "https://t.me/kkn2bot?start=2397",
       "post_link": "https://t.me/melo00n/25599",
-      "views": 1125,
+      "views": 1126,
       "msg_id": 25599,
       "chat_id": -1001893520557,
       "image": "images/25599.jpg"
@@ -3180,7 +3180,7 @@
     "Tycoon Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2409",
       "post_link": "https://t.me/melo00n/25605",
-      "views": 918,
+      "views": 919,
       "msg_id": 25605,
       "chat_id": -1001893520557,
       "image": "images/25605.jpg"
@@ -3276,12 +3276,28 @@
     "Hustle Castle": {
       "deep_link": "https://t.me/kkn2bot?start=2471",
       "post_link": "https://t.me/melo00n/25672",
-      "views": 42,
+      "views": 50,
       "msg_id": 25672,
       "chat_id": -1001893520557,
       "image": "images/25672.jpg"
+    },
+    "🎮Reigns Beyond": {
+      "deep_link": "https://t.me/kkn2bot?start=2475",
+      "post_link": "https://t.me/melo00n/25674",
+      "views": 1,
+      "msg_id": 25674,
+      "chat_id": -1001893520557,
+      "image": "images/25674.jpg"
+    },
+    "🛠Battery Guru": {
+      "deep_link": "https://t.me/kkn2bot?start=2473",
+      "post_link": "https://t.me/melo00n/25673",
+      "views": 1,
+      "msg_id": 25673,
+      "chat_id": -1001893520557,
+      "image": "images/25673.jpg"
     }
   },
-  "updated_at": "2026-09-06 17:54 UTC",
-  "total": 410
+  "updated_at": "2026-09-06 18:04 UTC",
+  "total": 412
 }
