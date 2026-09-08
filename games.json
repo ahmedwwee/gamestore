@@ -996,7 +996,7 @@
     "FRAG Pro Shooter": {
       "deep_link": "https://t.me/kkn2bot?start=2286",
       "post_link": "https://t.me/melo00n/25518",
-      "views": 981,
+      "views": 982,
       "msg_id": 25518,
       "chat_id": -1001893520557,
       "image": "images/25518.jpg"
@@ -1436,7 +1436,7 @@
     "State.io": {
       "deep_link": "https://t.me/kkn2bot?start=2467",
       "post_link": "https://t.me/melo00n/25663",
-      "views": 642,
+      "views": 643,
       "msg_id": 25663,
       "chat_id": -1001893520557,
       "image": "images/25663.jpg"
@@ -2332,7 +2332,7 @@
     "Ludo King": {
       "deep_link": "https://t.me/kkn2bot?start=2483",
       "post_link": "https://t.me/melo00n/25677",
-      "views": 400,
+      "views": 401,
       "msg_id": 25677,
       "chat_id": -1001893520557,
       "image": "images/25677.jpg"
@@ -2348,7 +2348,7 @@
     "Roblox": {
       "deep_link": "https://t.me/kkn2bot?start=2308",
       "post_link": "https://t.me/melo00n/25534",
-      "views": 944,
+      "views": 945,
       "msg_id": 25534,
       "chat_id": -1001893520557,
       "image": "images/25534.jpg"
@@ -2628,7 +2628,7 @@
     "Tuning Club Online": {
       "deep_link": "https://t.me/kkn2bot?start=2330",
       "post_link": "https://t.me/melo00n/25555",
-      "views": 951,
+      "views": 952,
       "msg_id": 25555,
       "chat_id": -1001893520557,
       "image": "images/25555.jpg"
@@ -2916,7 +2916,7 @@
     "Viking Rise": {
       "deep_link": "https://t.me/kkn2bot?start=2306",
       "post_link": "https://t.me/melo00n/25532",
-      "views": 1114,
+      "views": 1115,
       "msg_id": 25532,
       "chat_id": -1001893520557,
       "image": "images/25532.jpg"
@@ -2924,7 +2924,7 @@
     "Zombies Must Die!": {
       "deep_link": "https://t.me/kkn2bot?start=2304",
       "post_link": "https://t.me/melo00n/25531",
-      "views": 1075,
+      "views": 1076,
       "msg_id": 25531,
       "chat_id": -1001893520557,
       "image": "images/25531.jpg"
@@ -2964,7 +2964,7 @@
     "My Perfect Hotel": {
       "deep_link": "https://t.me/kkn2bot?start=2310",
       "post_link": "https://t.me/melo00n/25535",
-      "views": 929,
+      "views": 930,
       "msg_id": 25535,
       "chat_id": -1001893520557,
       "image": "images/25535.jpg"
@@ -3268,7 +3268,7 @@
     "Terraria": {
       "deep_link": "https://t.me/kkn2bot?start=2469",
       "post_link": "https://t.me/melo00n/25664",
-      "views": 664,
+      "views": 665,
       "msg_id": 25664,
       "chat_id": -1001893520557,
       "image": "images/25664.jpg"
@@ -3292,7 +3292,7 @@
     "🛠Battery Guru": {
       "deep_link": "https://t.me/kkn2bot?start=2473",
       "post_link": "https://t.me/melo00n/25673",
-      "views": 441,
+      "views": 442,
       "msg_id": 25673,
       "chat_id": -1001893520557,
       "image": "images/25673.jpg"
@@ -3316,7 +3316,7 @@
     "🎮Granny": {
       "deep_link": "https://t.me/kkn2bot?start=2489",
       "post_link": "https://t.me/melo00n/25682",
-      "views": 375,
+      "views": 376,
       "msg_id": 25682,
       "chat_id": -1001893520557,
       "image": "images/25682.jpg"
@@ -3324,7 +3324,7 @@
     "🎮Jurassic Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2487",
       "post_link": "https://t.me/melo00n/25681",
-      "views": 346,
+      "views": 347,
       "msg_id": 25681,
       "chat_id": -1001893520557,
       "image": "images/25681.jpg"
@@ -3356,12 +3356,20 @@
     "GoodShort": {
       "deep_link": "https://t.me/kkn2bot?start=2499",
       "post_link": "https://t.me/melo00n/25688",
-      "views": 2,
+      "views": 10,
       "msg_id": 25688,
       "chat_id": -1001893520557,
       "image": "images/25688.jpg"
+    },
+    "Reel short": {
+      "deep_link": "https://t.me/kkn2bot?start=2501",
+      "post_link": "https://t.me/melo00n/25689",
+      "views": 11,
+      "msg_id": 25689,
+      "chat_id": -1001893520557,
+      "image": "images/25689.jpg"
     }
   },
-  "updated_at": "2026-09-08 00:44 UTC",
-  "total": 420
+  "updated_at": "2026-09-08 00:54 UTC",
+  "total": 421
 }
