@@ -332,7 +332,7 @@
     "My Cafe": {
       "deep_link": "https://t.me/kkn2bot?start=2215",
       "post_link": "https://t.me/melo00n/25460",
-      "views": 1155,
+      "views": 1156,
       "msg_id": 25460,
       "chat_id": -1001893520557,
       "image": "images/25460.jpg"
@@ -756,7 +756,7 @@
     "Crash Arena Turbo Stars": {
       "deep_link": "https://t.me/kkn2bot?start=2219",
       "post_link": "https://t.me/melo00n/25462",
-      "views": 1432,
+      "views": 1433,
       "msg_id": 25462,
       "chat_id": -1001893520557,
       "image": "images/25462.jpg"
@@ -2468,7 +2468,7 @@
     "Tanks a Lot": {
       "deep_link": "https://t.me/kkn2bot?start=2519",
       "post_link": "https://t.me/melo00n/25704",
-      "views": 248,
+      "views": 249,
       "msg_id": 25704,
       "chat_id": -1001893520557,
       "image": "images/25704.jpg"
@@ -2676,7 +2676,7 @@
     "Goat Simulator 3": {
       "deep_link": "https://t.me/kkn2bot?start=2217",
       "post_link": "https://t.me/melo00n/25461",
-      "views": 1333,
+      "views": 1334,
       "msg_id": 25461,
       "chat_id": -1001893520557,
       "image": "images/25461.jpg"
@@ -3372,7 +3372,7 @@
     "Survivor Island-Idle Game": {
       "deep_link": "https://t.me/kkn2bot?start=2517",
       "post_link": "https://t.me/melo00n/25703",
-      "views": 223,
+      "views": 224,
       "msg_id": 25703,
       "chat_id": -1001893520557,
       "image": "images/25703.jpg"
@@ -3380,7 +3380,7 @@
     "Tower Defense": {
       "deep_link": "https://t.me/kkn2bot?start=2515",
       "post_link": "https://t.me/melo00n/25702",
-      "views": 195,
+      "views": 196,
       "msg_id": 25702,
       "chat_id": -1001893520557,
       "image": "images/25702.jpg"
@@ -3410,6 +3410,6 @@
       "image": "images/25696.jpg"
     }
   },
-  "updated_at": "2026-09-09 13:04 UTC",
+  "updated_at": "2026-09-09 13:14 UTC",
   "total": 426
 }
