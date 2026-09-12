@@ -3252,7 +3252,7 @@
     "🎮The Attack Squad": {
       "deep_link": "https://t.me/kkn2bot?start=2461",
       "post_link": "https://t.me/melo00n/25658",
-      "views": 1024,
+      "views": 1025,
       "msg_id": 25658,
       "chat_id": -1001893520557,
       "image": "images/25658.jpg"
@@ -3436,7 +3436,7 @@
     "🎮Truck EVO Drive USA": {
       "deep_link": "https://t.me/kkn2bot?start=2529",
       "post_link": "https://t.me/melo00n/25720",
-      "views": 547,
+      "views": 549,
       "msg_id": 25720,
       "chat_id": -1001893520557,
       "image": "images/25720.jpg"
@@ -3444,7 +3444,7 @@
     "🎮Los Angeles Crimes": {
       "deep_link": "https://t.me/kkn2bot?start=2527",
       "post_link": "https://t.me/melo00n/25719",
-      "views": 491,
+      "views": 493,
       "msg_id": 25719,
       "chat_id": -1001893520557,
       "image": "images/25719.jpg"
@@ -3452,7 +3452,7 @@
     "MovieBox": {
       "deep_link": "https://t.me/kkn2bot?start=2531",
       "post_link": "https://t.me/melo00n/25723",
-      "views": 507,
+      "views": 510,
       "msg_id": 25723,
       "chat_id": -1001893520557,
       "image": "images/25723.jpg"
@@ -3460,7 +3460,7 @@
     "🎮Gun Builder Elite 2": {
       "deep_link": "https://t.me/kkn2bot?start=2533",
       "post_link": "https://t.me/melo00n/25724",
-      "views": 481,
+      "views": 485,
       "msg_id": 25724,
       "chat_id": -1001893520557,
       "image": "images/25724.jpg"
@@ -3476,12 +3476,20 @@
     "Soccer Stars v37.0.0": {
       "deep_link": "https://t.me/kkn2bot?start=2540",
       "post_link": "https://t.me/melo00n/25727",
-      "views": 172,
+      "views": 179,
       "msg_id": 25727,
       "chat_id": -1001893520557,
       "image": "images/25727.jpg"
+    },
+    "🎮Shotgun King The Final Checkmate": {
+      "deep_link": "https://t.me/kkn2bot?start=2542",
+      "post_link": "https://t.me/melo00n/25728",
+      "views": 11,
+      "msg_id": 25728,
+      "chat_id": -1001893520557,
+      "image": "images/25728.jpg"
     }
   },
-  "updated_at": "2026-09-12 18:04 UTC",
-  "total": 435
+  "updated_at": "2026-09-12 18:14 UTC",
+  "total": 436
 }
