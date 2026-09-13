@@ -140,7 +140,7 @@
     "State of Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2417",
       "post_link": "https://t.me/melo00n/25609",
-      "views": 935,
+      "views": 936,
       "msg_id": 25609,
       "chat_id": -1001893520557,
       "image": "images/25609.jpg"
@@ -348,7 +348,7 @@
     "Minecraft": {
       "deep_link": "https://t.me/kkn2bot?start=2370",
       "post_link": "https://t.me/melo00n/25589",
-      "views": 1137,
+      "views": 1138,
       "msg_id": 25589,
       "chat_id": -1001893520557,
       "image": "images/25589.jpg"
@@ -3092,7 +3092,7 @@
     "🎮Ultrapool": {
       "deep_link": "https://t.me/kkn2bot?start=2368",
       "post_link": "https://t.me/melo00n/25588",
-      "views": 1082,
+      "views": 1083,
       "msg_id": 25588,
       "chat_id": -1001893520557,
       "image": "images/25588.jpg"
@@ -3172,7 +3172,7 @@
     "Cat Snack Bar": {
       "deep_link": "https://t.me/kkn2bot?start=2411",
       "post_link": "https://t.me/melo00n/25606",
-      "views": 919,
+      "views": 920,
       "msg_id": 25606,
       "chat_id": -1001893520557,
       "image": "images/25606.jpg"
@@ -3244,7 +3244,7 @@
     "🔁 [تحديث] 🔁": {
       "deep_link": "https://t.me/kkn2bot?start=2457",
       "post_link": "https://t.me/melo00n/25656",
-      "views": 945,
+      "views": 946,
       "msg_id": 25656,
       "chat_id": -1001893520557,
       "image": "images/25656.jpg"
@@ -3396,7 +3396,7 @@
     "Project Makeover": {
       "deep_link": "https://t.me/kkn2bot?start=2509",
       "post_link": "https://t.me/melo00n/25699",
-      "views": 554,
+      "views": 555,
       "msg_id": 25699,
       "chat_id": -1001893520557,
       "image": "images/25699.jpg"
@@ -3484,12 +3484,28 @@
     "🎮Shotgun King The Final Checkmate": {
       "deep_link": "https://t.me/kkn2bot?start=2542",
       "post_link": "https://t.me/melo00n/25728",
-      "views": 228,
+      "views": 231,
       "msg_id": 25728,
       "chat_id": -1001893520557,
       "image": "images/25728.jpg"
+    },
+    "🎮Kill Shot Bravo": {
+      "deep_link": "https://t.me/kkn2bot?start=2546",
+      "post_link": "https://t.me/melo00n/25730",
+      "views": 7,
+      "msg_id": 25730,
+      "chat_id": -1001893520557,
+      "image": "images/25730.jpg"
+    },
+    "🎮Crab Life": {
+      "deep_link": "https://t.me/kkn2bot?start=2544",
+      "post_link": "https://t.me/melo00n/25729",
+      "views": 7,
+      "msg_id": 25729,
+      "chat_id": -1001893520557,
+      "image": "images/25729.jpg"
     }
   },
-  "updated_at": "2026-09-13 03:04 UTC",
-  "total": 436
+  "updated_at": "2026-09-13 03:14 UTC",
+  "total": 438
 }
