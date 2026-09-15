@@ -188,7 +188,7 @@
     "كاب كت CapCut": {
       "deep_link": "https://t.me/kkn2bot?start=2558",
       "post_link": "https://t.me/melo00n/25746",
-      "views": 465,
+      "views": 470,
       "msg_id": 25746,
       "chat_id": -1001893520557,
       "image": "images/25746.jpg"
@@ -2802,12 +2802,12 @@
       "image": "images/25501.jpg"
     },
     "Hero Wars": {
-      "deep_link": "https://t.me/kkn2bot?start=2259",
-      "post_link": "https://t.me/melo00n/25500",
-      "views": 1003,
-      "msg_id": 25500,
+      "deep_link": "https://t.me/kkn2bot?start=2358",
+      "post_link": "https://t.me/melo00n/25581",
+      "views": 1014,
+      "msg_id": 25581,
       "chat_id": -1001893520557,
-      "image": "images/25500.jpg"
+      "image": "images/25581.jpg"
     },
     "Pokémon GO": {
       "deep_link": "https://t.me/kkn2bot?start=2257",
@@ -3324,7 +3324,7 @@
     "🎮Jurassic Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2487",
       "post_link": "https://t.me/melo00n/25681",
-      "views": 843,
+      "views": 844,
       "msg_id": 25681,
       "chat_id": -1001893520557,
       "image": "images/25681.jpg"
@@ -3452,7 +3452,7 @@
     "MovieBox": {
       "deep_link": "https://t.me/kkn2bot?start=2531",
       "post_link": "https://t.me/melo00n/25723",
-      "views": 842,
+      "views": 844,
       "msg_id": 25723,
       "chat_id": -1001893520557,
       "image": "images/25723.jpg"
@@ -3460,7 +3460,7 @@
     "🎮Gun Builder Elite 2": {
       "deep_link": "https://t.me/kkn2bot?start=2533",
       "post_link": "https://t.me/melo00n/25724",
-      "views": 876,
+      "views": 878,
       "msg_id": 25724,
       "chat_id": -1001893520557,
       "image": "images/25724.jpg"
@@ -3476,7 +3476,7 @@
     "Soccer Stars v37.0.0": {
       "deep_link": "https://t.me/kkn2bot?start=2540",
       "post_link": "https://t.me/melo00n/25727",
-      "views": 738,
+      "views": 739,
       "msg_id": 25727,
       "chat_id": -1001893520557,
       "image": "images/25727.jpg"
@@ -3524,7 +3524,7 @@
     "🎮Knightica": {
       "deep_link": "https://t.me/kkn2bot?start=2554",
       "post_link": "https://t.me/melo00n/25744",
-      "views": 440,
+      "views": 442,
       "msg_id": 25744,
       "chat_id": -1001893520557,
       "image": "images/25744.jpg"
@@ -3532,12 +3532,20 @@
     "🎮Our Last Way Out": {
       "deep_link": "https://t.me/kkn2bot?start=2552",
       "post_link": "https://t.me/melo00n/25743",
-      "views": 426,
+      "views": 427,
       "msg_id": 25743,
       "chat_id": -1001893520557,
       "image": "images/25743.jpg"
+    },
+    "🎮Machine Party": {
+      "deep_link": "https://t.me/kkn2bot?start=2560",
+      "post_link": "https://t.me/melo00n/25751",
+      "views": 19,
+      "msg_id": 25751,
+      "chat_id": -1001893520557,
+      "image": "images/25751.jpg"
     }
   },
-  "updated_at": "2026-09-15 15:44 UTC",
-  "total": 442
+  "updated_at": "2026-09-15 15:54 UTC",
+  "total": 443
 }
