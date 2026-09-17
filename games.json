@@ -3516,7 +3516,7 @@
     "🎮Apple Knight 3": {
       "deep_link": "https://t.me/kkn2bot?start=2548",
       "post_link": "https://t.me/melo00n/25735",
-      "views": 843,
+      "views": 844,
       "msg_id": 25735,
       "chat_id": -1001893520557,
       "image": "images/25735.jpg"
@@ -3548,7 +3548,7 @@
     "🎮Caucasus Parking": {
       "deep_link": "https://t.me/kkn2bot?start=2564",
       "post_link": "https://t.me/melo00n/25758",
-      "views": 344,
+      "views": 345,
       "msg_id": 25758,
       "chat_id": -1001893520557,
       "image": "images/25758.jpg"
@@ -3578,6 +3578,6 @@
       "image": "images/25760.jpg"
     }
   },
-  "updated_at": "2026-09-17 06:44 UTC",
+  "updated_at": "2026-09-17 06:54 UTC",
   "total": 447
 }
