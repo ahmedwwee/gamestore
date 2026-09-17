@@ -468,7 +468,7 @@
     "Love legend": {
       "deep_link": "https://t.me/kkn2bot?start=2568",
       "post_link": "https://t.me/melo00n/25761",
-      "views": 106,
+      "views": 109,
       "msg_id": 25761,
       "chat_id": -1001893520557,
       "image": "images/25761.jpg"
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2570",
       "post_link": "https://t.me/melo00n/25762",
-      "views": 95,
+      "views": 97,
       "msg_id": 25762,
       "chat_id": -1001893520557,
       "image": "images/25762.jpg"
@@ -3423,7 +3423,7 @@
       "views": 917,
       "msg_id": 25716,
       "chat_id": -1001893520557,
-      "image": "images/25716.jpg"
+      "image": null
     },
     "🎮Bus Coach Master": {
       "deep_link": "https://t.me/kkn2bot?start=2523",
@@ -3524,7 +3524,7 @@
     "🎮Knightica": {
       "deep_link": "https://t.me/kkn2bot?start=2554",
       "post_link": "https://t.me/melo00n/25744",
-      "views": 667,
+      "views": 668,
       "msg_id": 25744,
       "chat_id": -1001893520557,
       "image": "images/25744.jpg"
@@ -3532,7 +3532,7 @@
     "🎮Our Last Way Out": {
       "deep_link": "https://t.me/kkn2bot?start=2552",
       "post_link": "https://t.me/melo00n/25743",
-      "views": 656,
+      "views": 657,
       "msg_id": 25743,
       "chat_id": -1001893520557,
       "image": "images/25743.jpg"
@@ -3540,7 +3540,7 @@
     "🎮Machine Party": {
       "deep_link": "https://t.me/kkn2bot?start=2560",
       "post_link": "https://t.me/melo00n/25751",
-      "views": 621,
+      "views": 622,
       "msg_id": 25751,
       "chat_id": -1001893520557,
       "image": "images/25751.jpg"
@@ -3548,7 +3548,7 @@
     "🎮Caucasus Parking": {
       "deep_link": "https://t.me/kkn2bot?start=2564",
       "post_link": "https://t.me/melo00n/25758",
-      "views": 369,
+      "views": 371,
       "msg_id": 25758,
       "chat_id": -1001893520557,
       "image": "images/25758.jpg"
@@ -3556,7 +3556,7 @@
     "🎮Titan Soul Action": {
       "deep_link": "https://t.me/kkn2bot?start=2562",
       "post_link": "https://t.me/melo00n/25757",
-      "views": 351,
+      "views": 352,
       "msg_id": 25757,
       "chat_id": -1001893520557,
       "image": "images/25757.jpg"
@@ -3564,7 +3564,7 @@
     "Monster Survivors": {
       "deep_link": "https://t.me/kkn2bot?start=2572",
       "post_link": "https://t.me/melo00n/25763",
-      "views": 110,
+      "views": 113,
       "msg_id": 25763,
       "chat_id": -1001893520557,
       "image": "images/25763.jpg"
@@ -3572,12 +3572,12 @@
     "Arena": {
       "deep_link": "https://t.me/kkn2bot?start=2566",
       "post_link": "https://t.me/melo00n/25760",
-      "views": 98,
+      "views": 102,
       "msg_id": 25760,
       "chat_id": -1001893520557,
       "image": "images/25760.jpg"
     }
   },
-  "updated_at": "2026-09-17 09:24 UTC",
+  "updated_at": "2026-09-17 09:34 UTC",
   "total": 447
 }
