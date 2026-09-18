@@ -188,7 +188,7 @@
     "كاب كت CapCut": {
       "deep_link": "https://t.me/kkn2bot?start=2558",
       "post_link": "https://t.me/melo00n/25746",
-      "views": 832,
+      "views": 833,
       "msg_id": 25746,
       "chat_id": -1001893520557,
       "image": "images/25746.jpg"
@@ -468,7 +468,7 @@
     "Love legend": {
       "deep_link": "https://t.me/kkn2bot?start=2568",
       "post_link": "https://t.me/melo00n/25761",
-      "views": 442,
+      "views": 443,
       "msg_id": 25761,
       "chat_id": -1001893520557,
       "image": "images/25761.jpg"
@@ -2476,7 +2476,7 @@
     "Last Day on Earth": {
       "deep_link": "https://t.me/kkn2bot?start=2570",
       "post_link": "https://t.me/melo00n/25762",
-      "views": 405,
+      "views": 406,
       "msg_id": 25762,
       "chat_id": -1001893520557,
       "image": "images/25762.jpg"
@@ -3508,7 +3508,7 @@
     "🎮Hamster Hunter": {
       "deep_link": "https://t.me/kkn2bot?start=2550",
       "post_link": "https://t.me/melo00n/25736",
-      "views": 1043,
+      "views": 1044,
       "msg_id": 25736,
       "chat_id": -1001893520557,
       "image": "images/25736.jpg"
@@ -3556,7 +3556,7 @@
     "🎮Titan Soul Action": {
       "deep_link": "https://t.me/kkn2bot?start=2562",
       "post_link": "https://t.me/melo00n/25757",
-      "views": 578,
+      "views": 579,
       "msg_id": 25757,
       "chat_id": -1001893520557,
       "image": "images/25757.jpg"
@@ -3572,7 +3572,7 @@
     "Arena": {
       "deep_link": "https://t.me/kkn2bot?start=2566",
       "post_link": "https://t.me/melo00n/25760",
-      "views": 435,
+      "views": 436,
       "msg_id": 25760,
       "chat_id": -1001893520557,
       "image": "images/25760.jpg"
@@ -3580,12 +3580,28 @@
     "🎮The Binding of Isaac Repentance": {
       "deep_link": "https://t.me/kkn2bot?start=2581",
       "post_link": "https://t.me/melo00n/25770",
-      "views": 554,
+      "views": 555,
       "msg_id": 25770,
       "chat_id": -1001893520557,
       "image": "images/25770.jpg"
+    },
+    "🎮Drive X Unlimited": {
+      "deep_link": "https://t.me/kkn2bot?start=2587",
+      "post_link": "https://t.me/melo00n/25784",
+      "views": 1,
+      "msg_id": 25784,
+      "chat_id": -1001893520557,
+      "image": "images/25784.jpg"
+    },
+    "🎮Disney Epic Mickey Rebrushed": {
+      "deep_link": "https://t.me/kkn2bot?start=2585",
+      "post_link": "https://t.me/melo00n/25783",
+      "views": 1,
+      "msg_id": 25783,
+      "chat_id": -1001893520557,
+      "image": "images/25783.jpg"
     }
   },
-  "updated_at": "2026-09-18 16:14 UTC",
-  "total": 448
+  "updated_at": "2026-09-18 16:24 UTC",
+  "total": 450
 }
