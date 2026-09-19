@@ -3540,7 +3540,7 @@
     "🎮Machine Party": {
       "deep_link": "https://t.me/kkn2bot?start=2560",
       "post_link": "https://t.me/melo00n/25751",
-      "views": 818,
+      "views": 819,
       "msg_id": 25751,
       "chat_id": -1001893520557,
       "image": "images/25751.jpg"
@@ -3604,7 +3604,7 @@
     "Archero 2": {
       "deep_link": "https://t.me/kkn2bot?start=2591",
       "post_link": "https://t.me/melo00n/25786",
-      "views": 680,
+      "views": 681,
       "msg_id": 25786,
       "chat_id": -1001893520557,
       "image": "images/25786.jpg"
@@ -3628,7 +3628,7 @@
     "🎮Dead Ahead Zombie Warfare": {
       "deep_link": "https://t.me/kkn2bot?start=2593",
       "post_link": "https://t.me/melo00n/25787",
-      "views": 591,
+      "views": 592,
       "msg_id": 25787,
       "chat_id": -1001893520557,
       "image": "images/25787.jpg"
@@ -3642,6 +3642,6 @@
       "image": "images/25794.jpg"
     }
   },
-  "updated_at": "2026-09-19 20:34 UTC",
+  "updated_at": "2026-09-19 20:44 UTC",
   "total": 455
 }
