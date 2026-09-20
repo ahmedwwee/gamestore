@@ -3588,7 +3588,7 @@
     "🎮Drive X Unlimited": {
       "deep_link": "https://t.me/kkn2bot?start=2587",
       "post_link": "https://t.me/melo00n/25784",
-      "views": 711,
+      "views": 712,
       "msg_id": 25784,
       "chat_id": -1001893520557,
       "image": "images/25784.jpg"
@@ -3596,7 +3596,7 @@
     "🎮Disney Epic Mickey Rebrushed": {
       "deep_link": "https://t.me/kkn2bot?start=2585",
       "post_link": "https://t.me/melo00n/25783",
-      "views": 690,
+      "views": 691,
       "msg_id": 25783,
       "chat_id": -1001893520557,
       "image": "images/25783.jpg"
@@ -3604,7 +3604,7 @@
     "Archero 2": {
       "deep_link": "https://t.me/kkn2bot?start=2591",
       "post_link": "https://t.me/melo00n/25786",
-      "views": 727,
+      "views": 728,
       "msg_id": 25786,
       "chat_id": -1001893520557,
       "image": "images/25786.jpg"
@@ -3620,7 +3620,7 @@
     "🎮The Fall: Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2595",
       "post_link": "https://t.me/melo00n/25788",
-      "views": 654,
+      "views": 655,
       "msg_id": 25788,
       "chat_id": -1001893520557,
       "image": "images/25788.jpg"
@@ -3628,7 +3628,7 @@
     "🎮Dead Ahead Zombie Warfare": {
       "deep_link": "https://t.me/kkn2bot?start=2593",
       "post_link": "https://t.me/melo00n/25787",
-      "views": 654,
+      "views": 655,
       "msg_id": 25787,
       "chat_id": -1001893520557,
       "image": "images/25787.jpg"
@@ -3636,12 +3636,28 @@
     "ايجي بست EgyBest مهكر": {
       "deep_link": "https://t.me/kkn2bot?start=2597",
       "post_link": "https://t.me/melo00n/25794",
-      "views": 457,
+      "views": 458,
       "msg_id": 25794,
       "chat_id": -1001893520557,
       "image": "images/25794.jpg"
+    },
+    "🎮Takashi Ninja Samurai": {
+      "deep_link": "https://t.me/kkn2bot?start=2601",
+      "post_link": "https://t.me/melo00n/25810",
+      "views": 1,
+      "msg_id": 25810,
+      "chat_id": -1001893520557,
+      "image": "images/25810.jpg"
+    },
+    "🎮Ultimate Car Driving Sim 2": {
+      "deep_link": "https://t.me/kkn2bot?start=2599",
+      "post_link": "https://t.me/melo00n/25809",
+      "views": 5,
+      "msg_id": 25809,
+      "chat_id": -1001893520557,
+      "image": "images/25809.jpg"
     }
   },
-  "updated_at": "2026-09-20 10:14 UTC",
-  "total": 455
+  "updated_at": "2026-09-20 10:24 UTC",
+  "total": 457
 }
