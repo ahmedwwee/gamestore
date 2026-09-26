@@ -244,7 +244,7 @@
     "Candy Crush Saga": {
       "deep_link": "https://t.me/kkn2bot?start=2513",
       "post_link": "https://t.me/melo00n/25701",
-      "views": 958,
+      "views": 959,
       "msg_id": 25701,
       "chat_id": -1001893520557,
       "image": "images/25701.jpg"
@@ -692,7 +692,7 @@
     "دراما بوكس DramaBox": {
       "deep_link": "https://t.me/kkn2bot?start=2607",
       "post_link": "https://t.me/melo00n/25825",
-      "views": 894,
+      "views": 895,
       "msg_id": 25825,
       "chat_id": -1001893520557,
       "image": "images/25825.jpg"
@@ -3708,7 +3708,7 @@
     "🎮Lost in Play": {
       "deep_link": "https://t.me/kkn2bot?start=2623",
       "post_link": "https://t.me/melo00n/25852",
-      "views": 688,
+      "views": 689,
       "msg_id": 25852,
       "chat_id": -1001893520557,
       "image": "images/25852.jpg"
@@ -3716,7 +3716,7 @@
     "🎮Balkan Drive Zone": {
       "deep_link": "https://t.me/kkn2bot?start=2625",
       "post_link": "https://t.me/melo00n/25859",
-      "views": 220,
+      "views": 221,
       "msg_id": 25859,
       "chat_id": -1001893520557,
       "image": "images/25859.jpg"
@@ -3724,12 +3724,12 @@
     "Pirate Survival RPG": {
       "deep_link": "https://t.me/kkn2bot?start=2627",
       "post_link": "https://t.me/melo00n/25861",
-      "views": 34,
+      "views": 36,
       "msg_id": 25861,
       "chat_id": -1001893520557,
       "image": "images/25861.jpg"
     }
   },
-  "updated_at": "2026-09-26 00:04 UTC",
+  "updated_at": "2026-09-26 00:14 UTC",
   "total": 466
 }
