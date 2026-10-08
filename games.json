@@ -3780,7 +3780,7 @@
     "🎮Mount Blade Warband": {
       "deep_link": "https://t.me/kkn2bot?start=2641",
       "post_link": "https://t.me/melo00n/25888",
-      "views": 863,
+      "views": 864,
       "msg_id": 25888,
       "chat_id": -1001893520557,
       "image": "images/25888.jpg"
@@ -3828,7 +3828,7 @@
     "🎮 American Marksman": {
       "deep_link": "https://t.me/kkn2bot?start=2655",
       "post_link": "https://t.me/melo00n/25899",
-      "views": 953,
+      "views": 954,
       "msg_id": 25899,
       "chat_id": -1001893520557,
       "image": "images/25899.jpg"
@@ -3852,12 +3852,20 @@
     "🎮Stellar Wanderer": {
       "deep_link": "https://t.me/kkn2bot?start=2661",
       "post_link": "https://t.me/melo00n/25915",
-      "views": 822,
+      "views": 823,
       "msg_id": 25915,
       "chat_id": -1001893520557,
       "image": "images/25915.jpg"
+    },
+    "🎮Reporter": {
+      "deep_link": "https://t.me/kkn2bot?start=2665",
+      "post_link": "https://t.me/melo00n/25920",
+      "views": 13,
+      "msg_id": 25920,
+      "chat_id": -1001893520557,
+      "image": "images/25920.jpg"
     }
   },
-  "updated_at": "2026-10-08 06:00 UTC",
-  "total": 482
+  "updated_at": "2026-10-08 06:10 UTC",
+  "total": 483
 }
