@@ -3828,7 +3828,7 @@
     "🎮 American Marksman": {
       "deep_link": "https://t.me/kkn2bot?start=2655",
       "post_link": "https://t.me/melo00n/25899",
-      "views": 1125,
+      "views": 1126,
       "msg_id": 25899,
       "chat_id": -1001893520557,
       "image": "images/25899.jpg"
@@ -3836,7 +3836,7 @@
     "🎮NFS Most Wanted": {
       "deep_link": "https://t.me/kkn2bot?start=2657",
       "post_link": "https://t.me/melo00n/25904",
-      "views": 1138,
+      "views": 1139,
       "msg_id": 25904,
       "chat_id": -1001893520557,
       "image": "images/25904.jpg"
@@ -3844,7 +3844,7 @@
     "👾 TikTok You 4.4 (46.8.3)": {
       "deep_link": "https://t.me/kkn2bot?start=2659",
       "post_link": "https://t.me/melo00n/25906",
-      "views": 1033,
+      "views": 1034,
       "msg_id": 25906,
       "chat_id": -1001893520557,
       "image": "images/25906.jpg"
@@ -3876,7 +3876,7 @@
     "🎮First Touch Soccer": {
       "deep_link": "https://t.me/kkn2bot?start=2669",
       "post_link": "https://t.me/melo00n/25931",
-      "views": 332,
+      "views": 333,
       "msg_id": 25931,
       "chat_id": -1001893520557,
       "image": "images/25931.jpg"
@@ -3890,6 +3890,6 @@
       "image": "images/25932.jpg"
     }
   },
-  "updated_at": "2026-10-09 20:40 UTC",
+  "updated_at": "2026-10-09 20:50 UTC",
   "total": 486
 }
