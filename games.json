@@ -3940,12 +3940,20 @@
     "🎮Thronefall": {
       "deep_link": "https://t.me/kkn2bot?start=2699",
       "post_link": "https://t.me/melo00n/25953",
-      "views": 449,
+      "views": 453,
       "msg_id": 25953,
       "chat_id": -1001893520557,
       "image": "images/25953.jpg"
+    },
+    "EA SPORTS FC Mobile Soccer": {
+      "deep_link": "https://t.me/kkn2bot?start=2701",
+      "post_link": "https://t.me/melo00n/25956",
+      "views": 9,
+      "msg_id": 25956,
+      "chat_id": -1001893520557,
+      "image": "images/25956.jpg"
     }
   },
-  "updated_at": "2026-10-13 14:30 UTC",
-  "total": 493
+  "updated_at": "2026-10-13 14:40 UTC",
+  "total": 494
 }
