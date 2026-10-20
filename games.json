@@ -3948,7 +3948,7 @@
     "EA SPORTS FC Mobile Soccer": {
       "deep_link": "https://t.me/kkn2bot?start=2701",
       "post_link": "https://t.me/melo00n/25956",
-      "views": 999,
+      "views": 1000,
       "msg_id": 25956,
       "chat_id": -1001893520557,
       "image": "images/25956.jpg"
@@ -3956,7 +3956,7 @@
     "🎮Levelhead": {
       "deep_link": "https://t.me/kkn2bot?start=2703",
       "post_link": "https://t.me/melo00n/25958",
-      "views": 1063,
+      "views": 1064,
       "msg_id": 25958,
       "chat_id": -1001893520557,
       "image": "images/25958.jpg"
@@ -3964,7 +3964,7 @@
     "😀 تحديث": {
       "deep_link": "https://t.me/kkn2bot?start=2705",
       "post_link": "https://t.me/melo00n/25960",
-      "views": 1149,
+      "views": 1150,
       "msg_id": 25960,
       "chat_id": -1001893520557,
       "image": "images/25960.jpg"
@@ -4028,7 +4028,7 @@
     "🎮Monster Hunter Rise": {
       "deep_link": "https://t.me/kkn2bot?start=2729",
       "post_link": "https://t.me/melo00n/25976",
-      "views": 1062,
+      "views": 1063,
       "msg_id": 25976,
       "chat_id": -1001893520557,
       "image": "images/25976.jpg"
@@ -4044,7 +4044,7 @@
     "🎮Little Kitty Big City": {
       "deep_link": "https://t.me/kkn2bot?start=2731",
       "post_link": "https://t.me/melo00n/25978",
-      "views": 926,
+      "views": 928,
       "msg_id": 25978,
       "chat_id": -1001893520557,
       "image": "images/25978.jpg"
@@ -4052,7 +4052,7 @@
     "🎮Borderlands 2": {
       "deep_link": "https://t.me/kkn2bot?start=2733",
       "post_link": "https://t.me/melo00n/25979",
-      "views": 849,
+      "views": 850,
       "msg_id": 25979,
       "chat_id": -1001893520557,
       "image": "images/25979.jpg"
@@ -4068,12 +4068,20 @@
     "Sifu": {
       "deep_link": "https://t.me/kkn2bot?start=2737",
       "post_link": "https://t.me/melo00n/25989",
-      "views": 548,
+      "views": 550,
       "msg_id": 25989,
       "chat_id": -1001893520557,
       "image": "images/25989.jpg"
+    },
+    "🎮DuneCrawl": {
+      "deep_link": "https://t.me/kkn2bot?start=2755",
+      "post_link": "https://t.me/melo00n/26001",
+      "views": 6,
+      "msg_id": 26001,
+      "chat_id": -1001893520557,
+      "image": "images/26001.jpg"
     }
   },
-  "updated_at": "2026-10-20 17:37 UTC",
-  "total": 509
+  "updated_at": "2026-10-20 17:47 UTC",
+  "total": 510
 }
