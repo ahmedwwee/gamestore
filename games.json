@@ -692,7 +692,7 @@
     "دراما بوكس DramaBox": {
       "deep_link": "https://t.me/kkn2bot?start=2607",
       "post_link": "https://t.me/melo00n/25825",
-      "views": 1384,
+      "views": 1385,
       "msg_id": 25825,
       "chat_id": -1001893520557,
       "image": "images/25825.jpg"
@@ -3644,7 +3644,7 @@
     "🎮Takashi Ninja Samurai": {
       "deep_link": "https://t.me/kkn2bot?start=2601",
       "post_link": "https://t.me/melo00n/25810",
-      "views": 1412,
+      "views": 1413,
       "msg_id": 25810,
       "chat_id": -1001893520557,
       "image": "images/25810.jpg"
@@ -3652,7 +3652,7 @@
     "🎮Ultimate Car Driving Sim 2": {
       "deep_link": "https://t.me/kkn2bot?start=2599",
       "post_link": "https://t.me/melo00n/25809",
-      "views": 1395,
+      "views": 1396,
       "msg_id": 25809,
       "chat_id": -1001893520557,
       "image": "images/25809.jpg"
@@ -4076,7 +4076,7 @@
     "🎮DuneCrawl": {
       "deep_link": "https://t.me/kkn2bot?start=2755",
       "post_link": "https://t.me/melo00n/26001",
-      "views": 804,
+      "views": 805,
       "msg_id": 26001,
       "chat_id": -1001893520557,
       "image": "images/26001.jpg"
@@ -4084,7 +4084,7 @@
     "🎮Quarantine Border 3D": {
       "deep_link": "https://t.me/kkn2bot?start=2757",
       "post_link": "https://t.me/melo00n/26003",
-      "views": 709,
+      "views": 710,
       "msg_id": 26003,
       "chat_id": -1001893520557,
       "image": "images/26003.jpg"
@@ -4098,6 +4098,6 @@
       "image": "images/26006.jpg"
     }
   },
-  "updated_at": "2026-10-23 07:47 UTC",
+  "updated_at": "2026-10-23 07:57 UTC",
   "total": 512
 }
