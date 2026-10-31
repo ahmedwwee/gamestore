@@ -4116,7 +4116,7 @@
     "🎮I Am Monkey": {
       "deep_link": "https://t.me/kkn2bot?start=2798",
       "post_link": "https://t.me/melo00n/26032",
-      "views": 1081,
+      "views": 1082,
       "msg_id": 26032,
       "chat_id": -1001893520557,
       "image": "images/26032.jpg"
@@ -4124,7 +4124,7 @@
     "🎮Gaucho Origins": {
       "deep_link": "https://t.me/kkn2bot?start=2805",
       "post_link": "https://t.me/melo00n/26045",
-      "views": 845,
+      "views": 846,
       "msg_id": 26045,
       "chat_id": -1001893520557,
       "image": "images/26045.jpg"
@@ -4162,6 +4162,6 @@
       "image": "images/26072.jpg"
     }
   },
-  "updated_at": "2026-10-31 01:30 UTC",
+  "updated_at": "2026-10-31 01:40 UTC",
   "total": 520
 }
