@@ -3844,7 +3844,7 @@
     "👾 TikTok You 4.4 (46.8.3)": {
       "deep_link": "https://t.me/kkn2bot?start=2659",
       "post_link": "https://t.me/melo00n/25906",
-      "views": 1744,
+      "views": 1745,
       "msg_id": 25906,
       "chat_id": -1001893520557,
       "image": "images/25906.jpg"
@@ -3860,7 +3860,7 @@
     "🎮Reporter": {
       "deep_link": "https://t.me/kkn2bot?start=2665",
       "post_link": "https://t.me/melo00n/25920",
-      "views": 1768,
+      "views": 1769,
       "msg_id": 25920,
       "chat_id": -1001893520557,
       "image": "images/25920.jpg"
@@ -4060,7 +4060,7 @@
     "🎮Night City Racing": {
       "deep_link": "https://t.me/kkn2bot?start=2735",
       "post_link": "https://t.me/melo00n/25984",
-      "views": 1714,
+      "views": 1715,
       "msg_id": 25984,
       "chat_id": -1001893520557,
       "image": "images/25984.jpg"
@@ -4156,7 +4156,7 @@
     "🎮FIFA 12": {
       "deep_link": "https://t.me/kkn2bot?start=2815",
       "post_link": "https://t.me/melo00n/26072",
-      "views": 786,
+      "views": 788,
       "msg_id": 26072,
       "chat_id": -1001893520557,
       "image": "images/26072.jpg"
@@ -4164,7 +4164,7 @@
     "🎮Farmer Crew": {
       "deep_link": "https://t.me/kkn2bot?start=2817",
       "post_link": "https://t.me/melo00n/26083",
-      "views": 573,
+      "views": 575,
       "msg_id": 26083,
       "chat_id": -1001893520557,
       "image": "images/26083.jpg"
@@ -4172,12 +4172,20 @@
     "🎮Call of Duty Strike Team": {
       "deep_link": "https://t.me/kkn2bot?start=2819",
       "post_link": "https://t.me/melo00n/26087",
-      "views": 277,
+      "views": 282,
       "msg_id": 26087,
       "chat_id": -1001893520557,
       "image": "images/26087.jpg"
+    },
+    "🎮Football Manager Mobile 2018": {
+      "deep_link": "https://t.me/kkn2bot?start=2821",
+      "post_link": "https://t.me/melo00n/26088",
+      "views": 9,
+      "msg_id": 26088,
+      "chat_id": -1001893520557,
+      "image": "images/26088.jpg"
     }
   },
-  "updated_at": "2026-11-02 07:38 UTC",
-  "total": 522
+  "updated_at": "2026-11-02 07:48 UTC",
+  "total": 523
 }
