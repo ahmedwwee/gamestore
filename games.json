@@ -1788,7 +1788,7 @@
     "SAKURA School Simulator": {
       "deep_link": "https://t.me/kkn2bot?start=2827",
       "post_link": "https://t.me/melo00n/26093",
-      "views": 138,
+      "views": 140,
       "msg_id": 26093,
       "chat_id": -1001893520557,
       "image": "images/26093.jpg"
@@ -3727,7 +3727,7 @@
       "views": 1644,
       "msg_id": 25861,
       "chat_id": -1001893520557,
-      "image": "images/25861.jpg"
+      "image": null
     },
     "🎮Human: Fall Flat": {
       "deep_link": "https://t.me/kkn2bot?start=2629",
@@ -3879,7 +3879,7 @@
       "views": 1448,
       "msg_id": 25931,
       "chat_id": -1001893520557,
-      "image": "images/25931.jpg"
+      "image": null
     },
     "🎬 PPCine is now available! 🔥": {
       "deep_link": "https://t.me/kkn2bot?start=2671",
@@ -4047,7 +4047,7 @@
       "views": 1540,
       "msg_id": 25978,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/25978.jpg"
     },
     "🎮Borderlands 2": {
       "deep_link": "https://t.me/kkn2bot?start=2733",
@@ -4079,7 +4079,7 @@
       "views": 1561,
       "msg_id": 26001,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/26001.jpg"
     },
     "🎮Quarantine Border 3D": {
       "deep_link": "https://t.me/kkn2bot?start=2757",
@@ -4095,7 +4095,7 @@
       "views": 1373,
       "msg_id": 26006,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/26006.jpg"
     },
     "One state mod apk معدلة": {
       "deep_link": "https://t.me/kkn2bot?start=2765",
@@ -4188,7 +4188,7 @@
     "🎮Wreckfest": {
       "deep_link": "https://t.me/kkn2bot?start=2825",
       "post_link": "https://t.me/melo00n/26092",
-      "views": 124,
+      "views": 126,
       "msg_id": 26092,
       "chat_id": -1001893520557,
       "image": "images/26092.jpg"
@@ -4196,12 +4196,12 @@
     "Westland Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2829",
       "post_link": "https://t.me/melo00n/26094",
-      "views": 141,
+      "views": 144,
       "msg_id": 26094,
       "chat_id": -1001893520557,
       "image": "images/26094.jpg"
     }
   },
-  "updated_at": "2026-11-03 13:06 UTC",
+  "updated_at": "2026-11-03 13:16 UTC",
   "total": 525
 }
