@@ -4148,7 +4148,7 @@
     "🎮Tactic Boxing Mobile": {
       "deep_link": "https://t.me/kkn2bot?start=2811",
       "post_link": "https://t.me/melo00n/26063",
-      "views": 915,
+      "views": 916,
       "msg_id": 26063,
       "chat_id": -1001893520557,
       "image": "images/26063.jpg"
@@ -4172,7 +4172,7 @@
     "🎮Call of Duty Strike Team": {
       "deep_link": "https://t.me/kkn2bot?start=2819",
       "post_link": "https://t.me/melo00n/26087",
-      "views": 573,
+      "views": 574,
       "msg_id": 26087,
       "chat_id": -1001893520557,
       "image": "images/26087.jpg"
@@ -4180,12 +4180,20 @@
     "🎮Football Manager Mobile 2018": {
       "deep_link": "https://t.me/kkn2bot?start=2821",
       "post_link": "https://t.me/melo00n/26088",
-      "views": 472,
+      "views": 473,
       "msg_id": 26088,
       "chat_id": -1001893520557,
       "image": "images/26088.jpg"
+    },
+    "🎮Wreckfest": {
+      "deep_link": "https://t.me/kkn2bot?start=2825",
+      "post_link": "https://t.me/melo00n/26092",
+      "views": 1,
+      "msg_id": 26092,
+      "chat_id": -1001893520557,
+      "image": "images/26092.jpg"
     }
   },
-  "updated_at": "2026-11-03 10:15 UTC",
-  "total": 523
+  "updated_at": "2026-11-03 10:25 UTC",
+  "total": 524
 }
