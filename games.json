@@ -1788,7 +1788,7 @@
     "SAKURA School Simulator": {
       "deep_link": "https://t.me/kkn2bot?start=2827",
       "post_link": "https://t.me/melo00n/26093",
-      "views": 130,
+      "views": 138,
       "msg_id": 26093,
       "chat_id": -1001893520557,
       "image": "images/26093.jpg"
@@ -4047,7 +4047,7 @@
       "views": 1540,
       "msg_id": 25978,
       "chat_id": -1001893520557,
-      "image": "images/25978.jpg"
+      "image": null
     },
     "🎮Borderlands 2": {
       "deep_link": "https://t.me/kkn2bot?start=2733",
@@ -4079,7 +4079,7 @@
       "views": 1561,
       "msg_id": 26001,
       "chat_id": -1001893520557,
-      "image": "images/26001.jpg"
+      "image": null
     },
     "🎮Quarantine Border 3D": {
       "deep_link": "https://t.me/kkn2bot?start=2757",
@@ -4095,7 +4095,7 @@
       "views": 1373,
       "msg_id": 26006,
       "chat_id": -1001893520557,
-      "image": "images/26006.jpg"
+      "image": null
     },
     "One state mod apk معدلة": {
       "deep_link": "https://t.me/kkn2bot?start=2765",
@@ -4111,7 +4111,7 @@
       "views": 1233,
       "msg_id": 26017,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/26017.jpg"
     },
     "🎮I Am Monkey": {
       "deep_link": "https://t.me/kkn2bot?start=2798",
@@ -4140,7 +4140,7 @@
     "🎮The Spotter Dig or Die": {
       "deep_link": "https://t.me/kkn2bot?start=2813",
       "post_link": "https://t.me/melo00n/26064",
-      "views": 945,
+      "views": 946,
       "msg_id": 26064,
       "chat_id": -1001893520557,
       "image": "images/26064.jpg"
@@ -4167,7 +4167,7 @@
       "views": 686,
       "msg_id": 26083,
       "chat_id": -1001893520557,
-      "image": "images/26083.jpg"
+      "image": null
     },
     "🎮Call of Duty Strike Team": {
       "deep_link": "https://t.me/kkn2bot?start=2819",
@@ -4188,7 +4188,7 @@
     "🎮Wreckfest": {
       "deep_link": "https://t.me/kkn2bot?start=2825",
       "post_link": "https://t.me/melo00n/26092",
-      "views": 118,
+      "views": 124,
       "msg_id": 26092,
       "chat_id": -1001893520557,
       "image": "images/26092.jpg"
@@ -4196,12 +4196,12 @@
     "Westland Survival": {
       "deep_link": "https://t.me/kkn2bot?start=2829",
       "post_link": "https://t.me/melo00n/26094",
-      "views": 133,
+      "views": 141,
       "msg_id": 26094,
       "chat_id": -1001893520557,
       "image": "images/26094.jpg"
     }
   },
-  "updated_at": "2026-11-03 12:56 UTC",
+  "updated_at": "2026-11-03 13:06 UTC",
   "total": 525
 }
