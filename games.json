@@ -1308,7 +1308,7 @@
     "🎮Polyfield": {
       "deep_link": "https://t.me/kkn2bot?start=2878",
       "post_link": "https://t.me/melo00n/26136",
-      "views": 261,
+      "views": 263,
       "msg_id": 26136,
       "chat_id": -1001893520557,
       "image": "images/26136.jpg"
@@ -1708,7 +1708,7 @@
     "Football League 2026": {
       "deep_link": "https://t.me/kkn2bot?start=2868",
       "post_link": "https://t.me/melo00n/26129",
-      "views": 626,
+      "views": 627,
       "msg_id": 26129,
       "chat_id": -1001893520557,
       "image": "images/26129.jpg"
@@ -2738,12 +2738,12 @@
       "image": "images/25493.jpg"
     },
     "Subway Surfers": {
-      "deep_link": "https://t.me/kkn2bot?start=2445",
-      "post_link": "https://t.me/melo00n/25648",
-      "views": 1138,
-      "msg_id": 25648,
+      "deep_link": "https://t.me/kkn2bot?start=2880",
+      "post_link": "https://t.me/melo00n/26137",
+      "views": 5,
+      "msg_id": 26137,
       "chat_id": -1001893520557,
-      "image": "images/25648.jpg"
+      "image": "images/26137.jpg"
     },
     "1945 Air Force": {
       "deep_link": "https://t.me/kkn2bot?start=2243",
@@ -3244,7 +3244,7 @@
     "🔁 [تحديث] 🔁": {
       "deep_link": "https://t.me/kkn2bot?start=2823",
       "post_link": "https://t.me/melo00n/26091",
-      "views": 837,
+      "views": 838,
       "msg_id": 26091,
       "chat_id": -1001893520557,
       "image": "images/26091.jpg"
@@ -4052,7 +4052,7 @@
     "🎮Borderlands 2": {
       "deep_link": "https://t.me/kkn2bot?start=2733",
       "post_link": "https://t.me/melo00n/25979",
-      "views": 1506,
+      "views": 1507,
       "msg_id": 25979,
       "chat_id": -1001893520557,
       "image": "images/25979.jpg"
@@ -4060,7 +4060,7 @@
     "🎮Night City Racing": {
       "deep_link": "https://t.me/kkn2bot?start=2735",
       "post_link": "https://t.me/melo00n/25984",
-      "views": 1848,
+      "views": 1849,
       "msg_id": 25984,
       "chat_id": -1001893520557,
       "image": "images/25984.jpg"
@@ -4068,7 +4068,7 @@
     "Sifu": {
       "deep_link": "https://t.me/kkn2bot?start=2737",
       "post_link": "https://t.me/melo00n/25989",
-      "views": 1436,
+      "views": 1437,
       "msg_id": 25989,
       "chat_id": -1001893520557,
       "image": "images/25989.jpg"
@@ -4156,7 +4156,7 @@
     "🎮FIFA 12": {
       "deep_link": "https://t.me/kkn2bot?start=2815",
       "post_link": "https://t.me/melo00n/26072",
-      "views": 1175,
+      "views": 1176,
       "msg_id": 26072,
       "chat_id": -1001893520557,
       "image": "images/26072.jpg"
@@ -4172,7 +4172,7 @@
     "🎮Call of Duty Strike Team": {
       "deep_link": "https://t.me/kkn2bot?start=2819",
       "post_link": "https://t.me/melo00n/26087",
-      "views": 1043,
+      "views": 1045,
       "msg_id": 26087,
       "chat_id": -1001893520557,
       "image": "images/26087.jpg"
@@ -4180,7 +4180,7 @@
     "🎮Football Manager Mobile 2018": {
       "deep_link": "https://t.me/kkn2bot?start=2821",
       "post_link": "https://t.me/melo00n/26088",
-      "views": 939,
+      "views": 941,
       "msg_id": 26088,
       "chat_id": -1001893520557,
       "image": "images/26088.jpg"
@@ -4252,7 +4252,7 @@
     "🎮Ant Colony Wild Forest": {
       "deep_link": "https://t.me/kkn2bot?start=2874",
       "post_link": "https://t.me/melo00n/26132",
-      "views": 594,
+      "views": 595,
       "msg_id": 26132,
       "chat_id": -1001893520557,
       "image": "images/26132.jpg"
@@ -4260,12 +4260,20 @@
     "🎮Getting Over It": {
       "deep_link": "https://t.me/kkn2bot?start=2876",
       "post_link": "https://t.me/melo00n/26133",
-      "views": 497,
+      "views": 498,
       "msg_id": 26133,
       "chat_id": -1001893520557,
       "image": "images/26133.jpg"
+    },
+    "Zombie Sniper War 3": {
+      "deep_link": "https://t.me/kkn2bot?start=2882",
+      "post_link": "https://t.me/melo00n/26138",
+      "views": 5,
+      "msg_id": 26138,
+      "chat_id": -1001893520557,
+      "image": "images/26138.jpg"
     }
   },
-  "updated_at": "2026-11-10 05:43 UTC",
-  "total": 533
+  "updated_at": "2026-11-10 06:15 UTC",
+  "total": 534
 }
