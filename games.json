@@ -348,7 +348,7 @@
     "Minecraft": {
       "deep_link": "https://t.me/kkn2bot?start=2888",
       "post_link": "https://t.me/melo00n/26145",
-      "views": 231,
+      "views": 235,
       "msg_id": 26145,
       "chat_id": -1001893520557,
       "image": "images/26145.jpg"
@@ -1308,7 +1308,7 @@
     "🎮Polyfield": {
       "deep_link": "https://t.me/kkn2bot?start=2878",
       "post_link": "https://t.me/melo00n/26136",
-      "views": 634,
+      "views": 636,
       "msg_id": 26136,
       "chat_id": -1001893520557,
       "image": "images/26136.jpg"
@@ -1748,7 +1748,7 @@
     "Farm City": {
       "deep_link": "https://t.me/kkn2bot?start=2866",
       "post_link": "https://t.me/melo00n/26128",
-      "views": 755,
+      "views": 756,
       "msg_id": 26128,
       "chat_id": -1001893520557,
       "image": "images/26128.jpg"
@@ -2740,7 +2740,7 @@
     "Subway Surfers": {
       "deep_link": "https://t.me/kkn2bot?start=2880",
       "post_link": "https://t.me/melo00n/26137",
-      "views": 559,
+      "views": 560,
       "msg_id": 26137,
       "chat_id": -1001893520557,
       "image": "images/26137.jpg"
@@ -4172,7 +4172,7 @@
     "🎮Call of Duty Strike Team": {
       "deep_link": "https://t.me/kkn2bot?start=2819",
       "post_link": "https://t.me/melo00n/26087",
-      "views": 1115,
+      "views": 1116,
       "msg_id": 26087,
       "chat_id": -1001893520557,
       "image": "images/26087.jpg"
@@ -4220,7 +4220,7 @@
     "🎮Absolum": {
       "deep_link": "https://t.me/kkn2bot?start=2846",
       "post_link": "https://t.me/melo00n/26115",
-      "views": 1005,
+      "views": 1007,
       "msg_id": 26115,
       "chat_id": -1001893520557,
       "image": "images/26115.jpg"
@@ -4228,7 +4228,7 @@
     "🎮Drift Fanatics": {
       "deep_link": "https://t.me/kkn2bot?start=2848",
       "post_link": "https://t.me/melo00n/26118",
-      "views": 853,
+      "views": 854,
       "msg_id": 26118,
       "chat_id": -1001893520557,
       "image": "images/26118.jpg"
@@ -4284,7 +4284,7 @@
     "🎮Tempest Pirate": {
       "deep_link": "https://t.me/kkn2bot?start=2886",
       "post_link": "https://t.me/melo00n/26144",
-      "views": 441,
+      "views": 442,
       "msg_id": 26144,
       "chat_id": -1001893520557,
       "image": "images/26144.jpg"
@@ -4292,12 +4292,20 @@
     "🔥 Sky Force Reloaded الإصدار 2.06": {
       "deep_link": "https://t.me/kkn2bot?start=2892",
       "post_link": "https://t.me/melo00n/26147",
-      "views": 205,
+      "views": 210,
       "msg_id": 26147,
       "chat_id": -1001893520557,
       "image": "images/26147.jpg"
+    },
+    "🎮Wargame East Front": {
+      "deep_link": "https://t.me/kkn2bot?start=2894",
+      "post_link": "https://t.me/melo00n/26150",
+      "views": 12,
+      "msg_id": 26150,
+      "chat_id": -1001893520557,
+      "image": "images/26150.jpg"
     }
   },
-  "updated_at": "2026-11-12 17:45 UTC",
-  "total": 537
+  "updated_at": "2026-11-12 17:55 UTC",
+  "total": 538
 }
