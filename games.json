@@ -1708,7 +1708,7 @@
     "Football League 2026": {
       "deep_link": "https://t.me/kkn2bot?start=2868",
       "post_link": "https://t.me/melo00n/26129",
-      "views": 1096,
+      "views": 1097,
       "msg_id": 26129,
       "chat_id": -1001893520557,
       "image": "images/26129.jpg"
@@ -4332,7 +4332,7 @@
     "🎮Clone Drone in the Danger Zone": {
       "deep_link": "https://t.me/kkn2bot?start=2904",
       "post_link": "https://t.me/melo00n/26160",
-      "views": 818,
+      "views": 819,
       "msg_id": 26160,
       "chat_id": -1001893520557,
       "image": "images/26160.jpg"
@@ -4356,7 +4356,7 @@
     "Poppy Playtime Chapter 5": {
       "deep_link": "https://t.me/kkn2bot?start=2914",
       "post_link": "https://t.me/melo00n/26173",
-      "views": 425,
+      "views": 426,
       "msg_id": 26173,
       "chat_id": -1001893520557,
       "image": "images/26173.jpg"
@@ -4364,7 +4364,7 @@
     "🎮Cars Royale League of Rocket": {
       "deep_link": "https://t.me/kkn2bot?start=2920",
       "post_link": "https://t.me/melo00n/26176",
-      "views": 279,
+      "views": 280,
       "msg_id": 26176,
       "chat_id": -1001893520557,
       "image": "images/26176.jpg"
@@ -4376,8 +4376,16 @@
       "msg_id": 26175,
       "chat_id": -1001893520557,
       "image": "images/26175.jpg"
+    },
+    "Grand Theft Auto V": {
+      "deep_link": "https://t.me/kkn2bot?start=2922",
+      "post_link": "https://t.me/melo00n/26178",
+      "views": 3,
+      "msg_id": 26178,
+      "chat_id": -1001893520557,
+      "image": "images/26178.jpg"
     }
   },
-  "updated_at": "2026-11-18 22:55 UTC",
-  "total": 547
+  "updated_at": "2026-11-18 23:05 UTC",
+  "total": 548
 }
