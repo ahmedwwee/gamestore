@@ -4380,12 +4380,20 @@
     "Grand Theft Auto V": {
       "deep_link": "https://t.me/kkn2bot?start=2922",
       "post_link": "https://t.me/melo00n/26178",
-      "views": 302,
+      "views": 303,
       "msg_id": 26178,
       "chat_id": -1001893520557,
       "image": "images/26178.jpg"
+    },
+    "🎮Privateers Pirate Wars": {
+      "deep_link": "https://t.me/kkn2bot?start=2924",
+      "post_link": "https://t.me/melo00n/26190",
+      "views": 1,
+      "msg_id": 26190,
+      "chat_id": -1001893520557,
+      "image": "images/26190.jpg"
     }
   },
-  "updated_at": "2026-11-19 14:45 UTC",
-  "total": 548
+  "updated_at": "2026-11-19 14:55 UTC",
+  "total": 549
 }
