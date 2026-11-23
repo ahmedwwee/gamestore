@@ -4396,7 +4396,7 @@
     "🎮Hamburger Hill": {
       "deep_link": "https://t.me/kkn2bot?start=2926",
       "post_link": "https://t.me/melo00n/26192",
-      "views": 633,
+      "views": 634,
       "msg_id": 26192,
       "chat_id": -1001893520557,
       "image": "images/26192.jpg"
@@ -4404,7 +4404,7 @@
     "🎮Ninja Arashi 3": {
       "deep_link": "https://t.me/kkn2bot?start=2928",
       "post_link": "https://t.me/melo00n/26197",
-      "views": 305,
+      "views": 308,
       "msg_id": 26197,
       "chat_id": -1001893520557,
       "image": "images/26197.jpg"
@@ -4412,12 +4412,12 @@
     "🎮Magic Rampage": {
       "deep_link": "https://t.me/kkn2bot?start=2930",
       "post_link": "https://t.me/melo00n/26198",
-      "views": 16,
+      "views": 28,
       "msg_id": 26198,
       "chat_id": -1001893520557,
       "image": "images/26198.jpg"
     }
   },
-  "updated_at": "2026-11-23 09:15 UTC",
+  "updated_at": "2026-11-23 09:25 UTC",
   "total": 552
 }
