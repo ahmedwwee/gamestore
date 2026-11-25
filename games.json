@@ -1404,7 +1404,7 @@
     "Fishing Clash": {
       "deep_link": "https://t.me/kkn2bot?start=2936",
       "post_link": "https://t.me/melo00n/26208",
-      "views": 95,
+      "views": 100,
       "msg_id": 26208,
       "chat_id": -1001893520557,
       "image": "images/26208.jpg"
@@ -3116,7 +3116,7 @@
     "Into the Dead 2": {
       "deep_link": "https://t.me/kkn2bot?start=2940",
       "post_link": "https://t.me/melo00n/26210",
-      "views": 102,
+      "views": 107,
       "msg_id": 26210,
       "chat_id": -1001893520557,
       "image": "images/26210.jpg"
@@ -4119,7 +4119,7 @@
       "views": 1460,
       "msg_id": 26032,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/26032.jpg"
     },
     "🎮Gaucho Origins": {
       "deep_link": "https://t.me/kkn2bot?start=2805",
@@ -4396,7 +4396,7 @@
     "🎮Hamburger Hill": {
       "deep_link": "https://t.me/kkn2bot?start=2926",
       "post_link": "https://t.me/melo00n/26192",
-      "views": 885,
+      "views": 886,
       "msg_id": 26192,
       "chat_id": -1001893520557,
       "image": "images/26192.jpg"
@@ -4412,7 +4412,7 @@
     "🎮Magic Rampage": {
       "deep_link": "https://t.me/kkn2bot?start=2930",
       "post_link": "https://t.me/melo00n/26198",
-      "views": 659,
+      "views": 660,
       "msg_id": 26198,
       "chat_id": -1001893520557,
       "image": "images/26198.jpg"
@@ -4420,7 +4420,7 @@
     "🎮Everything is Crab": {
       "deep_link": "https://t.me/kkn2bot?start=2934",
       "post_link": "https://t.me/melo00n/26207",
-      "views": 254,
+      "views": 257,
       "msg_id": 26207,
       "chat_id": -1001893520557,
       "image": "images/26207.jpg"
@@ -4428,12 +4428,12 @@
     "The Battle Cats": {
       "deep_link": "https://t.me/kkn2bot?start=2938",
       "post_link": "https://t.me/melo00n/26209",
-      "views": 100,
+      "views": 106,
       "msg_id": 26209,
       "chat_id": -1001893520557,
       "image": "images/26209.jpg"
     }
   },
-  "updated_at": "2026-11-25 16:25 UTC",
+  "updated_at": "2026-11-25 16:35 UTC",
   "total": 554
 }
