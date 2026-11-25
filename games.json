@@ -1052,7 +1052,7 @@
     "Mech Assemble": {
       "deep_link": "https://t.me/kkn2bot?start=2896",
       "post_link": "https://t.me/melo00n/26153",
-      "views": 1114,
+      "views": 1115,
       "msg_id": 26153,
       "chat_id": -1001893520557,
       "image": "images/26153.jpg"
@@ -4236,7 +4236,7 @@
     "هيتمان: أبسولوشن": {
       "deep_link": "https://t.me/kkn2bot?start=2872",
       "post_link": "https://t.me/melo00n/26131",
-      "views": 1539,
+      "views": 1540,
       "msg_id": 26131,
       "chat_id": -1001893520557,
       "image": "images/26131.jpg"
@@ -4244,7 +4244,7 @@
     "Mini Soccer Star": {
       "deep_link": "https://t.me/kkn2bot?start=2862",
       "post_link": "https://t.me/melo00n/26126",
-      "views": 945,
+      "views": 946,
       "msg_id": 26126,
       "chat_id": -1001893520557,
       "image": "images/26126.jpg"
@@ -4252,7 +4252,7 @@
     "🎮Ant Colony Wild Forest": {
       "deep_link": "https://t.me/kkn2bot?start=2874",
       "post_link": "https://t.me/melo00n/26132",
-      "views": 1411,
+      "views": 1412,
       "msg_id": 26132,
       "chat_id": -1001893520557,
       "image": "images/26132.jpg"
@@ -4260,7 +4260,7 @@
     "🎮Getting Over It": {
       "deep_link": "https://t.me/kkn2bot?start=2876",
       "post_link": "https://t.me/melo00n/26133",
-      "views": 1235,
+      "views": 1236,
       "msg_id": 26133,
       "chat_id": -1001893520557,
       "image": "images/26133.jpg"
@@ -4388,7 +4388,7 @@
     "🎮Privateers Pirate Wars": {
       "deep_link": "https://t.me/kkn2bot?start=2924",
       "post_link": "https://t.me/melo00n/26190",
-      "views": 949,
+      "views": 951,
       "msg_id": 26190,
       "chat_id": -1001893520557,
       "image": "images/26190.jpg"
@@ -4396,7 +4396,7 @@
     "🎮Hamburger Hill": {
       "deep_link": "https://t.me/kkn2bot?start=2926",
       "post_link": "https://t.me/melo00n/26192",
-      "views": 835,
+      "views": 836,
       "msg_id": 26192,
       "chat_id": -1001893520557,
       "image": "images/26192.jpg"
@@ -4416,8 +4416,16 @@
       "msg_id": 26198,
       "chat_id": -1001893520557,
       "image": "images/26198.jpg"
+    },
+    "🎮Everything is Crab": {
+      "deep_link": "https://t.me/kkn2bot?start=2934",
+      "post_link": "https://t.me/melo00n/26207",
+      "views": 8,
+      "msg_id": 26207,
+      "chat_id": -1001893520557,
+      "image": "images/26207.jpg"
     }
   },
-  "updated_at": "2026-11-25 04:25 UTC",
-  "total": 552
+  "updated_at": "2026-11-25 04:35 UTC",
+  "total": 553
 }
