@@ -4183,7 +4183,7 @@
       "views": 1222,
       "msg_id": 26088,
       "chat_id": -1001893520557,
-      "image": null
+      "image": "images/26088.jpg"
     },
     "🎮Wreckfest": {
       "deep_link": "https://t.me/kkn2bot?start=2825",
@@ -4388,7 +4388,7 @@
     "🎮Privateers Pirate Wars": {
       "deep_link": "https://t.me/kkn2bot?start=2924",
       "post_link": "https://t.me/melo00n/26190",
-      "views": 996,
+      "views": 997,
       "msg_id": 26190,
       "chat_id": -1001893520557,
       "image": "images/26190.jpg"
@@ -4420,12 +4420,12 @@
     "🎮Everything is Crab": {
       "deep_link": "https://t.me/kkn2bot?start=2934",
       "post_link": "https://t.me/melo00n/26207",
-      "views": 166,
+      "views": 169,
       "msg_id": 26207,
       "chat_id": -1001893520557,
       "image": "images/26207.jpg"
     }
   },
-  "updated_at": "2026-11-25 12:55 UTC",
+  "updated_at": "2026-11-25 13:05 UTC",
   "total": 553
 }
