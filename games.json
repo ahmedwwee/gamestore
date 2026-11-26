@@ -3116,7 +3116,7 @@
     "Into the Dead 2": {
       "deep_link": "https://t.me/kkn2bot?start=2940",
       "post_link": "https://t.me/melo00n/26210",
-      "views": 324,
+      "views": 327,
       "msg_id": 26210,
       "chat_id": -1001893520557,
       "image": "images/26210.jpg"
@@ -3268,7 +3268,7 @@
     "Terraria": {
       "deep_link": "https://t.me/kkn2bot?start=2942",
       "post_link": "https://t.me/melo00n/26211",
-      "views": 119,
+      "views": 124,
       "msg_id": 26211,
       "chat_id": -1001893520557,
       "image": "images/26211.jpg"
@@ -4044,7 +4044,7 @@
     "🎮Little Kitty Big City": {
       "deep_link": "https://t.me/kkn2bot?start=2731",
       "post_link": "https://t.me/melo00n/25978",
-      "views": 1720,
+      "views": 1721,
       "msg_id": 25978,
       "chat_id": -1001893520557,
       "image": "images/25978.jpg"
@@ -4052,7 +4052,7 @@
     "🎮Borderlands 2": {
       "deep_link": "https://t.me/kkn2bot?start=2733",
       "post_link": "https://t.me/melo00n/25979",
-      "views": 1619,
+      "views": 1620,
       "msg_id": 25979,
       "chat_id": -1001893520557,
       "image": "images/25979.jpg"
@@ -4076,7 +4076,7 @@
     "🎮DuneCrawl": {
       "deep_link": "https://t.me/kkn2bot?start=2755",
       "post_link": "https://t.me/melo00n/26001",
-      "views": 1804,
+      "views": 1805,
       "msg_id": 26001,
       "chat_id": -1001893520557,
       "image": "images/26001.jpg"
@@ -4434,6 +4434,6 @@
       "image": "images/26209.jpg"
     }
   },
-  "updated_at": "2026-11-26 06:25 UTC",
+  "updated_at": "2026-11-26 06:35 UTC",
   "total": 554
 }
